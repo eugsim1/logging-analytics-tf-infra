@@ -1,0 +1,14 @@
+.terraform/
+terraform.*
+terraform.*
+env*
+priv.txt
+*.pub
+*.zip
+wls-wdt*
+ssh*
+certificates/*
+git-init.sh
+keys/*
+config/*
+wls-*.*
