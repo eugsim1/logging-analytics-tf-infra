@@ -56,7 +56,7 @@ resource "oci_objectstorage_bucket" "log_bucket" {
 
 resource "oci_sch_service_connector" "log_service_connector" {
   compartment_id = var.logging.compartment_id
-##  defined_tags  = 
+##  defined_tags  = var.logging.defined_tags
   description    = var.logging.oci_sch_service_connector_description ##"description2"
   display_name   = var.logging.oci_sch_service_connector_display_name #   "displayName2"
 
@@ -78,10 +78,9 @@ resource "oci_sch_service_connector" "log_service_connector" {
 target {
     kind                        = "objectStorage"
     bucket                      = oci_objectstorage_bucket.log_bucket.name
-    //optional
+ 
     batch_rollover_size_in_mbs = "10"
-    //optional
-    batch_rollover_time_in_ms  = "80000"
+     batch_rollover_time_in_ms  = "80000"
   }
 
   // If using the log analytics target
