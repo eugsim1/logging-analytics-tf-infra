@@ -34,5 +34,8 @@ variable "logging" {
     oci_logging_log_display_is_enabled = string
     oci_logging_log_log_type  = string
     oci_logging_log_retention_duration    = string
+	log_bucket_name = string
+	oci_sch_service_connector_description = string
+	oci_sch_service_connector_display_name = string
   })
 }
