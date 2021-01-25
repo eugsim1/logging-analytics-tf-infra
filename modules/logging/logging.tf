@@ -79,9 +79,9 @@ target {
     kind                        = "objectStorage"
     bucket                      = oci_objectstorage_bucket.log_bucket.name
     //optional
-    batch_rollover_size_in_mbs" = "10"
+    batch_rollover_size_in_mbs = "10"
     //optional
-    batch_rollover_time_in_ms"  = "80000"
+    batch_rollover_time_in_ms  = "80000"
   }
 
   // If using the log analytics target
