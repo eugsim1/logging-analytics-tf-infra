@@ -68,8 +68,6 @@ module "logging" {
 source     = "./modules/logging"
   oci_provider = local.oci_provider
   
-  
-  
   logging = {
   compartment_id = module.log_analytics.log_analytics_compartment_id
   oci_logging_log_group_display_name = "logging-analytics-demo"
@@ -89,6 +87,7 @@ source     = "./modules/logging"
    oci_logging_log_display_is_enabled = "true"
   oci_logging_log_log_type  ="SERVICE"
   oci_logging_log_retention_duration= "30"
+  log_bucket_name = "loggin_bucket"
  
   
   }

@@ -47,4 +47,11 @@ resource oci_logging_log vcn_lbpubreg_all {
   retention_duration = var.logging.oci_logging_log_retention_duration #"30"
 }
 
+resource "oci_objectstorage_bucket" "log_bucket" {
+  compartment_id = var.logging.compartment_id
+  name           = var.logging.log_bucket_name ###"newName"
+  namespace      = data.oci_objectstorage_namespace.log_namespace.namespace
+}
+
+
 
