@@ -60,7 +60,7 @@ resource "oci_sch_service_connector" "log_service_connector" {
   description    = var.logging.oci_sch_service_connector_description ##"description2"
   display_name   = var.logging.oci_sch_service_connector_display_name #   "displayName2"
 
-  freeform_tags =   freeform_tags = var.logging.freeform_tags
+  freeform_tags  = var.logging.freeform_tags
 
   source {
     kind = "logging"
