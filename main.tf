@@ -88,6 +88,8 @@ source     = "./modules/logging"
   oci_logging_log_log_type  ="SERVICE"
   oci_logging_log_retention_duration= "30"
   log_bucket_name = "loggin_bucket"
+  oci_sch_service_connector_description= "vcn connector descritpion"
+  oci_sch_service_connector_display_name ="connectrot display name"
  
   
   }
