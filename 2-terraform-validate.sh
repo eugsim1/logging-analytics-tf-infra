@@ -1,1 +1,0 @@
-terraform validate -no-color     -var-file="terraform.tfvars" 

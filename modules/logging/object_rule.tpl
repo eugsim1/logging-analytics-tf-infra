@@ -1,1 +1,0 @@
-allow any-user to manage objects in compartment id "${target_log_group_compartment_OCID}" where all { request.principal.type='serviceconnector', target.bucket.name='${bucket_name}' }
