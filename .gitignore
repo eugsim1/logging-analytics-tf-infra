@@ -13,7 +13,9 @@ git-init.sh
 keys/*
 config/*
 wls-*.*
-tf-tests/*
+
 create_analytic_users.sh
 *.json
 upload_files.sh
+!terraform.tfvars
+tf-tests/*
