@@ -2,7 +2,7 @@
 terraform.*
 .terraform.*
 env*
-priv.txt
+*.txt
 *.pub
 *.zip
 wls-wdt*
@@ -12,3 +12,4 @@ git-init.sh
 keys/*
 config/*
 wls-*.*
+tf-tests/*

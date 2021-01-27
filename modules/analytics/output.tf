@@ -31,5 +31,5 @@ output "logging_log_groups" {
 
 
 output "log_analytics_compartment_id" {
-value = oci_identity_compartment.log_analytics_compartment.id 
+  value = oci_identity_compartment.log_analytics_compartment.id
 }

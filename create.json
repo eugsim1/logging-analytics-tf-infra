@@ -1,0 +1,7 @@
+{
+    "name": "My Rule",
+    "osNamespace": "frnj6sfkc1ep",    
+"osBucketName": "loggin_bucket",
+    "logGroupId": "ocid1.loganalyticsloggroup.oc1.eu-frankfurt-1.amaaaaaaufnzx7iay4t7mih2zyeiyxlaudfe2sldlao4kmpomwplx72mjkba",
+    "logSourceName": "omc_ociVcnFlowLogSource"
+}

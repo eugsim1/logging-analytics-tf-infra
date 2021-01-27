@@ -33,7 +33,7 @@ resource "oci_identity_compartment" "AGENT_compartment" {
 
 ##Step 2: Create a user group
 resource "oci_identity_group" "AGENT_ADMINS_identity_group" {
-  name           =  "AGENT_ADMINS"
+  name           = "AGENT_ADMINS"
   description    = "log analytics group"
   compartment_id = var.oci_provider.tenancy_id
 
@@ -58,7 +58,7 @@ resource "oci_identity_group" "AGENT_ADMINS_identity_group" {
 ### create policies
 ###					 
 resource "oci_identity_policy" "AGENT_ADMINS_policy" {
-depends_on = [oci_identity_group.AGENT_ADMINS_identity_group]
+  depends_on     = [oci_identity_group.AGENT_ADMINS_identity_group]
   name           = "AGENT_ADMINS_policy"
   description    = "AGENT_ADMINS policy"
   compartment_id = var.oci_provider.tenancy_id
@@ -79,22 +79,22 @@ depends_on = [oci_identity_group.AGENT_ADMINS_identity_group]
   }
 
   statements = [
-"ALLOW GROUP AGENT_ADMINS TO MANAGE management-agents IN  TENANCY",
-"ALLOW GROUP AGENT_ADMINS TO MANAGE management-agent-install-keys IN  TENANCY",
-"ALLOW GROUP AGENT_ADMINS TO READ METRICS IN TENANCY",
-"ALLOW GROUP AGENT_ADMINS TO READ USERS IN TENANCY",
+    "ALLOW GROUP AGENT_ADMINS TO MANAGE management-agents IN  TENANCY",
+    "ALLOW GROUP AGENT_ADMINS TO MANAGE management-agent-install-keys IN  TENANCY",
+    "ALLOW GROUP AGENT_ADMINS TO READ METRICS IN TENANCY",
+    "ALLOW GROUP AGENT_ADMINS TO READ USERS IN TENANCY",
   ]
 }
 
 
 
 resource "oci_identity_dynamic_group" "AGENT_dynamic_group" {
-depends_on = [oci_identity_compartment.AGENT_compartment]
+  depends_on = [oci_identity_compartment.AGENT_compartment]
   #Required
   compartment_id = var.oci_provider.tenancy_id
-  description    = "dynamic group for loggin analytics"                                                                              #var.dynamic_group_description
+  description    = "dynamic group for loggin analytics"                                                                                  #var.dynamic_group_description
   matching_rule  = format("%s%s%s", local.begin_dyn_rule_AGENT, oci_identity_compartment.AGENT_compartment.id, local.end_dyn_rule_AGENT) #var.dynamic_group_matching_rule
-  name           = "ManagementAgentAdmins"                                                                                           #var.dynamic_group_name
+  name           = "ManagementAgentAdmins"                                                                                               #var.dynamic_group_name
 
   #Optional
   defined_tags = { "Oracle-Tags.ResourceAllocation" = "Logging-Analytics" }
@@ -114,7 +114,7 @@ depends_on = [oci_identity_compartment.AGENT_compartment]
 }
 
 resource "oci_identity_policy" "dyn_loggingAnalytics_policy" {
-depends_on = [oci_identity_compartment.AGENT_compartment, oci_identity_dynamic_group.AGENT_dynamic_group]
+  depends_on     = [oci_identity_compartment.AGENT_compartment, oci_identity_dynamic_group.AGENT_dynamic_group]
   name           = "AGENT_dynamic_group_policy"
   description    = "AGENT_dynamic_group  policy"
   compartment_id = var.oci_provider.tenancy_id ##oci_identity_compartment.AGENT_compartment.id
@@ -135,9 +135,9 @@ depends_on = [oci_identity_compartment.AGENT_compartment, oci_identity_dynamic_g
   }
 
   statements = [
-	"ALLOW DYNAMIC-GROUP ManagementAgentAdmins TO MANAGE management-agents IN COMPARTMENT  Workshops:AGENT_LoggingAnalytics",
+    "ALLOW DYNAMIC-GROUP ManagementAgentAdmins TO MANAGE management-agents IN COMPARTMENT  Workshops:AGENT_LoggingAnalytics",
     "ALLOW DYNAMIC-GROUP ManagementAgentAdmins TO USE METRICS IN COMPARTMENT Workshops:AGENT_LoggingAnalytics",
-	"ALLOW DYNAMIC-GROUP ManagementAgentAdmins TO USE tag-namespaces in compartment Workshops:AGENT_LoggingAnalytics"
+    "ALLOW DYNAMIC-GROUP ManagementAgentAdmins TO USE tag-namespaces in compartment Workshops:AGENT_LoggingAnalytics"
   ]
 }
 
@@ -155,15 +155,15 @@ resource "oci_management_agent_management_agent_install_key" "AGENT_management_a
 
 
 data "oci_management_agent_management_agent_install_key" "AGENT__management_agent_install_key" {
-    #Required
-    management_agent_install_key_id = oci_management_agent_management_agent_install_key.AGENT_management_agent_install_key.id
+  #Required
+  management_agent_install_key_id = oci_management_agent_management_agent_install_key.AGENT_management_agent_install_key.id
 }
 
 
 resource "local_file" "AGENT__key" {
-  depends_on      = [data.oci_management_agent_management_agent_install_key.AGENT__management_agent_install_key]
+  depends_on = [data.oci_management_agent_management_agent_install_key.AGENT__management_agent_install_key]
   #Required
-  content         =<<EOT
+  content         = <<EOT
 cat<<EOF>/home/opc/input.rsp  
 managementAgentInstallKey = ${data.oci_management_agent_management_agent_install_key.AGENT__management_agent_install_key.key}
 FreeFormTags = [{"Responsible":"Eugene Simos"}, {"Project":"log_analytics"}]

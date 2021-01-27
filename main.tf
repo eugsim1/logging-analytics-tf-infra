@@ -1,7 +1,11 @@
 ###
+
+
+
+
 module "keysgen" {
-##  depends_on = [module.network]
-  source     = "git::https://eugsim1:8a4aba63dd455bcea1585c8568ba646d193044ea@github.com/eugsim1/keygen.git"
+  ##  depends_on = [module.network]
+  source = "git::https://eugsim1:8a4aba63dd455bcea1585c8568ba646d193044ea@github.com/eugsim1/keygen.git"
 }
 
 module "log_analytics" {
@@ -65,33 +69,33 @@ module "bastion" {
 }
 
 module "logging" {
-source     = "./modules/logging"
+  source       = "./modules/logging"
   oci_provider = local.oci_provider
-  
+
   logging = {
-  compartment_id = module.log_analytics.log_analytics_compartment_id
-  oci_logging_log_group_display_name = "logging-analytics-demo"
-  defined_tags    = { "Oracle-Tags.ResourceAllocation" = "Logging-Analytics" }
-  freeform_tags = {
-    "Project"     = "log_analytics"
-    "Role"        = "log_analytics for HOL "
-    "Comment"     = "log_analytics setup for HOL "
-    "Version"     = "0.0.0.0"
-    "Responsible" = "Eugene Simos"
-  }
-  oci_logging_log_category  = "all"
-  oci_logging_log_resource  = module.network.pubreg
-  oci_logging_log_service  = "flowlogs"
-  oci_logging_log_source_type = "OCISERVICE"
-  oci_logging_log_display_name = "lbpubreg_all"
-   oci_logging_log_display_is_enabled = "true"
-  oci_logging_log_log_type  ="SERVICE"
-  oci_logging_log_retention_duration= "30"
-  log_bucket_name = "loggin_bucket"
-  oci_sch_service_connector_description= "vcn connector descritpion"
-  oci_sch_service_connector_display_name ="connectrot display name"
- 
-  
+    compartment_id                     = module.log_analytics.log_analytics_compartment_id
+    oci_logging_log_group_display_name = "logging-analytics-demo"
+    defined_tags                       = { "Oracle-Tags.ResourceAllocation" = "Logging-Analytics" }
+    freeform_tags = {
+      "Project"     = "log_analytics"
+      "Role"        = "log_analytics for HOL "
+      "Comment"     = "log_analytics setup for HOL "
+      "Version"     = "0.0.0.0"
+      "Responsible" = "Eugene Simos"
+    }
+    oci_logging_log_category                             = "all"
+    oci_logging_log_resource                             = module.network.pubreg
+    oci_logging_log_service                              = "flowlogs"
+    oci_logging_log_source_type                          = "OCISERVICE"
+    oci_logging_log_display_name                         = "lbpubreg_all"
+    oci_logging_log_display_is_enabled                   = "true"
+    oci_logging_log_log_type                             = "SERVICE"
+    oci_logging_log_retention_duration                   = "30"
+    log_bucket_name                                      = "loggin_bucket"
+    oci_sch_service_connector_description                = "vcn connector descritpion"
+    oci_sch_service_connector_display_name               = "connectrot display name"
+    oci_sch_service_connector_batch_rollover_size_in_mbs = "15"
+    oci_sch_service_connector_batch_rollover_time_in_ms  = "60000"
   }
 
 }

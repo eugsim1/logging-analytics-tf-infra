@@ -1,3 +1,5 @@
+# Identity and access parameters
+
 #### general variables 
 variable "oci_provider" {
   type = object({
@@ -22,20 +24,22 @@ variable "oci_provider" {
 
 variable "logging" {
   type = object({
-    compartment_id          = string
-    oci_logging_log_group_display_name = string
-	defined_tags    = map(any)
-	freeform_tags   = map(any)
-    oci_logging_log_category  = string
-    oci_logging_log_resource   = string
-    oci_logging_log_service         = string
-    oci_logging_log_source_type            = string
-	oci_logging_log_display_name = string
-    oci_logging_log_display_is_enabled = string
-    oci_logging_log_log_type  = string
-    oci_logging_log_retention_duration    = string
-	log_bucket_name = string
-	oci_sch_service_connector_description = string
-	oci_sch_service_connector_display_name = string
+    compartment_id                                       = string
+    oci_logging_log_group_display_name                   = string
+    defined_tags                                         = map(any)
+    freeform_tags                                        = map(any)
+    oci_logging_log_category                             = string
+    oci_logging_log_resource                             = string
+    oci_logging_log_service                              = string
+    oci_logging_log_source_type                          = string
+    oci_logging_log_display_name                         = string
+    oci_logging_log_display_is_enabled                   = string
+    oci_logging_log_log_type                             = string
+    oci_logging_log_retention_duration                   = string
+    log_bucket_name                                      = string
+    oci_sch_service_connector_description                = string
+    oci_sch_service_connector_display_name               = string
+    oci_sch_service_connector_batch_rollover_size_in_mbs = string
+    oci_sch_service_connector_batch_rollover_time_in_ms  = string
   })
 }

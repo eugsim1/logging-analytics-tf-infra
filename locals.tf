@@ -14,6 +14,6 @@ locals {
     compartment_ocid = var.compartment_ocid
   }
 
-##  dbcs_subnet_id = var.is_dbcs_public == "true" ? module.network.pubreg : module.network.privreg
+  ##  dbcs_subnet_id = var.is_dbcs_public == "true" ? module.network.pubreg : module.network.privreg
 
 }  
