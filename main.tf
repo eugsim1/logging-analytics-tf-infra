@@ -26,8 +26,8 @@ module "log_analytics" {
     oci_identity_user_analytics_user_description                                           = var.oci_identity_user_analytics_user_description                                           #"HOL analytics user"
     oci_identity_user_group_membership_Logging-Analytics-Admins_group_membership_count     = var.oci_identity_user_group_membership_Logging-Analytics-Admins_group_membership_count     #"10"
     oci_identity_user_group_membership_Logging-Analytics-SuperAdminsgroup_membership_count = var.oci_identity_user_group_membership_Logging-Analytics-SuperAdminsgroup_membership_count #"10"
-    oci_identity_ui_password_analytics_user_ui_password_count                              = var.oci_identity_ui_password_analytics_user_ui_password_count                              #"10"
-    local_file_analytics_user_ui_password_count                                            = var.local_file_analytics_user_ui_password_count                                            #"10"
+    ##oci_identity_ui_password_analytics_user_ui_password_count                              = var.oci_identity_ui_password_analytics_user_ui_password_count                              #"10"
+    ##local_file_analytics_user_ui_password_count                                            = var.local_file_analytics_user_ui_password_count                                            #"10"
   }
 
 }
