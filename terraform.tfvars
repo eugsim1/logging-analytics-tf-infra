@@ -1,8 +1,10 @@
+ad = 1
 ### bastion
 bastion_hostname_label = "bastionanalytics"
 bastion_timezone       = "Europe/Helsinki"
 bastion_upgrade        = "false"
 use_bastion            = "true"
+ip_adress_backend      = "10.1.1.10"
 
 vnc_display_name     = "analytics"
 privreg_display_name = "analyticsprivreg"
