@@ -16,7 +16,7 @@ lb_pub_cidr_block    =     "10.1.5.0/24"
 pubreg_cidr_block    =     "10.1.1.0/24"
 pubsb1_cidr_block    =     "10.1.2.0/24"
 
-
+#### compute nodes
 use_compute    = false
 ssh_public_key = "wls-wdt-testkey-pub.txt"
 bastion_shape  = "VM.Standard.E3.Flex"
@@ -29,6 +29,8 @@ instance_memory_in_gbs  = "4"
 bastion_user            = "opc"
 bastion_ssh_private_key = "wls-wdt-testkey-priv.txt"
 instance_count          = 1
+### dbcs nodes
+is_dbcs_public          = "true"
 
 ##### logging-analytics ###
 
