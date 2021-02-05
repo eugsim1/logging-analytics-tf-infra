@@ -24,7 +24,6 @@ variable "oci_provider" {
 
 variable "ad" { default = "" }
 
-variable "managed_agent_id" { default = "" }
 
 variable "logging_analytics" {
   type = object({

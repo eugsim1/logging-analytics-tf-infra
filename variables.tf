@@ -38,7 +38,7 @@ variable "pubsb1_cidr_block" { default = "" }
 
 variable "is_dbcs_public" { default = "" }
 
-variable "managed_agent_id" { default = "" }
+##variable "managed_agent_id" { default = "" }
 
 
 
