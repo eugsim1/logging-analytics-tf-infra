@@ -47,7 +47,7 @@ variable "oci_identity_policy_description" { default = "" }
 variable "oci_identity_compartment_log_analytics_compartment_compartment_id" { default = "" }
 variable "oci_identity_compartment_log_analytics_description" { default = "" }
 variable "oci_identity_compartment_log_name" { default = "" }
-variable "oci_identity_compartment_user_analytics_compartment_count" { default = "" }
+#variable "oci_identity_compartment_user_analytics_compartment_count" { default = "" }
 variable "oci_identity_compartment_user_analytics_compartment_description" { default = "" }
 variable "oci_identity_policy_loggingAnalytics_policy_name" { default = "" }
 variable "oci_identity_policy_loggingAnalytics_description" { default = "" }
@@ -55,8 +55,8 @@ variable "oci_identity_user_analytics_user_count" { default = "" }
 variable "oci_identity_user_analytics_user_description" { default = "" }
 variable "oci_identity_user_group_membership_Logging-Analytics-Admins_group_membership_count" { default = "" }
 variable "oci_identity_user_group_membership_Logging-Analytics-SuperAdminsgroup_membership_count" { default = "" }
-variable "oci_identity_ui_password_analytics_user_ui_password_count" { default = "" }
-variable "local_file_analytics_user_ui_password_count" { default = "" }
+#variable "oci_identity_ui_password_analytics_user_ui_password_count" { default = "" }
+#variable "local_file_analytics_user_ui_password_count" { default = "" }
 
 
 
