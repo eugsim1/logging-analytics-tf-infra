@@ -76,7 +76,7 @@ variable "oci_management_agent_management_agent_install_key_AGENT_management_tim
 
 
 variable "oci_logging_log_category" { default = "" }
-variable "oci_logging_log_resource" { default = "" }
+#variable "oci_logging_log_resource" { default = "" }
 variable "oci_logging_log_service" { default = "" }
 variable "oci_logging_log_source_type" { default = "" }
 variable "oci_logging_log_display_name" { default = "" }
