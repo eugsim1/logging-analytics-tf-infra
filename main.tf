@@ -1,16 +1,59 @@
 ###
-
-
-
-
+### generate keys for the servers
 module "keysgen" {
   ##  depends_on = [module.network]
   source = "git::https://eugsim1:8a4aba63dd455bcea1585c8568ba646d193044ea@github.com/eugsim1/keygen.git"
 }
 
+### generate infra for LogAn
+### generate a number of local users and compartments
+###
 module "log_analytics" {
   source       = "./modules/analytics"
   oci_provider = local.oci_provider
+
+  logging_analytics = {                                                                                                                       #
+    oci_identity_group_description                                    = var.oci_identity_group_description                                    #"log analytics group"
+    oci_identity_policy_description                                   = var.oci_identity_policy_description                                   #"log_analytics_policy"
+    oci_identity_compartment_log_analytics_compartment_compartment_id = var.oci_identity_compartment_log_analytics_compartment_compartment_id #"ocid1.compartment.oc1..aaaaaaaakjdnf7ik2kejcaj73uwx6tsochnlq5olj3vebgbwcf67bjnab3ya"
+    oci_identity_compartment_log_analytics_description                = var.oci_identity_compartment_log_analytics_description                #"Main Anamytics compartment"
+    oci_identity_compartment_log_name                                 = var.oci_identity_compartment_log_name                                 #"LoggingAnalytics"
+
+    oci_identity_compartment_user_analytics_compartment_description                        = var.oci_identity_compartment_user_analytics_compartment_description                        #"User Analytics compartment"
+    oci_identity_policy_loggingAnalytics_policy_name                                       = var.oci_identity_policy_loggingAnalytics_policy_name                                       #"LoggingAnalytics"
+    oci_identity_policy_loggingAnalytics_description                                       = var.oci_identity_policy_loggingAnalytics_description                                       #"LoggingAnalytics  policy"
+    oci_identity_user_analytics_user_count                                                 = var.oci_identity_user_analytics_user_count                                                 #"10"
+    oci_identity_user_analytics_user_description                                           = var.oci_identity_user_analytics_user_description                                           #"HOL analytics user"
+    oci_identity_user_group_membership_Logging-Analytics-Admins_group_membership_count     = var.oci_identity_user_group_membership_Logging-Analytics-Admins_group_membership_count     #"10"
+    oci_identity_user_group_membership_Logging-Analytics-SuperAdminsgroup_membership_count = var.oci_identity_user_group_membership_Logging-Analytics-SuperAdminsgroup_membership_count #"10"
+    oci_identity_ui_password_analytics_user_ui_password_count                              = var.oci_identity_ui_password_analytics_user_ui_password_count                              #"10"
+    local_file_analytics_user_ui_password_count                                            = var.local_file_analytics_user_ui_password_count                                            #"10"
+  }
+
+}
+
+### generate infra for the AGENT
+### create local file with the Agent configuration to applied to hosts
+###
+module "agent" {
+  source = "./modules/agent"
+
+  oci_provider = local.oci_provider
+
+  agent = {
+    oci_identity_compartment_AGENT_compartment_compartment_id                                                      = var.oci_identity_compartment_AGENT_compartment_compartment_id                                                      #"ocid1.compartment.oc1..aaaaaaaakjdnf7ik2kejcaj73uwx6tsochnlq5olj3vebgbwcf67bjnab3ya"
+    oci_identity_compartment_AGENT_compartment_description                                                         = var.oci_identity_compartment_AGENT_compartment_description                                                         #"AGENT Analytics compartment"
+    oci_identity_compartment_AGENT_compartment_name                                                                = var.oci_identity_compartment_AGENT_compartment_name                                                                #"AGENT_LoggingAnalytics"
+    oci_identity_policy_AGENT_ADMINS_policy_name                                                                   = var.oci_identity_policy_AGENT_ADMINS_policy_name                                                                   #"AGENT_ADMINS_policy"
+    oci_identity_policy_AGENT_ADMINS_description                                                                   = var.oci_identity_policy_AGENT_ADMINS_description                                                                   #"AGENT_ADMINS policy"
+    oci_identity_dynamic_group_AGENT_dynamic_group_description                                                     = var.oci_identity_dynamic_group_AGENT_dynamic_group_description                                                     #"dynamic group for loggin analytics"
+    oci_identity_dynamic_group_AGENT_dynamic_name                                                                  = var.oci_identity_dynamic_group_AGENT_dynamic_name                                                                  #"ManagementAgentAdmins"
+    oci_identity_policy_dyn_loggingAnalytics_policy_name                                                           = var.oci_identity_policy_dyn_loggingAnalytics_policy_name                                                           #"AGENT_dynamic_group_policy"
+    oci_identity_policy_dyn_loggingAnalytics_policy_description                                                    = var.oci_identity_policy_dyn_loggingAnalytics_policy_description                                                    #"AGENT_dynamic_group  policy"
+    oci_management_agent_management_agent_install_key_AGENT_management_agent_install_key_allowed_key_install_count = var.oci_management_agent_management_agent_install_key_AGENT_management_agent_install_key_allowed_key_install_count #"200"
+    oci_management_agent_management_agent_install_key_AGENT_management_display_name                                = var.oci_management_agent_management_agent_install_key_AGENT_management_display_name                                #"AGENT_Linux"
+    oci_management_agent_management_agent_install_key_AGENT_management_time_expires                                = var.oci_management_agent_management_agent_install_key_AGENT_management_time_expires                                #"2021-06-06T23:59:59.398Z"
+  }
 }
 
 
@@ -22,15 +65,15 @@ module "network" {
   ad           = data.oci_identity_availability_domain.ad1
 
   network_settings = {
-    vnc_display_name     = "lb_network"
-    vnc_cidr_block       = "10.1.0.0/16"
-    privreg_cidr_block   = "10.1.4.0/24"
-    pubsb2_cidr_block    = "10.1.3.0/24"
-    lb_pub_cidr_block    = "10.1.5.0/24"
-    privreg_display_name = "lbprivreg"
-    pubreg_display_name  = "lbpubreg"
-    pubreg_cidr_block    = "10.1.1.0/24"
-    pubsb1_cidr_block    = "10.1.2.0/24"
+    vnc_display_name     = var.vnc_display_name     #"analytics"
+    vnc_cidr_block       = var.vnc_cidr_block       ##"10.1.0.0/16"
+    privreg_cidr_block   = var.privreg_cidr_block   ##"10.1.4.0/24"
+    pubsb2_cidr_block    = var.pubsb2_cidr_block    ##"10.1.3.0/24"
+    lb_pub_cidr_block    = var.lb_pub_cidr_block    ##"10.1.5.0/24"
+    privreg_display_name = var.privreg_display_name ## "analyticsprivreg"
+    pubreg_display_name  = var.pubreg_display_name  ## "analyticspubreg"
+    pubreg_cidr_block    = var.pubreg_cidr_block    ##"10.1.1.0/24"
+    pubsb1_cidr_block    = var.pubsb1_cidr_block    ##"10.1.2.0/24"
     compartment_ocid     = local.oci_general.compartment_ocid
   }
 }
@@ -68,6 +111,8 @@ module "bastion" {
   ad_names = data.oci_identity_availability_domain.ad1.name
 }
 
+### generates infra for the logging
+###
 module "logging" {
   source       = "./modules/logging"
   oci_provider = local.oci_provider
@@ -83,35 +128,25 @@ module "logging" {
       "Version"     = "0.0.0.0"
       "Responsible" = "Eugene Simos"
     }
-    oci_logging_log_category                             = "all"
+    oci_logging_log_category                             = var.oci_logging_log_category #"all"
     oci_logging_log_resource                             = module.network.pubreg
-    oci_logging_log_service                              = "flowlogs"
-    oci_logging_log_source_type                          = "OCISERVICE"
-    oci_logging_log_display_name                         = "lbpubreg_all"
-    oci_logging_log_display_is_enabled                   = "true"
-    oci_logging_log_log_type                             = "SERVICE"
-    oci_logging_log_retention_duration                   = "30"
-    log_bucket_name                                      = "loggin_bucket"
-    oci_sch_service_connector_description                = "vcn connector descritpion"
-    oci_sch_service_connector_display_name               = "connectrot display name"
-    oci_sch_service_connector_batch_rollover_size_in_mbs = "15"
-    oci_sch_service_connector_batch_rollover_time_in_ms  = "60000"
+    oci_logging_log_service                              = var.oci_logging_log_service                              #"flowlogs"
+    oci_logging_log_source_type                          = var.oci_logging_log_source_type                          #"OCISERVICE"
+    oci_logging_log_display_name                         = var.oci_logging_log_display_name                         #"lbpubreg_all"
+    oci_logging_log_is_enabled                           = var.oci_logging_log_is_enabled                           #"true"
+    oci_logging_log_log_type                             = var.oci_logging_log_log_type                             #"SERVICE"
+    oci_logging_log_retention_duration                   = var.oci_logging_log_retention_duration                   #"30"
+    log_bucket_name                                      = var.log_bucket_name                                      #"loggin_bucket"
+    oci_sch_service_connector_description                = var.oci_sch_service_connector_description                #"vcn connector descritpion"
+    oci_sch_service_connector_display_name               = var.oci_sch_service_connector_display_name               #"connectrot display name"
+    oci_sch_service_connector_batch_rollover_size_in_mbs = var.oci_sch_service_connector_batch_rollover_size_in_mbs #"15"
+    oci_sch_service_connector_batch_rollover_time_in_ms  = var.oci_sch_service_connector_batch_rollover_time_in_ms  #"60000"
   }
 
 }
 
 
 /*
-
-
-
-
-
-
-
-
-
-
 module "compute" {
   count      = var.use_compute == true ? 1 : 0
   depends_on = [module.network, module.keysgen, module.bastion]

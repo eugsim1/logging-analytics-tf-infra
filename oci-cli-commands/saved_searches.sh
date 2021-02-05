@@ -3,7 +3,7 @@ cat<<EOF>save_search.json
   "dataConfig": [],
   "definedTags": {"Oracle-Tags": {"ResourceAllocation": "Logging-Analytics"}},
   "description": "view_logs_in_explorer imported",
-  "displayName": "view_logs_in_explorer_imported",
+  "displayName": "view_logs_in_explorer_imported_1",
   "freeformTags":  {"Project":"log_analytics"},
   "isOobSavedSearch": false,
   "metadataVersion": "2.0",

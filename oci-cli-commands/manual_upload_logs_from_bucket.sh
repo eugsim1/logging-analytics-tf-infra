@@ -14,7 +14,7 @@ mkdir -p /home/oracle/oci-logs
 oci os object bulk-download \
 --profile DBSEC \
 --bucket-name "loggin_bucket" \
---include ocid1.serviceconnector.oc1.eu-frankfurt-1.amaaaaaaufnzx7iaygvbgpb7owku76brtyzdilhm6xz3raujzbgimiettida* \
+--include ocid1.serviceconnector.oc1.eu-frankfurt-1.amaaaaaaufnzx7iasveyvv4lfvs6quhoe44ewulane2g5vhh3rfryk44tenq* \
 --download-dir /home/oracle/oci-logs \
 --parallel-operations-count 10 \
 --part-size  128 --overwrite
@@ -25,6 +25,20 @@ oci os object bulk-download \
 --download-dir /home/oracle/oci-logs \
 --parallel-operations-count 10 \
 --part-size  128 --overwrite
+oci os object bulk-download \
+--profile DBSEC \
+--bucket-name "loggin_bucket" \
+--include ocid1.serviceconnector.oc1.eu-frankfurt-1.amaaaaaaufnzx7iaygvbgpb7owku76brtyzdilhm6xz3raujzbgimiettida* \
+--download-dir /home/oracle/oci-logs \
+--parallel-operations-count 10 \
+--part-size  128 --overwrite
+
+
+oci os object bulk-delete  \
+--profile DBSEC \
+--bucket-name "loggin_bucket" \
+--include ocid1.serviceconnector.* \
+--force --parallel-operations-count 10 
 
 
 

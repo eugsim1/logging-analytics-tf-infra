@@ -33,7 +33,7 @@ variable "logging" {
     oci_logging_log_service                              = string
     oci_logging_log_source_type                          = string
     oci_logging_log_display_name                         = string
-    oci_logging_log_display_is_enabled                   = string
+    oci_logging_log_is_enabled                           = string
     oci_logging_log_log_type                             = string
     oci_logging_log_retention_duration                   = string
     log_bucket_name                                      = string

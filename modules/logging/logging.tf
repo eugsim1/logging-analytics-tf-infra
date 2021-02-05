@@ -34,7 +34,7 @@ resource "oci_logging_log" "vcn_lbpubreg_all" {
   display_name  = var.logging.oci_logging_log_display_name ### "lbpubreg_all"
   freeform_tags = var.logging.freeform_tags
 
-  is_enabled         = "true"
+  is_enabled         = var.logging.oci_logging_log_is_enabled ##"true"
   log_group_id       = oci_logging_log_group.vnc_log_group.id
   log_type           = var.logging.oci_logging_log_log_type           #"SERVICE"
   retention_duration = var.logging.oci_logging_log_retention_duration #"30"

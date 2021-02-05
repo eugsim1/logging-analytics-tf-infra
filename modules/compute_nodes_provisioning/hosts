@@ -1,0 +1,2 @@
+[servers]
+130.61.137.130  ansible_user=opc ansible_ssh_private_key_file=wls-wdt-testkey-priv.txt
