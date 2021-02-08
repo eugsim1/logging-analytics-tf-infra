@@ -19,3 +19,4 @@ create_analytic_users.sh
 upload_files.sh
 !terraform.tfvars
 tf-tests/*
+ansible.log
