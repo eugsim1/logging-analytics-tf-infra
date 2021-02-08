@@ -16,7 +16,7 @@ variable "use_compute" { default = "" }
 variable "instance_count" {}
 variable "display_name" {}
 variable "need_provisioning" {}
-variable "instance_shape" { default = "" } 
+variable "instance_shape" { default = "" }
 variable "instance_ocpus" { default = "" }
 variable "instance_memory_in_gbs" { default = "" }
 variable "ip_adress_backend" { default = "" }

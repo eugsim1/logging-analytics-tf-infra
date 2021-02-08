@@ -9,12 +9,12 @@ ip_adress_backend      = "10.1.1.10"
 vnc_display_name     = "analytics"
 privreg_display_name = "analyticsprivreg"
 pubreg_display_name  = "analyticspubreg"
-vnc_cidr_block       =     "10.1.0.0/16"
-privreg_cidr_block   =     "10.1.4.0/24"
-pubsb2_cidr_block    =     "10.1.3.0/24"
-lb_pub_cidr_block    =     "10.1.5.0/24"
-pubreg_cidr_block    =     "10.1.1.0/24"
-pubsb1_cidr_block    =     "10.1.2.0/24"
+vnc_cidr_block       = "10.1.0.0/16"
+privreg_cidr_block   = "10.1.4.0/24"
+pubsb2_cidr_block    = "10.1.3.0/24"
+lb_pub_cidr_block    = "10.1.5.0/24"
+pubreg_cidr_block    = "10.1.1.0/24"
+pubsb1_cidr_block    = "10.1.2.0/24"
 
 #### compute nodes
 use_compute    = false
@@ -30,21 +30,21 @@ bastion_user            = "opc"
 bastion_ssh_private_key = "wls-wdt-testkey-priv.txt"
 instance_count          = 1
 ### dbcs nodes
-is_dbcs_public          = "true"
+is_dbcs_public = "true"
 
 ##### logging-analytics ###
 
-oci_identity_group_description                                                         = "log analytics group"
-oci_identity_policy_description                                                        = "log_analytics_policy"
-oci_identity_compartment_log_analytics_compartment_compartment_id                      = "ocid1.compartment.oc1..aaaaaaaakjdnf7ik2kejcaj73uwx6tsochnlq5olj3vebgbwcf67bjnab3ya"
-oci_identity_compartment_log_analytics_description                                     = "Main Anamytics compartment"
-oci_identity_compartment_log_name                                                      = "LoggingAnalytics"
+oci_identity_group_description                                    = "log analytics group"
+oci_identity_policy_description                                   = "log_analytics_policy"
+oci_identity_compartment_log_analytics_compartment_compartment_id = "ocid1.compartment.oc1..aaaaaaaakjdnf7ik2kejcaj73uwx6tsochnlq5olj3vebgbwcf67bjnab3ya"
+oci_identity_compartment_log_analytics_description                = "Main Anamytics compartment"
+oci_identity_compartment_log_name                                 = "LoggingAnalytics"
 
-oci_identity_compartment_user_analytics_compartment_description                        = "User Analytics compartment"
-oci_identity_policy_loggingAnalytics_policy_name                                       = "LoggingAnalytics"
-oci_identity_policy_loggingAnalytics_description                                       = "LoggingAnalytics  policy"
-oci_identity_user_analytics_user_count                                                 = "0"
-oci_identity_user_analytics_user_description                                           = "HOL analytics user"
+oci_identity_compartment_user_analytics_compartment_description = "User Analytics compartment"
+oci_identity_policy_loggingAnalytics_policy_name                = "LoggingAnalytics"
+oci_identity_policy_loggingAnalytics_description                = "LoggingAnalytics  policy"
+oci_identity_user_analytics_user_count                          = "0"
+oci_identity_user_analytics_user_description                    = "HOL analytics user"
 
 
 

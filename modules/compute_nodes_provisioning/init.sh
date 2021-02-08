@@ -7,8 +7,8 @@ echo $ext_hostname
 start=`date +%s`
 sudo su << EOF
 whoami > /tmp/remote.txt
-yum install git -y
-yum install dos2unix -y
+#yum install git -y
+#yum install dos2unix -y
 
 
 ### firewall setting of the target
@@ -17,12 +17,13 @@ yum install dos2unix -y
 #firewall-cmd --permanent --zone=public --add-port=1521/tcp
 #firewall-cmd --reload
 
-systemctl stop firewalld
-systemctl diasable firewalld
+#systemctl stop firewalld
+#systemctl diasable firewalld
 
 setenforce 0
 sed s/SELINUX=enforcing/SELINUX=disabled/g -i /etc/selinux/config
 sed s/SELINUXTYPE=targeted/SELINUXTYPE=minimum/g -i /etc/selinux/config
+sed s/SELINUXTYPE=minimum/#SELINUXTYPE=minimum/g -i /etc/selinux/config
 
 yum install -y oracle-database-preinstall-19c
 

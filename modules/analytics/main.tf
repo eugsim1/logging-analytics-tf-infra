@@ -170,7 +170,7 @@ resource "oci_identity_policy" "loggingAnalytics_policy" {
 
 
 resource "oci_identity_compartment" "user_analytics_compartment" {
-depends_on = [ oci_identity_compartment.log_analytics_compartment]
+  depends_on     = [oci_identity_compartment.log_analytics_compartment]
   count          = var.logging_analytics.oci_identity_user_analytics_user_count #10
   compartment_id = oci_identity_compartment.log_analytics_compartment.id
   description    = var.logging_analytics.oci_identity_compartment_user_analytics_compartment_description ##"User Analytics compartment"
@@ -199,7 +199,7 @@ resource "oci_identity_user" "analytics_user" {
   compartment_id = var.oci_provider.tenancy_id
   description    = var.logging_analytics.oci_identity_user_analytics_user_description ##"HOL analytics user"
   name           = format("analytics%03s", count.index)
- 
+
   ##defined_tags = {"Operations.CostCenter"= "42"}
   email = format("analytics%03s@no.com", count.index)
   ##freeform_tags = {"Department"= "Finance"}
@@ -207,7 +207,7 @@ resource "oci_identity_user" "analytics_user" {
 
 
 resource "oci_identity_user_group_membership" "Logging-Analytics-Users_group_membership" {
-  
+
   count    = var.logging_analytics.oci_identity_user_analytics_user_count ##10
   group_id = oci_identity_group.log_identity_group[0].id
   user_id  = oci_identity_user.analytics_user[count.index].id
@@ -230,7 +230,7 @@ resource "oci_identity_user_group_membership" "Logging-Analytics-SuperAdminsgrou
 
 resource "oci_identity_ui_password" "analytics_user_ui_password" {
 
-  count    = var.logging_analytics.oci_identity_user_analytics_user_count ##10
+  count   = var.logging_analytics.oci_identity_user_analytics_user_count ##10
   user_id = oci_identity_user.analytics_user[count.index].id
 }
 
@@ -238,13 +238,13 @@ resource "oci_identity_ui_password" "analytics_user_ui_password" {
 resource "local_file" "analytics_user_ui_password" {
   depends_on = [oci_identity_ui_password.analytics_user_ui_password]
 
-  count    = var.logging_analytics.oci_identity_user_analytics_user_count ###10 #var.dbcs.is_dbcs_public == "true" ? var.dbcs.instance_count : 0
+  count           = var.logging_analytics.oci_identity_user_analytics_user_count ###10 #var.dbcs.is_dbcs_public == "true" ? var.dbcs.instance_count : 0
   content         = <<EOT
   ${format("analytics%03s", count.index)}
   ${oci_identity_ui_password.analytics_user_ui_password[count.index].password}  
   EOT
   file_permission = "0700"
-  
+
   filename = "config/${format("analytics_user%03s", count.index)}"
 }
 

@@ -167,32 +167,44 @@ data "oci_management_agent_management_agent_install_key" "AGENT__management_agen
 }
 
 
+
+
 resource "local_file" "AGENT_key" {
   depends_on = [data.oci_management_agent_management_agent_install_key.AGENT__management_agent_install_key]
 
   file_permission = "0700"
-  filename        = "config/agent.txt"
+  filename        = "config/agent_config.sh"
   content         = <<EOT
-### jdk install
+#!/bin/bash
+
+
+install_agent() {  
 sudo su<<EOA
 cd /tmp
-wget -c --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie" https://download.oracle.com/otn-pub/java/jdk/8u281-b09/89d678f2be164786b292527658ca1605/jdk-8u281-linux-x64.tar.gz
-mkdir -p /usr/lib/jvm
-cd /usr/lib/jvm
-tar -xvzf /tmp/jdk-8u281-linux-x64.tar.gz
-update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jdk1.8.0_281/bin/java" 0
-update-alternatives --install "/usr/bin/javac" "javac" "/usr/lib/jvm/jdk1.8.0_281/bin/javac" 0
-update-alternatives --set java /usr/lib/jvm/jdk1.8.0_281/bin/java
-update-alternatives --set javac /usr/lib/jvm/jdk1.8.0_281/bin/javac
-update-alternatives --list java
-update-alternatives --list javac
-java -version
+### jdk install
+JAVA_VER=$(java -version 2>&1 >/dev/null | egrep "\S+\s+version" | awk '{print $3}' | tr -d '"')
+echo "Java Version=>$JAVA_VER" > /tmp/agent_install.log
+if [ -z $JAVA_VER ]
+then
+	wget -c --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie" https://download.oracle.com/otn-pub/java/jdk/8u281-b09/89d678f2be164786b292527658ca1605/jdk-8u281-linux-x64.tar.gz
+	mkdir -p /usr/lib/jvm
+	cd /usr/lib/jvm
+	tar -xvzf /tmp/jdk-8u281-linux-x64.tar.gz
+	update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jdk1.8.0_281/bin/java" 0
+	update-alternatives --install "/usr/bin/javac" "javac" "/usr/lib/jvm/jdk1.8.0_281/bin/javac" 0
+	update-alternatives --set java /usr/lib/jvm/jdk1.8.0_281/bin/java
+	update-alternatives --set javac /usr/lib/jvm/jdk1.8.0_281/bin/javac
+	java -version
+else
+	echo "found java version $JAVA_VER"
+fi
+
 wget https://objectstorage.us-ashburn-1.oraclecloud.com/n/idtskf8cjzhp/b/installer/o/Linux-x86_64/latest/oracle.mgmt_agent.rpm
 ### install
-sudo rpm -Uvh oracle.mgmt_agent.rpm  
+rpm -Uvh oracle.mgmt_agent.rpm  
 EOA
-cd /home/opc
-cat<<EOF>/home/opc/input.rsp  
+cd /tmp
+cat<<EOF>/tmp/input.rsp  
 managementAgentInstallKey = ${data.oci_management_agent_management_agent_install_key.AGENT__management_agent_install_key.key}
 FreeFormTags = [{"Responsible":"Eugene Simos"}, {"Project":"log_analytics"}]
 DefinedTags = [{"Oracle-Tags":{"ResourceAllocation":"Logging-Analytics"}}]
@@ -200,7 +212,132 @@ CredentialWalletPassword = WElcome142312#
 Service.plugin.logan.download=true
 Service.plugin.dbaas.download=true
 EOF
-chmod -R ugo+rx /home/opc
-sudo /opt/oracle/mgmt_agent/agent_inst/bin/setup.sh opts=/home/opc/input.rsp
+chmod -R ugo+rw /tmp/input.rsp 
+sudo /opt/oracle/mgmt_agent/agent_inst/bin/setup.sh opts=/tmp/input.rsp
+sudo cat /opt/oracle/mgmt_agent/agent_inst/log/mgmt_agent.log > /tmp/mgmt_agent.log
+rm -rf jdk-8u281-linux-x64.tar.gz
+##rm -rf /tmp/input.rsp
+rm -rf Agent
+}
+
+remove_agent() {
+sudo su<<EOA
+rpm -e oracle.mgmt_agent
+rm -rf /opt/oracle/mgmt_agent 
+EOA
+}
+
+run_action()
+{
+if [[ $1 = "INSTALL" ]]
+   then
+    echo "install_agent()"
+	install_agent 
+elif [[ $1 = "REMOVE" ]]
+   then 
+    echo "remove_agent()"
+	remove_agent 
+else 
+   echo $1 $2
+   echo "unkown error should not occur"	
+   exit 0
+fi
+}
+
+run_action $1
+   
 EOT
+
+}
+
+
+data "oci_objectstorage_namespace" "agent_namespace" {
+  compartment_id = var.oci_provider.tenancy_id
+}
+
+resource "oci_objectstorage_bucket" "agent_bucket" {
+  depends_on     = [local_file.AGENT_key]
+  compartment_id = oci_identity_compartment.AGENT_compartment.id
+  name           = "Agent_bucket"
+  namespace      = data.oci_objectstorage_namespace.agent_namespace.namespace
+
+
+  access_type = "NoPublicAccess"
+
+  defined_tags = { "Oracle-Tags.ResourceAllocation" = "Logging-Analytics" }
+  freeform_tags = {
+    "Project"     = "log_analytics"
+    "Role"        = "log_analytics for HOL "
+    "Comment"     = "log_analytics setup for HOL "
+    "Version"     = "0.0.0.0"
+    "Responsible" = "Eugene Simos"
+  }
+
+  #kms_key_id = oci_kms_key.test_key.id
+  #metadata = var.bucket_metadata
+  object_events_enabled = "true"
+  storage_tier          = "Standard"
+  ######--     retention_rules {
+  ######--         display_name = var.retention_rule_display_name
+  ######--         duration {
+  ######--             #Required
+  ######--             time_amount = var.retention_rule_duration_time_amount
+  ######--             time_unit = var.retention_rule_duration_time_unit
+  ######--         }
+  ######--         time_rule_locked = var.retention_rule_time_rule_locked
+  ######--     }
+  versioning = "Enabled"
+  lifecycle {
+    ignore_changes = [
+      defined_tags,
+      freeform_tags,
+    ]
+  }
+}
+
+data "local_file" "agent_config" {
+  depends_on = [local_file.AGENT_key]
+  filename = "config/agent_config.sh"
+}
+
+resource "oci_objectstorage_object" "agent_object" {
+  depends_on = [oci_objectstorage_bucket.agent_bucket]
+
+  bucket    = oci_objectstorage_bucket.agent_bucket.name
+  content   = data.local_file.agent_config.content
+  namespace = data.oci_objectstorage_namespace.agent_namespace.namespace
+  object    = "Agent"
+
+  #Optional
+  ######--     cache_control = var.object_cache_control
+  ######--     content_disposition = var.object_content_disposition
+  ######--     content_encoding = var.object_content_encoding
+  ######--     content_language = var.object_content_language
+  ######--     content_type = var.object_content_type
+  ######--     delete_all_object_versions = var.object_delete_all_object_versions
+  ######--     metadata = var.object_metadata
+  storage_tier = "Standard"
+}
+
+
+
+resource "oci_objectstorage_preauthrequest" "agent_preauthenticated_request" {
+  #Required
+  access_type  = "ObjectRead"
+  bucket       = oci_objectstorage_bucket.agent_bucket.name
+  name         = "agent_preauthenticated_request"
+  namespace    = data.oci_objectstorage_namespace.agent_namespace.namespace
+  time_expires = timeadd(timestamp(), "100000h")
+
+
+  #Optional
+  object = oci_objectstorage_object.agent_object.object
+}
+
+
+
+resource "local_file" "agent_preauthenticated_request" {
+  filename        = "config/agent_preauthenticated_request.txt"
+  file_permission = "600"
+  content         = format("%s%s%s%s", "https://objectstorage.", var.oci_provider.region, ".oraclecloud.com", oci_objectstorage_preauthrequest.agent_preauthenticated_request.access_uri)
 }

@@ -24,8 +24,8 @@
 #      upload configs and files for agent ...
       - name: copy script for Log analytics Agent
         copy:
-         src: /home/oracle/terraform-excercises/oci-certification/logging-analytics/config/agent.txt
-         dest: /home/opc/agent.sh
+         src: /home/oracle/terraform-excercises/oci-certification/logging-analytics/config/agent_config.sh
+         dest: /home/opc/agent_config.sh
          directory_mode: no
          owner: opc
          group: opc
@@ -36,7 +36,7 @@
         become_user: opc         
 #      execute conf script agent ...        
       - name: execute script configure Log analytics Agent      
-        command: sh   /home/opc/agent.sh
+        command: sh   /home/opc/agent_config.sh INSTALL
         register: logan
         tags:
          - linux
