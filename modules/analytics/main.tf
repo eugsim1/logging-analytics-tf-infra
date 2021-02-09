@@ -95,7 +95,7 @@ resource "oci_identity_policy" "log_analytics_policy" {
     "allow service loganalytics to manage cloudevents-rules in tenancy",
     "allow service loganalytics to inspect compartments in tenancy",
     "allow service loganalytics to use tag-namespaces in tenancy"
-  ]
+	  ]
 }
 
 
@@ -193,6 +193,7 @@ resource "oci_identity_compartment" "user_analytics_compartment" {
   }
 }
 
+/*
 
 resource "oci_identity_user" "analytics_user" {
   count          = var.logging_analytics.oci_identity_user_analytics_user_count ##10
@@ -248,7 +249,7 @@ resource "local_file" "analytics_user_ui_password" {
   filename = "config/${format("analytics_user%03s", count.index)}"
 }
 
-
+*/
 
 
 /*

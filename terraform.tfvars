@@ -6,6 +6,7 @@ bastion_upgrade        = "false"
 use_bastion            = "true"
 ip_adress_backend      = "10.1.1.10"
 
+### vcn
 vnc_display_name     = "analytics"
 privreg_display_name = "analyticsprivreg"
 pubreg_display_name  = "analyticspubreg"
@@ -43,7 +44,7 @@ oci_identity_compartment_log_name                                 = "LoggingAnal
 oci_identity_compartment_user_analytics_compartment_description = "User Analytics compartment"
 oci_identity_policy_loggingAnalytics_policy_name                = "LoggingAnalytics"
 oci_identity_policy_loggingAnalytics_description                = "LoggingAnalytics  policy"
-oci_identity_user_analytics_user_count                          = "0"
+oci_identity_user_analytics_user_count                          = "4"  ### creates only compartments 
 oci_identity_user_analytics_user_description                    = "HOL analytics user"
 
 

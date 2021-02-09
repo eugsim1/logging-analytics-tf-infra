@@ -250,7 +250,8 @@ EOT
 
 }
 
-
+/*
+ 
 data "oci_objectstorage_namespace" "agent_namespace" {
   compartment_id = var.oci_provider.tenancy_id
 }
@@ -286,7 +287,7 @@ resource "oci_objectstorage_bucket" "agent_bucket" {
   ######--         }
   ######--         time_rule_locked = var.retention_rule_time_rule_locked
   ######--     }
-  versioning = "Enabled"
+  versioning = "Disabled"
   lifecycle {
     ignore_changes = [
       defined_tags,
@@ -341,3 +342,4 @@ resource "local_file" "agent_preauthenticated_request" {
   file_permission = "600"
   content         = format("%s%s%s%s", "https://objectstorage.", var.oci_provider.region, ".oraclecloud.com", oci_objectstorage_preauthrequest.agent_preauthenticated_request.access_uri)
 }
+*/

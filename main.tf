@@ -1,9 +1,11 @@
 ###
 ### generate keys for the servers
-module "keysgen" {
-  ##  depends_on = [module.network]
-  source = "git::https://eugsim1:8a4aba63dd455bcea1585c8568ba646d193044ea@github.com/eugsim1/keygen.git"
-}
+###   module "keysgen" {
+###    depends_on = [module.network]
+###     source = "git::https://eugsim1:8a4aba63dd455bcea1585c8568ba646d193044ea@github.com/eugsim1/keygen.git"
+###   }
+
+
 
 ### generate infra for LogAn
 ### generate a number of local users and compartments
@@ -82,7 +84,7 @@ module "network" {
 
 
 module "bastion" {
-  depends_on = [module.network, module.keysgen]
+  depends_on = [module.network]
   count      = var.use_bastion == "true" ? 1 : 0
   source     = "git::https://eugsim1:8a4aba63dd455bcea1585c8568ba646d193044ea@github.com/eugsim1/bastion.git"
 
@@ -149,7 +151,7 @@ module "logging" {
 /*
 module "compute" {
   count      = var.use_compute == true ? 1 : 0
-  depends_on = [module.network, module.keysgen, module.bastion]
+  depends_on = [module.network,  module.bastion]
   source     = "./modules/compute"
   # provider identity parameters  
   oci_provider = local.oci_provider
@@ -182,15 +184,15 @@ module "compute" {
 
   instance_ocpus         = var.instance_ocpus
   instance_memory_in_gbs = var.instance_memory_in_gbs
-  opc_key                = module.keysgen.OPCPrivateKey
-  oracle_key             = module.keysgen.OraclePrivateKey
+##  opc_key                = module.keysgen.OPCPrivateKey
+##  oracle_key             = module.keysgen.OraclePrivateKey
 }
 
 
 
 module "loadbalancer" {
   count      = var.use_lb == true ? 1 : 0
-  depends_on = [module.keysgen, module.compute, module.network]
+  depends_on = [ module.compute, module.network]
   source     = "./modules/loadbalancer"
 
   # provider identity parameters  
@@ -252,7 +254,7 @@ module "dns" {
 
 module "database" {
   count      = var.use_dbcs == "true" ? 1 : 0
-  depends_on = [module.network, module.keysgen]
+  depends_on = [module.network ]
   source     = "./modules/db_systems"
 
 
@@ -372,8 +374,8 @@ module "database" {
    														   
   }
 
-  opc_key    = module.keysgen.OPCPrivateKey
-  oracle_key = module.keysgen.OraclePrivateKey
+##  opc_key    = module.keysgen.OPCPrivateKey
+##  oracle_key = module.keysgen.OraclePrivateKey
 
 
 }
@@ -382,7 +384,7 @@ module "database" {
 /*
 
 module "autonomous" {
-  depends_on                            = [module.keysgen]
+ 
   source                                = "./modules/db_autonomous"
   autonomous_db_admin_password          = var.autonomous_db_admin_password
   autonomous_database_db_version        = var.autonomous_database_db_version
