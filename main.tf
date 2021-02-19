@@ -1,15 +1,25 @@
-###
-### generate keys for the servers
-###   module "keysgen" {
-###    depends_on = [module.network]
-###     source = "git::https://eugsim1:8a4aba63dd455bcea1585c8568ba646d193044ea@github.com/eugsim1/keygen.git"
-###   }
+#### Eugene Simos
+####
+####
+####
+
+####
+#### How to use these scripts 
+#### create a terraform.tfvars file with the appropriate values
+#### The log_analytics creates the infra settings for a LogAn deployment
+#### The Agent module create the infra settings for an Agent Deployment and the Agent Generation file into the config directory
+#### The directory module/compute_nodes_provisioning contains ansible script to be used when you need to provision several compute nodes with the Agent
+#### the other modules are used to generate OCI artifacts to be used them by the logging module ( we can strip them from now and add them later ?)
+####
+
+
 
 
 
 ### generate infra for LogAn
 ### generate a number of local users and compartments
 ###
+####
 module "log_analytics" {
   source       = "./modules/analytics"
   oci_provider = local.oci_provider

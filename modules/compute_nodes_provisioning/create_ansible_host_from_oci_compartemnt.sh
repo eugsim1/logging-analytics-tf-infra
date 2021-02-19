@@ -1,5 +1,8 @@
+#### this script create the ansible hosts files for the agent provisionings
+####
 #### collect IP from compute instances
 #### get the ocids
+cd  /home/oracle/terraform-excercises/oci-certification/logging-analytics/modules/compute_nodes_provisioning
 oci compute instance list \
 --profile DBSEC \
 --compartment-id ocid1.compartment.oc1..aaaaaaaaoctz26zocbcicfpxxmxbmmzyxa4kbweepqkeg6akuwqjuehw4bta |  jq -r '.data[] | .id' > compute_instances_ocids.txt
@@ -8,6 +11,7 @@ oci compute instance list \
 ### from the vnics of a compartement
 ### we excpect tha the private key is called wls-wdt-testkey  and it will be on the same directory as the <ansible host file> otherwise the printf should be modified
 rm -rf ansible_hosts.txt
+echo "[servers]" > ansible_hosts.txt
 input="compute_instances_ocids.txt"
 while IFS= read -r line
 do
