@@ -20,3 +20,5 @@ upload_files.sh
 !terraform.tfvars
 tf-tests/*
 ansible.log
+*.log
+*.tar
