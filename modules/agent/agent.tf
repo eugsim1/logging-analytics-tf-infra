@@ -176,14 +176,15 @@ resource "local_file" "AGENT_key" {
   filename        = "config/agent_config.sh"
   content         = <<EOT
 #!/bin/bash
-
+JAVA_VER=$(java -version 2>&1 >/dev/null | egrep "\S+\s+version" | awk '{print $3}' | tr -d '"')
+echo "Java Version=>$JAVA_VER"
+export hostname_ip=`curl ifconfig.co`
 
 install_agent() {  
 sudo su<<EOA
 cd /tmp
 ### jdk install
-JAVA_VER=$(java -version 2>&1 >/dev/null | egrep "\S+\s+version" | awk '{print $3}' | tr -d '"')
-echo "Java Version=>$JAVA_VER" > /tmp/agent_install.log
+
 if [ -z $JAVA_VER ]
 then
 	wget -c --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie" https://download.oracle.com/otn-pub/java/jdk/8u281-b09/89d678f2be164786b292527658ca1605/jdk-8u281-linux-x64.tar.gz
@@ -211,13 +212,39 @@ DefinedTags = [{"Oracle-Tags":{"ResourceAllocation":"Logging-Analytics"}}]
 CredentialWalletPassword = WElcome142312#
 Service.plugin.logan.download=true
 Service.plugin.dbaas.download=true
+AgentDisplayName =$hostname_ip
 EOF
 chmod -R ugo+rw /tmp/input.rsp 
 sudo /opt/oracle/mgmt_agent/agent_inst/bin/setup.sh opts=/tmp/input.rsp
 sudo cat /opt/oracle/mgmt_agent/agent_inst/log/mgmt_agent.log > /tmp/mgmt_agent.log
-rm -rf jdk-8u281-linux-x64.tar.gz
-##rm -rf /tmp/input.rsp
-rm -rf Agent
+
+### add the mgmt_agent to oinstall 
+sudo usermod -a -G  oinstall mgmt_agent
+### add credential file
+cat <<EOF>agent_dbcreds.json
+{
+    "source": "lacollector.la_database_sql",
+    "name": "LCAgentDBCreds.$hostname_ip",
+    "type": "DBCreds",
+    "usage": "LOGANALYTICS",
+    "disabled": "false",
+    "properties": [
+        {
+            "name": "DBUserName",
+            "value": "CLEAR[C##LOGAN]"
+        },
+        {
+            "name": "DBPassword",
+            "value": "CLEAR[oracle]"
+        },
+    ]
+}
+EOF
+cat agent_dbcreds.json| sudo -u mgmt_agent /opt/oracle/mgmt_agent/agent_inst/bin/credential_mgmt.sh -o upsertCredentials -s logan
+
+sudo rm -rf jdk-8u281-linux-x64.tar.gz
+sudo rm -rf /tmp/input.rsp
+sudo rm -rf Agent
 }
 
 remove_agent() {

@@ -1,8 +1,8 @@
 ### copy key for the bastion test server
-cp ../../keys/wls-wdt-testkey .
+ 
 ansible servers   -m ping -i hosts
-ansible-playbook -vv -i hosts install_agent.yaml
-ansible-playbook -vv -i hosts remove_agent.yaml
+ansible-playbook -vv -i hosts get_info_databases.yaml
+#ansible-playbook -vv -i hosts remove_agent.yaml
 
 
 
