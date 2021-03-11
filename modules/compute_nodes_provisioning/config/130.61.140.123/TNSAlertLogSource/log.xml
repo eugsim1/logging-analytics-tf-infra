@@ -17565,3 +17565,15 @@ TIMESTAMP * CONNECT DATA [* PROTOCOL INFO] * EVENT [* SID] * RETURN CODE
  <txt>11-MAR-2021 14:39:17 * service_update * orcl19 * 0
  </txt>
 </msg>
+<msg time='2021-03-11T14:49:18.464+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='cust-db19'
+ host_addr='10.1.1.6' pid='23740'>
+ <txt>11-MAR-2021 14:49:18 * service_update * orcl19 * 0
+ </txt>
+</msg>
+<msg time='2021-03-11T14:59:18.999+00:00' org_id='oracle' comp_id='tnslsnr'
+ type='UNKNOWN' level='16' host_id='cust-db19'
+ host_addr='10.1.1.6' pid='23740'>
+ <txt>11-MAR-2021 14:59:18 * service_update * orcl19 * 0
+ </txt>
+</msg>

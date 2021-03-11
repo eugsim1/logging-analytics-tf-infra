@@ -1608,3 +1608,16 @@ Unix process pid: 8756, image: oracle@cust-db19 (M005)
 *** CONTAINER ID:(1) 2021-03-11T14:42:52.649355+00:00
  
 *********** START A RUN OF [KDILM background CLeaNup] *************
+
+*** 2021-03-11T14:45:53.322793+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-11T14:45:53.322824+00:00
+*** ACTION NAME:(Intensive AutoTask Dispatcher) 2021-03-11T14:45:53.322828+00:00
+*** CONTAINER ID:(1) 2021-03-11T14:45:53.322831+00:00
+ 
+*********** START A RUN OF [Intensive AutoTask Dispatcher] *************
+*** MODULE NAME:(MMON_SLAVE) 2021-03-11T14:45:53.322884+00:00
+*** ACTION NAME:(Automatic Report Flush) 2021-03-11T14:45:53.322890+00:00
+*** CONTAINER ID:(1) 2021-03-11T14:45:53.322894+00:00
+ 
+*********** START A RUN OF [Automatic Report Flush] *************
+*********** START A RUN OF [Automatic Report Flush] *************

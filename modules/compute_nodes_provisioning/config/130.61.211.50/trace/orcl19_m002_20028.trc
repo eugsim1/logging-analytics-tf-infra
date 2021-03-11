@@ -1,0 +1,43 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_m002_20028.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	bastionlogan
+Release:	5.4.17-2036.103.3.1.el7uek.x86_64
+Version:	#2 SMP Sun Feb 14 12:48:17 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 1
+Oracle process number: 36
+Unix process pid: 20028, image: oracle@bastionlogan (M002)
+
+
+*** 2021-03-11T14:56:27.170133+00:00 (CDB$ROOT(1))
+*** SESSION ID:(33.55490) 2021-03-11T14:56:27.170166+00:00
+*** CLIENT ID:() 2021-03-11T14:56:27.170173+00:00
+*** SERVICE NAME:(SYS$BACKGROUND) 2021-03-11T14:56:27.170179+00:00
+*** MODULE NAME:(MMON_SLAVE) 2021-03-11T14:56:27.170186+00:00
+*** ACTION NAME:(Intensive AutoTask Dispatcher) 2021-03-11T14:56:27.170192+00:00
+*** CLIENT DRIVER:() 2021-03-11T14:56:27.170199+00:00
+*** CONTAINER ID:(1) 2021-03-11T14:56:27.170205+00:00
+ 
+*********** START A RUN OF [Intensive AutoTask Dispatcher] *************
+
+*** 2021-03-11T14:57:27.393916+00:00 (CDB$ROOT(1))
+*** CONTAINER ID:(1) 2021-03-11T14:57:27.393945+00:00
+ 
+*********** START A RUN OF [Intensive AutoTask Dispatcher] *************
+*** MODULE NAME:(MMON_SLAVE) 2021-03-11T14:57:27.394010+00:00
+*** ACTION NAME:(Automatic Report Flush) 2021-03-11T14:57:27.394017+00:00
+*** CONTAINER ID:(1) 2021-03-11T14:57:27.394023+00:00
+ 
+*********** START A RUN OF [Automatic Report Flush] *************
+
+*** 2021-03-11T14:59:27.838498+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-11T14:59:27.838547+00:00
+*** ACTION NAME:(KDILM background EXEcution) 2021-03-11T14:59:27.838553+00:00
+*** CONTAINER ID:(1) 2021-03-11T14:59:27.838559+00:00
+ 
+*********** START A RUN OF [KDILM background EXEcution] *************

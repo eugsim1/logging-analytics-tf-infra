@@ -87033,3 +87033,654 @@ Fatal NI connect error 12170.
  <txt>ARC2 (PID:28733): Archived Log entry 1499 added for T-1.S-1505 ID 0x15eadac2 LAD:1
  </txt>
 </msg>
+<msg time='2021-03-11T14:46:01.255+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>Thread 1 cannot allocate new log, sequence 1507
+ </txt>
+</msg>
+<msg time='2021-03-11T14:46:01.255+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>Checkpoint not complete
+ </txt>
+</msg>
+<msg time='2021-03-11T14:46:01.255+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>  Current log# 3 seq# 1506 mem# 0: /u01/app/oracle/oradata19/ORCL19/redo03.log
+ </txt>
+</msg>
+<msg time='2021-03-11T14:46:03.600+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>Thread 1 advanced to log sequence 1507 (LGWR switch)
+ </txt>
+</msg>
+<msg time='2021-03-11T14:46:03.600+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>  Current log# 1 seq# 1507 mem# 0: /u01/app/oracle/oradata19/ORCL19/redo01.log
+ </txt>
+</msg>
+<msg time='2021-03-11T14:46:03.655+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28735' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>ARC3 (PID:28735): Archived Log entry 1500 added for T-1.S-1506 ID 0x15eadac2 LAD:1
+ </txt>
+</msg>
+<msg time='2021-03-11T14:47:01.284+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>Thread 1 cannot allocate new log, sequence 1508
+ </txt>
+</msg>
+<msg time='2021-03-11T14:47:01.284+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>Checkpoint not complete
+ </txt>
+</msg>
+<msg time='2021-03-11T14:47:01.284+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>  Current log# 1 seq# 1507 mem# 0: /u01/app/oracle/oradata19/ORCL19/redo01.log
+ </txt>
+</msg>
+<msg time='2021-03-11T14:47:03.764+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>Thread 1 advanced to log sequence 1508 (LGWR switch)
+ </txt>
+</msg>
+<msg time='2021-03-11T14:47:03.764+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>  Current log# 2 seq# 1508 mem# 0: /u01/app/oracle/oradata19/ORCL19/redo02.log
+ </txt>
+</msg>
+<msg time='2021-03-11T14:47:03.796+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28727' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>ARC0 (PID:28727): Archived Log entry 1501 added for T-1.S-1507 ID 0x15eadac2 LAD:1
+ </txt>
+</msg>
+<msg time='2021-03-11T14:48:01.315+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>Thread 1 cannot allocate new log, sequence 1509
+ </txt>
+</msg>
+<msg time='2021-03-11T14:48:01.315+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>Checkpoint not complete
+ </txt>
+</msg>
+<msg time='2021-03-11T14:48:01.315+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>  Current log# 2 seq# 1508 mem# 0: /u01/app/oracle/oradata19/ORCL19/redo02.log
+ </txt>
+</msg>
+<msg time='2021-03-11T14:48:03.925+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>Thread 1 advanced to log sequence 1509 (LGWR switch)
+ </txt>
+</msg>
+<msg time='2021-03-11T14:48:03.925+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>  Current log# 3 seq# 1509 mem# 0: /u01/app/oracle/oradata19/ORCL19/redo03.log
+ </txt>
+</msg>
+<msg time='2021-03-11T14:48:03.966+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28731' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>ARC1 (PID:28731): Archived Log entry 1502 added for T-1.S-1508 ID 0x15eadac2 LAD:1
+ </txt>
+</msg>
+<msg time='2021-03-11T14:49:01.348+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>Thread 1 cannot allocate new log, sequence 1510
+ </txt>
+</msg>
+<msg time='2021-03-11T14:49:01.348+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>Checkpoint not complete
+ </txt>
+</msg>
+<msg time='2021-03-11T14:49:01.349+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>  Current log# 3 seq# 1509 mem# 0: /u01/app/oracle/oradata19/ORCL19/redo03.log
+ </txt>
+</msg>
+<msg time='2021-03-11T14:49:04.091+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>Thread 1 advanced to log sequence 1510 (LGWR switch)
+ </txt>
+</msg>
+<msg time='2021-03-11T14:49:04.092+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>  Current log# 1 seq# 1510 mem# 0: /u01/app/oracle/oradata19/ORCL19/redo01.log
+ </txt>
+</msg>
+<msg time='2021-03-11T14:49:04.133+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28733' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>ARC2 (PID:28733): Archived Log entry 1503 added for T-1.S-1509 ID 0x15eadac2 LAD:1
+ </txt>
+</msg>
+<msg time='2021-03-11T14:50:01.402+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' module='sqlplus@bastionlogan (TNS V1-V3)' pid='18450'
+ con_uid='1' con_id='1' con_name='CDB$ROOT'>
+ <txt>ORA-3 Forced write to alert log Eugene from cron_sql script
+ </txt>
+</msg>
+<msg time='2021-03-11T14:50:01.402+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>Thread 1 cannot allocate new log, sequence 1511
+ </txt>
+</msg>
+<msg time='2021-03-11T14:50:01.402+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>Checkpoint not complete
+ </txt>
+</msg>
+<msg time='2021-03-11T14:50:01.402+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>  Current log# 1 seq# 1510 mem# 0: /u01/app/oracle/oradata19/ORCL19/redo01.log
+ </txt>
+</msg>
+<msg time='2021-03-11T14:50:04.205+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>Thread 1 advanced to log sequence 1511 (LGWR switch)
+ </txt>
+</msg>
+<msg time='2021-03-11T14:50:04.205+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>  Current log# 2 seq# 1511 mem# 0: /u01/app/oracle/oradata19/ORCL19/redo02.log
+ </txt>
+</msg>
+<msg time='2021-03-11T14:50:04.246+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28735' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>ARC3 (PID:28735): Archived Log entry 1504 added for T-1.S-1510 ID 0x15eadac2 LAD:1
+ </txt>
+</msg>
+<msg time='2021-03-11T14:51:01.435+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>Thread 1 cannot allocate new log, sequence 1512
+ </txt>
+</msg>
+<msg time='2021-03-11T14:51:01.435+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>Checkpoint not complete
+ </txt>
+</msg>
+<msg time='2021-03-11T14:51:01.435+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>  Current log# 2 seq# 1511 mem# 0: /u01/app/oracle/oradata19/ORCL19/redo02.log
+ </txt>
+</msg>
+<msg time='2021-03-11T14:51:04.463+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>Thread 1 advanced to log sequence 1512 (LGWR switch)
+ </txt>
+</msg>
+<msg time='2021-03-11T14:51:04.463+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>  Current log# 3 seq# 1512 mem# 0: /u01/app/oracle/oradata19/ORCL19/redo03.log
+ </txt>
+</msg>
+<msg time='2021-03-11T14:51:04.510+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28727' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>ARC0 (PID:28727): Archived Log entry 1505 added for T-1.S-1511 ID 0x15eadac2 LAD:1
+ </txt>
+</msg>
+<msg time='2021-03-11T14:52:01.465+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>Thread 1 cannot allocate new log, sequence 1513
+ </txt>
+</msg>
+<msg time='2021-03-11T14:52:01.465+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>Checkpoint not complete
+ </txt>
+</msg>
+<msg time='2021-03-11T14:52:01.465+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>  Current log# 3 seq# 1512 mem# 0: /u01/app/oracle/oradata19/ORCL19/redo03.log
+ </txt>
+</msg>
+<msg time='2021-03-11T14:52:01.585+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>Thread 1 advanced to log sequence 1513 (LGWR switch)
+ </txt>
+</msg>
+<msg time='2021-03-11T14:52:01.585+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>  Current log# 1 seq# 1513 mem# 0: /u01/app/oracle/oradata19/ORCL19/redo01.log
+ </txt>
+</msg>
+<msg time='2021-03-11T14:52:01.619+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28731' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>ARC1 (PID:28731): Archived Log entry 1506 added for T-1.S-1512 ID 0x15eadac2 LAD:1
+ </txt>
+</msg>
+<msg time='2021-03-11T14:53:01.495+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>Thread 1 cannot allocate new log, sequence 1514
+ </txt>
+</msg>
+<msg time='2021-03-11T14:53:01.495+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>Checkpoint not complete
+ </txt>
+</msg>
+<msg time='2021-03-11T14:53:01.495+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>  Current log# 1 seq# 1513 mem# 0: /u01/app/oracle/oradata19/ORCL19/redo01.log
+ </txt>
+</msg>
+<msg time='2021-03-11T14:53:01.725+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>Thread 1 advanced to log sequence 1514 (LGWR switch)
+ </txt>
+</msg>
+<msg time='2021-03-11T14:53:01.725+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>  Current log# 2 seq# 1514 mem# 0: /u01/app/oracle/oradata19/ORCL19/redo02.log
+ </txt>
+</msg>
+<msg time='2021-03-11T14:53:01.757+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28733' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>ARC2 (PID:28733): Archived Log entry 1507 added for T-1.S-1513 ID 0x15eadac2 LAD:1
+ </txt>
+</msg>
+<msg time='2021-03-11T14:54:01.526+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>Thread 1 cannot allocate new log, sequence 1515
+ </txt>
+</msg>
+<msg time='2021-03-11T14:54:01.526+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>Checkpoint not complete
+ </txt>
+</msg>
+<msg time='2021-03-11T14:54:01.526+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>  Current log# 2 seq# 1514 mem# 0: /u01/app/oracle/oradata19/ORCL19/redo02.log
+ </txt>
+</msg>
+<msg time='2021-03-11T14:54:01.863+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>Thread 1 advanced to log sequence 1515 (LGWR switch)
+ </txt>
+</msg>
+<msg time='2021-03-11T14:54:01.863+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>  Current log# 3 seq# 1515 mem# 0: /u01/app/oracle/oradata19/ORCL19/redo03.log
+ </txt>
+</msg>
+<msg time='2021-03-11T14:54:01.891+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28735' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>ARC3 (PID:28735): Archived Log entry 1508 added for T-1.S-1514 ID 0x15eadac2 LAD:1
+ </txt>
+</msg>
+<msg time='2021-03-11T14:55:01.568+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>Thread 1 cannot allocate new log, sequence 1516
+ </txt>
+</msg>
+<msg time='2021-03-11T14:55:01.568+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>Checkpoint not complete
+ </txt>
+</msg>
+<msg time='2021-03-11T14:55:01.568+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>  Current log# 3 seq# 1515 mem# 0: /u01/app/oracle/oradata19/ORCL19/redo03.log
+ </txt>
+</msg>
+<msg time='2021-03-11T14:55:01.572+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' module='sqlplus@bastionlogan (TNS V1-V3)' pid='19887'
+ con_uid='1' con_id='1' con_name='CDB$ROOT'>
+ <txt>ORA-3 Forced write to alert log Eugene from cron_sql script
+ </txt>
+</msg>
+<msg time='2021-03-11T14:55:02.005+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>Thread 1 advanced to log sequence 1516 (LGWR switch)
+ </txt>
+</msg>
+<msg time='2021-03-11T14:55:02.006+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>  Current log# 1 seq# 1516 mem# 0: /u01/app/oracle/oradata19/ORCL19/redo01.log
+ </txt>
+</msg>
+<msg time='2021-03-11T14:55:02.036+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28727' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>ARC0 (PID:28727): Archived Log entry 1509 added for T-1.S-1515 ID 0x15eadac2 LAD:1
+ </txt>
+</msg>
+<msg time='2021-03-11T14:56:01.607+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>Thread 1 cannot allocate new log, sequence 1517
+ </txt>
+</msg>
+<msg time='2021-03-11T14:56:01.607+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>Checkpoint not complete
+ </txt>
+</msg>
+<msg time='2021-03-11T14:56:01.607+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>  Current log# 1 seq# 1516 mem# 0: /u01/app/oracle/oradata19/ORCL19/redo01.log
+ </txt>
+</msg>
+<msg time='2021-03-11T14:56:02.163+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>Thread 1 advanced to log sequence 1517 (LGWR switch)
+ </txt>
+</msg>
+<msg time='2021-03-11T14:56:02.163+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>  Current log# 2 seq# 1517 mem# 0: /u01/app/oracle/oradata19/ORCL19/redo02.log
+ </txt>
+</msg>
+<msg time='2021-03-11T14:56:02.208+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28731' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>ARC1 (PID:28731): Archived Log entry 1510 added for T-1.S-1516 ID 0x15eadac2 LAD:1
+ </txt>
+</msg>
+<msg time='2021-03-11T14:57:01.641+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>Thread 1 cannot allocate new log, sequence 1518
+ </txt>
+</msg>
+<msg time='2021-03-11T14:57:01.641+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>Checkpoint not complete
+ </txt>
+</msg>
+<msg time='2021-03-11T14:57:01.641+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>  Current log# 2 seq# 1517 mem# 0: /u01/app/oracle/oradata19/ORCL19/redo02.log
+ </txt>
+</msg>
+<msg time='2021-03-11T14:57:02.413+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>Thread 1 advanced to log sequence 1518 (LGWR switch)
+ </txt>
+</msg>
+<msg time='2021-03-11T14:57:02.413+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>  Current log# 3 seq# 1518 mem# 0: /u01/app/oracle/oradata19/ORCL19/redo03.log
+ </txt>
+</msg>
+<msg time='2021-03-11T14:57:02.458+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28733' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>ARC2 (PID:28733): Archived Log entry 1511 added for T-1.S-1517 ID 0x15eadac2 LAD:1
+ </txt>
+</msg>
+<msg time='2021-03-11T14:58:01.670+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>Thread 1 cannot allocate new log, sequence 1519
+ </txt>
+</msg>
+<msg time='2021-03-11T14:58:01.670+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>Checkpoint not complete
+ </txt>
+</msg>
+<msg time='2021-03-11T14:58:01.670+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>  Current log# 3 seq# 1518 mem# 0: /u01/app/oracle/oradata19/ORCL19/redo03.log
+ </txt>
+</msg>
+<msg time='2021-03-11T14:58:02.576+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>Thread 1 advanced to log sequence 1519 (LGWR switch)
+ </txt>
+</msg>
+<msg time='2021-03-11T14:58:02.576+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>  Current log# 1 seq# 1519 mem# 0: /u01/app/oracle/oradata19/ORCL19/redo01.log
+ </txt>
+</msg>
+<msg time='2021-03-11T14:58:02.611+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28735' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>ARC3 (PID:28735): Archived Log entry 1512 added for T-1.S-1518 ID 0x15eadac2 LAD:1
+ </txt>
+</msg>
+<msg time='2021-03-11T14:59:01.699+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>Thread 1 cannot allocate new log, sequence 1520
+ </txt>
+</msg>
+<msg time='2021-03-11T14:59:01.699+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>Checkpoint not complete
+ </txt>
+</msg>
+<msg time='2021-03-11T14:59:01.699+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>  Current log# 1 seq# 1519 mem# 0: /u01/app/oracle/oradata19/ORCL19/redo01.log
+ </txt>
+</msg>
+<msg time='2021-03-11T14:59:02.729+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>Thread 1 advanced to log sequence 1520 (LGWR switch)
+ </txt>
+</msg>
+<msg time='2021-03-11T14:59:02.729+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>  Current log# 2 seq# 1520 mem# 0: /u01/app/oracle/oradata19/ORCL19/redo02.log
+ </txt>
+</msg>
+<msg time='2021-03-11T14:59:02.762+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28727' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>ARC0 (PID:28727): Archived Log entry 1513 added for T-1.S-1519 ID 0x15eadac2 LAD:1
+ </txt>
+</msg>
+<msg time='2021-03-11T15:00:01.759+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' module='sqlplus@bastionlogan (TNS V1-V3)' pid='21343'
+ con_uid='1' con_id='1' con_name='CDB$ROOT'>
+ <txt>ORA-3 Forced write to alert log Eugene from cron_sql script
+ </txt>
+</msg>
+<msg time='2021-03-11T15:00:01.771+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>Thread 1 cannot allocate new log, sequence 1521
+ </txt>
+</msg>
+<msg time='2021-03-11T15:00:01.771+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>Checkpoint not complete
+ </txt>
+</msg>
+<msg time='2021-03-11T15:00:01.771+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>  Current log# 2 seq# 1520 mem# 0: /u01/app/oracle/oradata19/ORCL19/redo02.log
+ </txt>
+</msg>
+<msg time='2021-03-11T15:00:02.889+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>Thread 1 advanced to log sequence 1521 (LGWR switch)
+ </txt>
+</msg>
+<msg time='2021-03-11T15:00:02.889+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28672' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>  Current log# 3 seq# 1521 mem# 0: /u01/app/oracle/oradata19/ORCL19/redo03.log
+ </txt>
+</msg>
+<msg time='2021-03-11T15:00:02.924+00:00' org_id='oracle' comp_id='rdbms'
+ type='UNKNOWN' level='16' host_id='bastionlogan'
+ host_addr='10.1.1.2' pid='28731' con_uid='1'
+ con_id='1' con_name='CDB$ROOT'>
+ <txt>ARC1 (PID:28731): Archived Log entry 1514 added for T-1.S-1520 ID 0x15eadac2 LAD:1
+ </txt>
+</msg>
