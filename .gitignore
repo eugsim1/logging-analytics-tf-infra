@@ -23,3 +23,10 @@ ansible.log
 *.log
 *.tar
 **/config/*
+*.log
+sec-private
+console-zdm-ssh-key-2021-03-04.key
+*.key
+*.pub
+files*
+new*
