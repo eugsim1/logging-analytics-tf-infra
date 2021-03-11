@@ -70,19 +70,25 @@ the private keys, the public IP , and any other information here are generated a
 The script [get_database_info_tologan.sh](https://github.com/eugsim1/logging-analytics-tf-infra/tree/master/modules/compute_nodes_provisioning) can be used to create the entities and associate the sources to Oracle Databases.
 In this case the agent should be already deployed on the target servers.
 
-It has 2 parts Creation of the entities and association with sources, and removal of the entities and the associations
-You need to provide the IP of your databases, and the private key to be used to perform and introspection of the compute nodes.
-You need to maintain jsnon files  which are related to the association between entities and Oracle predefined sources.
+It has 2 parts :
 
-You need to update the sed section if you modify update some database back end files.
+Creation of the entities and association with sources
+
+Removal of the entities and the associations
+
+You need to provide the IP of your databases, and the private key to be used to perform and introspection of the compute nodes.
+
+You need to maintain json files  which are related to the association between entities and Oracle predefined sources.
+
+You need to update the sed section if you modify/update some database back-end files.
 
 the script is configured to run on a tenancy/compartment/loggroup where the LogAnalytics is already setup
 
-If not you can create the infra by using scripts from this repository
+You can create the infra by using scripts from this repository
 
 
 
-update the below exports to your settings
+update the below exports to your own settings
 
 ```
 export ANALYTICS_COMPARTMENT=ocid1.compartment.oc1..aaaaaaaaqhhyjrkidluilxlgk5xer7sox6x7ngcak7hfey3iuvcv45s5oz7a
