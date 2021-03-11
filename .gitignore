@@ -26,6 +26,7 @@ ansible.log
 *.log
 sec-private
 console-zdm-ssh-key-2021-03-04.key
+console-zdm-ssh-key*
 *.key
 *.pub
 files*

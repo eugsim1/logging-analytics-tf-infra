@@ -9,6 +9,7 @@ export LOG_GROUP_NAME=analytics001
 cd /home/oracle/terraform-excercises/oci-certification/logging-analytics/modules/compute_nodes_provisioning
 START1=`date +%s`
 
+
 DATE=$(date +%d-%m-%Y"-"%H:%M:%S)
 printf  "$DATE:get logs from servers\n"
 while IFS= read -r line;
@@ -200,9 +201,11 @@ export NEW_FILES_LOGAN=`oci log-analytics upload list-upload-files  \
 DATE=$(date +%d-%m-%Y"-"%H:%M:%S)
 printf  "$DATE:files after uploads:$NEW_FILES_LOGAN\n"
 printf  "$DATE:new file uploads:" `expr $NEW_FILES_LOGAN - $NB_FILES_LOGAN` "\n"
-
+##`expr $count + 1`
 end=`date +%s`
-echo Execution time was `expr $end - $start` seconds.
+runtime=$( echo "$end - $start" | bc -l )
+
+echo Execution time was $runtime seconds.
 
 ##
 
