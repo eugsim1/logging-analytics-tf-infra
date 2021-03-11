@@ -1,0 +1,50 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_ora_25663.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	bastionlogan
+Release:	5.4.17-2036.103.3.1.el7uek.x86_64
+Version:	#2 SMP Sun Feb 14 12:48:17 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 1
+Oracle process number: 48
+Unix process pid: 25663, image: oracle@bastionlogan
+
+
+*** 2021-03-05T17:55:31.099897+00:00 (CDB$ROOT(1))
+*** SESSION ID:(29.24437) 2021-03-05T17:55:31.099924+00:00
+*** CLIENT ID:() 2021-03-05T17:55:31.099927+00:00
+*** SERVICE NAME:(orcl19) 2021-03-05T17:55:31.099930+00:00
+*** MODULE NAME:(SQL Developer) 2021-03-05T17:55:31.099933+00:00
+*** ACTION NAME:() 2021-03-05T17:55:31.099936+00:00
+*** CLIENT DRIVER:(jdbcthin : 19.3.0.0.0) 2021-03-05T17:55:31.099939+00:00
+*** CONTAINER ID:(1) 2021-03-05T17:55:31.099942+00:00
+ 
+REKEY: Activation of Key AcUFA4QiME+rv73Y5xfr0OQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA in PDB 1 resulted in error 28374
+
+*** 2021-03-05T17:55:42.861407+00:00 (PDB19(3))
+REKEY: Keystore needs to be restored from the REKEY backup.Aborting REKEY!kztsmdumk: Neither Unified nor Typed TSE MK found!
+kztsmdumk: Neither Unified nor Typed TSE MK found!
+kztsmdumk: Neither Unified nor Typed TSE MK found!
+kztsmdumk: Neither Unified nor Typed TSE MK found!
+
+*** 2021-03-05T17:57:23.751798+00:00 (CDB$ROOT(1))
+REKEY: Activation of Key AW3ERZtusE8Avx36R7PpcUIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA in PDB 1 resulted in error 28374
+
+*** 2021-03-05T17:58:58.645437+00:00 (PDB19(3))
+REKEY: Keystore needs to be restored from the REKEY backup.Aborting REKEY!kztsmdumk: Neither Unified nor Typed TSE MK found!
+kztsmdumk: Neither Unified nor Typed TSE MK found!
+kztsmdumk: Neither Unified nor Typed TSE MK found!
+kztsmdumk: Neither Unified nor Typed TSE MK found!
+
+*** 2021-03-05T18:00:57.827031+00:00 (CDB$ROOT(1))
+REKEY: Activation of Key ASSNQXHbH08BvxYvwNN/ynMAAAAAAAAAAAAAAAAAAAAAAAAAAAAA in PDB 1 resulted in error 28374
+
+*** 2021-03-05T18:01:28.654041+00:00 (PDB19(3))
+REKEY: Keystore needs to be restored from the REKEY backup.Aborting REKEY!kztsmdumk: Neither Unified nor Typed TSE MK found!
+kztsmdumk: Neither Unified nor Typed TSE MK found!
+kztsmdumk: Neither Unified nor Typed TSE MK found!
+kztsmdumk: Neither Unified nor Typed TSE MK found!

@@ -1,0 +1,42 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_dia0_18295_base_1.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	bastionlogan
+Release:	5.4.17-2036.103.3.1.el7uek.x86_64
+Version:	#2 SMP Sun Feb 14 12:48:17 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 0 <none>
+Oracle process number: 18
+Unix process pid: 18295, image: oracle@bastionlogan (DIA0)
+
+*** SESSION ID:(9.47302) 2021-03-05T14:30:58.180593+00:00
+*** CLIENT ID:() 2021-03-05T14:30:58.180598+00:00
+*** SERVICE NAME:() 2021-03-05T14:30:58.180602+00:00
+*** MODULE NAME:() 2021-03-05T14:30:58.180606+00:00
+*** ACTION NAME:() 2021-03-05T14:30:58.180609+00:00
+*** CLIENT DRIVER:() 2021-03-05T14:30:58.180613+00:00
+*** CONTAINER ID:(1) 2021-03-05T14:30:58.180617+00:00
+ 
+
+*** 2021-03-05T14:30:58.180480+00:00 (CDB$ROOT(1))
+HM: Tracing moved from default trace file: orcl19_dia0_18295.trc
+HM: This is a single non-RAC instance.  Hang detection is enabled.
+HM: Hang resolution scope is OFF.
+HM: Cross Boundary hang detection is enabled.
+HM: Cross Cluster hang detection is enabled.
+HM: Deadlock resolution is enabled.
+HM: Application related hang resolution is disabled.
+HM: Session/Hang fast-tracking is disabled.
+HM: Singleton hang detection is enabled
+HM: Singleton hang resolution is disabled
+HM: CPU load is not being monitored.
+HM: IO load is NOT abnormally high - 0% outliers.
+
+*** 2021-03-05T14:30:58.180688+00:00 (CDB$ROOT(1))
+HM: Early Warning and/or Long Waiting Session (LWS) is enabled.
+    The output can be found in trace files of the form:
+    orcl19_dia0_18295_lws_n.trc where n is a number between 1 and 5.

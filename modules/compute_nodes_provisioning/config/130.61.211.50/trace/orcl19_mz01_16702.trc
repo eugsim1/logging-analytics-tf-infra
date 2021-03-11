@@ -1,0 +1,51 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_mz01_16702.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	bastionlogan
+Release:	5.4.17-2036.103.3.1.el7uek.x86_64
+Version:	#2 SMP Sun Feb 14 12:48:17 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 1
+Oracle process number: 67
+Unix process pid: 16702, image: oracle@bastionlogan (MZ01)
+
+
+*** 2021-03-05T21:09:10.597103+00:00 (CDB$ROOT(1))
+*** SESSION ID:(255.12779) 2021-03-05T21:09:10.597132+00:00
+*** CLIENT ID:() 2021-03-05T21:09:10.597137+00:00
+*** SERVICE NAME:(SYS$BACKGROUND) 2021-03-05T21:09:10.597141+00:00
+*** MODULE NAME:(MMON_SLAVE) 2021-03-05T21:09:10.597146+00:00
+*** ACTION NAME:(Auto-DBFUS Action) 2021-03-05T21:09:10.597150+00:00
+*** CLIENT DRIVER:() 2021-03-05T21:09:10.597155+00:00
+*** CONTAINER ID:(1) 2021-03-05T21:09:10.597159+00:00
+ 
+kgxgncin: clsssinit: CLSS init failed with status 3
+kgxgncin: clsssinit: return status 3 (0 SKGXN not av) from CLSS
+kgxgncin: clsssinit: CLSS init failed with status 3
+kgxgncin: clsssinit: return status 3 (0 SKGXN not av) from CLSS
+kgxgncin: clsssinit: CLSS init failed with status 3
+kgxgncin: clsssinit: return status 3 (0 SKGXN not av) from CLSS
+kgxgncin: clsssinit: CLSS init failed with status 3
+kgxgncin: clsssinit: return status 3 (0 SKGXN not av) from CLSS
+
+*** 2021-03-05T21:09:27.110626+00:00 (CDB$ROOT(1))
+kgxgncin: clsssinit: CLSS init failed with status 3
+kgxgncin: clsssinit: return status 3 (0 SKGXN not av) from CLSS
+
+*** 2021-03-05T21:09:34.563171+00:00 (PDB19(3))
+kgxgncin: clsssinit: CLSS init failed with status 3
+kgxgncin: clsssinit: return status 3 (0 SKGXN not av) from CLSS
+kgxgncin: clsssinit: CLSS init failed with status 3
+kgxgncin: clsssinit: return status 3 (0 SKGXN not av) from CLSS
+kgxgncin: clsssinit: CLSS init failed with status 3
+kgxgncin: clsssinit: return status 3 (0 SKGXN not av) from CLSS
+kgxgncin: clsssinit: CLSS init failed with status 3
+kgxgncin: clsssinit: return status 3 (0 SKGXN not av) from CLSS
+
+*** 2021-03-05T21:09:39.450825+00:00 (PDB19(3))
+kgxgncin: clsssinit: CLSS init failed with status 3
+kgxgncin: clsssinit: return status 3 (0 SKGXN not av) from CLSS

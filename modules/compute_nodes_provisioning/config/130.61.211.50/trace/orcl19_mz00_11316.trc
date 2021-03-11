@@ -1,0 +1,135 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_mz00_11316.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	bastionlogan
+Release:	5.4.17-2036.103.3.1.el7uek.x86_64
+Version:	#2 SMP Sun Feb 14 12:48:17 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 1
+Oracle process number: 57
+Unix process pid: 11316, image: oracle@bastionlogan (MZ00)
+
+
+*** 2021-03-08T22:27:52.876783+00:00 (PDB19(3))
+*** SESSION ID:(256.14873) 2021-03-08T22:27:52.876806+00:00
+*** CLIENT ID:() 2021-03-08T22:27:52.876811+00:00
+*** SERVICE NAME:(SYS$BACKGROUND) 2021-03-08T22:27:52.876816+00:00
+*** MODULE NAME:(MMON_SLAVE) 2021-03-08T22:27:52.876820+00:00
+*** ACTION NAME:(Flush KSXM hash table action) 2021-03-08T22:27:52.876825+00:00
+*** CLIENT DRIVER:() 2021-03-08T22:27:52.876829+00:00
+*** CONTAINER ID:(3) 2021-03-08T22:27:52.876834+00:00
+ 
+
+CursorDiagnosticsNodes:  
+  ChildNode:  ChildNumber=5 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=4 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=3 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=1 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=2 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=0 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=6 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+AgedOutCursorDiagnosticNodes:  
+  ChildNode:  ChildNumber=5 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=4 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=3 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=1 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=3 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=2 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=1 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=0 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=1 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=0 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=4 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=1 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=3 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=2 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=1 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=0 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=5 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=4 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=3 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=1 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=3 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=2 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=1 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=0 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=3 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=2 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=1 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=0 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=5 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=4 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=3 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=1 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=3 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=2 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=1 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=0 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=3 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=2 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=0 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=1 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=3 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=2 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=1 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=0 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=5 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=4 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=3 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=1 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=3 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=2 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=1 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=0 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=3 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=2 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=1 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=0 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=3 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=2 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=1 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=0 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=3 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=2 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=1 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=0 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=5 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=4 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=3 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=1 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=3 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=2 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=1 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=0 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=3 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=2 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=1 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=0 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=5 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=4 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=3 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=1 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=3 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=2 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=1 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=0 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=5 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=4 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=3 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=1 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=3 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=2 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=1 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=0 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=0 ID=3 reason=Optimizer mismatch(12) size=2x476 _fix_control_key= -866096202           0                    
+  ChildNode:  ChildNumber=5 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=4 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=3 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=2 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=0 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=1 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=1 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  

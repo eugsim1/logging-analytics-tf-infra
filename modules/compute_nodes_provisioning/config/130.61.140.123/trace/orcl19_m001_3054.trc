@@ -1,0 +1,40 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_m001_3054.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	cust-db19
+Release:	5.4.17-2036.102.0.2.el7uek.x86_64
+Version:	#2 SMP Tue Jan 5 12:41:34 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 1
+Oracle process number: 8
+Unix process pid: 3054, image: oracle@cust-db19 (M001)
+
+
+*** 2021-03-09T14:36:42.653047+00:00 (CDB$ROOT(1))
+*** SESSION ID:(4.58415) 2021-03-09T14:36:42.653079+00:00
+*** CLIENT ID:() 2021-03-09T14:36:42.653084+00:00
+*** SERVICE NAME:(SYS$BACKGROUND) 2021-03-09T14:36:42.653088+00:00
+*** MODULE NAME:(MMON_SLAVE) 2021-03-09T14:36:42.653093+00:00
+*** ACTION NAME:(Sweep incidents slave action) 2021-03-09T14:36:42.653097+00:00
+*** CLIENT DRIVER:() 2021-03-09T14:36:42.653102+00:00
+*** CONTAINER ID:(1) 2021-03-09T14:36:42.653106+00:00
+ 
+*********** START A RUN OF [Sweep incidents slave action] *************
+
+*** 2021-03-09T14:37:03.835328+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-09T14:37:03.835386+00:00
+*** ACTION NAME:(Monitor Tablespace Thresholds) 2021-03-09T14:37:03.835392+00:00
+*** CONTAINER ID:(1) 2021-03-09T14:37:03.835396+00:00
+ 
+*********** START A RUN OF [Monitor Tablespace Thresholds] *************
+
+*** 2021-03-09T14:39:07.241040+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-09T14:39:07.241072+00:00
+*** ACTION NAME:(Intensive AutoTask Dispatcher) 2021-03-09T14:39:07.241080+00:00
+*** CONTAINER ID:(1) 2021-03-09T14:39:07.241086+00:00
+ 
+*********** START A RUN OF [Intensive AutoTask Dispatcher] *************

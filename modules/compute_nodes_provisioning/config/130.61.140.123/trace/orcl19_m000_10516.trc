@@ -1,0 +1,60 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_m000_10516.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	cust-db19
+Release:	5.4.17-2036.102.0.2.el7uek.x86_64
+Version:	#2 SMP Tue Jan 5 12:41:34 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 0 <none>
+Oracle process number: 8
+Unix process pid: 10516, image: oracle@cust-db19 (M000)
+
+
+*** 2021-03-07T19:00:21.283895+00:00 (CDB$ROOT(1))
+*** SESSION ID:(4.9174) 2021-03-07T19:00:21.283922+00:00
+*** CLIENT ID:() 2021-03-07T19:00:21.283927+00:00
+*** SERVICE NAME:() 2021-03-07T19:00:21.283931+00:00
+*** MODULE NAME:(MMON_SLAVE) 2021-03-07T19:00:21.283934+00:00
+*** ACTION NAME:(Sweep incidents slave action) 2021-03-07T19:00:21.283939+00:00
+*** CLIENT DRIVER:() 2021-03-07T19:00:21.283942+00:00
+*** CONTAINER ID:(1) 2021-03-07T19:00:21.283946+00:00
+ 
+*********** START A RUN OF [Sweep incidents slave action] *************
+
+*** 2021-03-07T19:00:28.336951+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-07T19:00:28.336994+00:00
+*** ACTION NAME:(CLI Partition execution) 2021-03-07T19:00:28.337000+00:00
+*** CONTAINER ID:(1) 2021-03-07T19:00:28.337004+00:00
+ 
+*********** START A RUN OF [CLI Partition execution] *************
+*** MODULE NAME:(MMON_SLAVE) 2021-03-07T19:00:28.337165+00:00
+*** ACTION NAME:(Monitor Tablespace Thresholds) 2021-03-07T19:00:28.337176+00:00
+*** CONTAINER ID:(1) 2021-03-07T19:00:28.337180+00:00
+ 
+*********** START A RUN OF [Monitor Tablespace Thresholds] *************
+
+*** 2021-03-07T19:00:29.356879+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-07T19:00:29.356907+00:00
+*** ACTION NAME:(Intensive AutoTask Dispatcher) 2021-03-07T19:00:29.356912+00:00
+*** CONTAINER ID:(1) 2021-03-07T19:00:29.356917+00:00
+ 
+*********** START A RUN OF [Intensive AutoTask Dispatcher] *************
+*** MODULE NAME:(MMON_SLAVE) 2021-03-07T19:00:29.426294+00:00
+*** ACTION NAME:(Index usage tracking statistics flush) 2021-03-07T19:00:29.426320+00:00
+*** CONTAINER ID:(1) 2021-03-07T19:00:29.426325+00:00
+ 
+*********** START A RUN OF [Index usage tracking statistics flush] *************
+*** MODULE NAME:(MMON_SLAVE) 2021-03-07T19:00:29.426401+00:00
+*** ACTION NAME:(ADR Container Space Management Statistics Flush) 2021-03-07T19:00:29.426406+00:00
+*** CONTAINER ID:(1) 2021-03-07T19:00:29.426410+00:00
+ 
+*********** START A RUN OF [ADR Container Space Management Statistics Flush] *************
+*** MODULE NAME:(MMON_SLAVE) 2021-03-07T19:00:29.426444+00:00
+*** ACTION NAME:(ADR PDB Purge Auto Task) 2021-03-07T19:00:29.426449+00:00
+*** CONTAINER ID:(1) 2021-03-07T19:00:29.426453+00:00
+ 
+*********** START A RUN OF [ADR PDB Purge Auto Task] *************

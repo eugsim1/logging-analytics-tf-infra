@@ -1,0 +1,27 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_svcb_28664.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	bastionlogan
+Release:	5.4.17-2036.103.3.1.el7uek.x86_64
+Version:	#2 SMP Sun Feb 14 12:48:17 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 0 <none>
+Oracle process number: 16
+Unix process pid: 28664, image: oracle@bastionlogan (SVCB)
+
+
+*** 2021-03-11T06:19:20.481353+00:00 (CDB$ROOT(1))
+*** SESSION ID:(8.49448) 2021-03-11T06:19:20.481380+00:00
+*** CLIENT ID:() 2021-03-11T06:19:20.481385+00:00
+*** SERVICE NAME:() 2021-03-11T06:19:20.481389+00:00
+*** MODULE NAME:() 2021-03-11T06:19:20.481392+00:00
+*** ACTION NAME:() 2021-03-11T06:19:20.481396+00:00
+*** CLIENT DRIVER:() 2021-03-11T06:19:20.481399+00:00
+*** CONTAINER ID:(1) 2021-03-11T06:19:20.481404+00:00
+ 
+ksws_bg_main: starting background process
+            : configured with 8200 services

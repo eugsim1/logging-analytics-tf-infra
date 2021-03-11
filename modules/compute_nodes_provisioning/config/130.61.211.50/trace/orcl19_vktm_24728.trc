@@ -1,0 +1,42 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_vktm_24728.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	bastionlogan
+Release:	5.4.17-2036.103.3.1.el7uek.x86_64
+Version:	#2 SMP Sun Feb 14 12:48:17 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 0 <none>
+Oracle process number: 5
+Unix process pid: 24728, image: oracle@bastionlogan (VKTM)
+
+
+*** 2021-03-05T14:46:43.142805+00:00
+*** CLIENT ID:() 2021-03-05T14:46:43.142817+00:00
+*** SERVICE NAME:() 2021-03-05T14:46:43.142820+00:00
+*** MODULE NAME:() 2021-03-05T14:46:43.142822+00:00
+*** ACTION NAME:() 2021-03-05T14:46:43.142825+00:00
+*** CLIENT DRIVER:() 2021-03-05T14:46:43.142828+00:00
+ 
+2021-03-05T14:46:43.142642+00:00
+Incident 9645 created, dump file: /u01/app/oracle/diag/rdbms/orcl19/orcl19/incident/incdir_9645/orcl19_vktm_24728_i9645.trc
+ORA-00800: soft external error, arguments: [Set Priority Failed], [VKTM], [Check traces and OS configuration], [Check Oracle document and MOS notes], []
+
+*** SESSION ID:(239.29968) 2021-03-05T14:46:43.163531+00:00
+*** SERVICE NAME:() 2021-03-05T14:46:43.163547+00:00
+*** CONTAINER ID:(1) 2021-03-05T14:46:43.163552+00:00
+ 
+kstmmainvktm: failed in setting elevated priority
+Verify: SETUID is set on ORADISM and restart the instance
+highres_enabled
+VKTM running at (100ms) precision 
+kstmrmtickcntkeeper: param _dbrm_quantum will not be effective
+[Start] HighResTick = 3890499493
+kstmrmtickcnt = 0, ksudbrmseccnt[0] = 1614955603
+
+*** 2021-03-05T14:50:06.528838+00:00 (CDB$ROOT(1))
+[End] HighResTick = 4093864647
+kstmrmtickcnt = 2032, ksudbrmseccnt[203] = 1614955806

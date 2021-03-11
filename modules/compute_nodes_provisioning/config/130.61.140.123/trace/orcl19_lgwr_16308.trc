@@ -1,0 +1,32 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_lgwr_16308.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	cust-db19
+Release:	5.4.17-2036.102.0.2.el7uek.x86_64
+Version:	#2 SMP Tue Jan 5 12:41:34 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 0 <none>
+Oracle process number: 20
+Unix process pid: 16308, image: oracle@cust-db19 (LGWR)
+
+
+*** 2021-03-07T18:14:23.462483+00:00 (CDB$ROOT(1))
+*** SESSION ID:(10.39800) 2021-03-07T18:14:23.462511+00:00
+*** CLIENT ID:() 2021-03-07T18:14:23.462517+00:00
+*** SERVICE NAME:() 2021-03-07T18:14:23.462522+00:00
+*** MODULE NAME:() 2021-03-07T18:14:23.462526+00:00
+*** ACTION NAME:() 2021-03-07T18:14:23.462531+00:00
+*** CLIENT DRIVER:() 2021-03-07T18:14:23.462535+00:00
+*** CONTAINER ID:(1) 2021-03-07T18:14:23.462540+00:00
+ 
+Created 2 redo writer workers (2 groups of 1 each)
+
+*** 2021-03-07T18:20:34.111747+00:00 (CDB$ROOT(1))
+kcrfw_slave_adaptive_updatemode: scalable->single group0=682 all=900 rw=1093 single=1740 scalable_nopipe=2186 scalable_pipe=1639 scalable=2011
+
+*** 2021-03-07T18:20:34.111819+00:00 (CDB$ROOT(1))
+Adaptive scalable LGWR disabling workers

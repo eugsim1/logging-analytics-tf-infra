@@ -1,0 +1,52 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_m000_15139.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	cust-db19
+Release:	5.4.17-2036.102.0.2.el7uek.x86_64
+Version:	#2 SMP Tue Jan 5 12:41:34 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 0 <none>
+Oracle process number: 8
+Unix process pid: 15139, image: oracle@cust-db19 (M000)
+
+
+*** 2021-03-07T18:11:40.680265+00:00 (CDB$ROOT(1))
+*** SESSION ID:(19.30258) 2021-03-07T18:11:40.680293+00:00
+*** CLIENT ID:() 2021-03-07T18:11:40.680298+00:00
+*** SERVICE NAME:() 2021-03-07T18:11:40.680303+00:00
+*** MODULE NAME:(MMON_SLAVE) 2021-03-07T18:11:40.680307+00:00
+*** ACTION NAME:(Sweep incidents slave action) 2021-03-07T18:11:40.680313+00:00
+*** CLIENT DRIVER:() 2021-03-07T18:11:40.680318+00:00
+*** CONTAINER ID:(1) 2021-03-07T18:11:40.680323+00:00
+ 
+*********** START A RUN OF [Sweep incidents slave action] *************
+
+*** 2021-03-07T18:11:46.974192+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-07T18:11:46.974237+00:00
+*** ACTION NAME:(CLI Partition execution) 2021-03-07T18:11:46.974243+00:00
+*** CONTAINER ID:(1) 2021-03-07T18:11:46.974248+00:00
+ 
+*********** START A RUN OF [CLI Partition execution] *************
+*** MODULE NAME:(MMON_SLAVE) 2021-03-07T18:11:46.974301+00:00
+*** ACTION NAME:(Monitor Tablespace Thresholds) 2021-03-07T18:11:46.974308+00:00
+*** CONTAINER ID:(1) 2021-03-07T18:11:46.974313+00:00
+ 
+*********** START A RUN OF [Monitor Tablespace Thresholds] *************
+
+*** 2021-03-07T18:12:41.923788+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-07T18:12:41.923829+00:00
+*** ACTION NAME:(KDILM background CLeaNup) 2021-03-07T18:12:41.923835+00:00
+*** CONTAINER ID:(1) 2021-03-07T18:12:41.923840+00:00
+ 
+*********** START A RUN OF [KDILM background CLeaNup] *************
+
+*** 2021-03-07T18:13:44.514849+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-07T18:13:44.514884+00:00
+*** ACTION NAME:(Automatic Report Flush) 2021-03-07T18:13:44.514891+00:00
+*** CONTAINER ID:(1) 2021-03-07T18:13:44.514896+00:00
+ 
+*********** START A RUN OF [Automatic Report Flush] *************

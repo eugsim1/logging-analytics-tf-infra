@@ -1,0 +1,30 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_mz00_18371.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	bastionlogan
+Release:	5.4.17-2036.103.3.1.el7uek.x86_64
+Version:	#2 SMP Sun Feb 14 12:48:17 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 1
+Oracle process number: 41
+Unix process pid: 18371, image: oracle@bastionlogan (MZ00)
+
+
+*** 2021-03-05T14:31:05.068588+00:00
+*** SESSION ID:(258.18428) 2021-03-05T14:31:05.068609+00:00
+*** CLIENT ID:() 2021-03-05T14:31:05.068614+00:00
+*** SERVICE NAME:() 2021-03-05T14:31:05.068617+00:00
+*** MODULE NAME:(MMON_SLAVE) 2021-03-05T14:31:05.068621+00:00
+*** ACTION NAME:(DDE async action) 2021-03-05T14:31:05.068626+00:00
+*** CLIENT DRIVER:() 2021-03-05T14:31:05.068630+00:00
+*** CONTAINER ID:(1) 2021-03-05T14:31:05.068634+00:00
+ 
+========= Dump for error ORA 1110 (no incident) ========
+----- DDE Action: 'DB_STRUCTURE_INTEGRITY_CHECK' (Async) -----
+dbkh_reactive_run_check: BEGIN
+dbkh_reactive_run_check: END
+-------------------------------------------------------

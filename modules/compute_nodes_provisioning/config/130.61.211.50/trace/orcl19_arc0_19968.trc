@@ -1,0 +1,26 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_arc0_19968.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	bastionlogan
+Release:	5.4.17-2036.103.3.1.el7uek.x86_64
+Version:	#2 SMP Sun Feb 14 12:48:17 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 1
+Oracle process number: 40
+Unix process pid: 19968, image: oracle@bastionlogan (ARC0)
+
+
+*** 2021-03-05T16:04:29.490797+00:00 (CDB$ROOT(1))
+*** SESSION ID:(23.4576) 2021-03-05T16:04:29.490818+00:00
+*** CLIENT ID:() 2021-03-05T16:04:29.490822+00:00
+*** SERVICE NAME:() 2021-03-05T16:04:29.490825+00:00
+*** MODULE NAME:() 2021-03-05T16:04:29.490827+00:00
+*** ACTION NAME:() 2021-03-05T16:04:29.490830+00:00
+*** CLIENT DRIVER:() 2021-03-05T16:04:29.490832+00:00
+*** CONTAINER ID:(1) 2021-03-05T16:04:29.490835+00:00
+ 
+krsv_proc_add: Request to add process to V$MANAGED_STANDBY [krss.c:2851]

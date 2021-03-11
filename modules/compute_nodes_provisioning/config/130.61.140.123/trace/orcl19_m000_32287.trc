@@ -1,0 +1,40 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_m000_32287.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	cust-db19
+Release:	5.4.17-2036.102.0.2.el7uek.x86_64
+Version:	#2 SMP Tue Jan 5 12:41:34 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 1
+Oracle process number: 57
+Unix process pid: 32287, image: oracle@cust-db19 (M000)
+
+
+*** 2021-03-08T06:48:30.257277+00:00 (CDB$ROOT(1))
+*** SESSION ID:(276.54443) 2021-03-08T06:48:30.257295+00:00
+*** CLIENT ID:() 2021-03-08T06:48:30.257299+00:00
+*** SERVICE NAME:(SYS$BACKGROUND) 2021-03-08T06:48:30.257302+00:00
+*** MODULE NAME:(MMON_SLAVE) 2021-03-08T06:48:30.257305+00:00
+*** ACTION NAME:(CLI Partition execution) 2021-03-08T06:48:30.257308+00:00
+*** CLIENT DRIVER:() 2021-03-08T06:48:30.257310+00:00
+*** CONTAINER ID:(1) 2021-03-08T06:48:30.257314+00:00
+ 
+*********** START A RUN OF [CLI Partition execution] *************
+
+*** 2021-03-08T06:49:33.494864+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-08T06:49:33.494918+00:00
+*** ACTION NAME:(Intensive AutoTask Dispatcher) 2021-03-08T06:49:33.494924+00:00
+*** CONTAINER ID:(1) 2021-03-08T06:49:33.494927+00:00
+ 
+*********** START A RUN OF [Intensive AutoTask Dispatcher] *************
+
+*** 2021-03-08T06:52:34.167047+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-08T06:52:34.167131+00:00
+*** ACTION NAME:(Automatic Report Flush) 2021-03-08T06:52:34.167136+00:00
+*** CONTAINER ID:(1) 2021-03-08T06:52:34.167139+00:00
+ 
+*********** START A RUN OF [Automatic Report Flush] *************

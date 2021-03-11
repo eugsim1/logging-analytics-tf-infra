@@ -241,7 +241,7 @@ cat <<EOF>agent_dbcreds.json
 }
 EOF
 cat agent_dbcreds.json| sudo -u mgmt_agent /opt/oracle/mgmt_agent/agent_inst/bin/credential_mgmt.sh -o upsertCredentials -s logan
-
+sudo chmod -R go+rx /var/log
 sudo rm -rf jdk-8u281-linux-x64.tar.gz
 sudo rm -rf /tmp/input.rsp
 sudo rm -rf Agent

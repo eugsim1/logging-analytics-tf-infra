@@ -1,0 +1,29 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_ora_11066.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	cust-db19
+Release:	5.4.17-2036.102.0.2.el7uek.x86_64
+Version:	#2 SMP Tue Jan 5 12:41:34 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 1
+Oracle process number: 60
+Unix process pid: 11066, image: oracle@cust-db19 (TNS V1-V3)
+
+
+*** 2021-03-08T08:54:48.805909+00:00 (PDB19(3))
+*** SESSION ID:(45.37602) 2021-03-08T08:54:48.805930+00:00
+*** CLIENT ID:() 2021-03-08T08:54:48.805933+00:00
+*** SERVICE NAME:(SYS$USERS) 2021-03-08T08:54:48.805936+00:00
+*** MODULE NAME:(sqlplus@cust-db19 (TNS V1-V3)) 2021-03-08T08:54:48.805939+00:00
+*** ACTION NAME:() 2021-03-08T08:54:48.805942+00:00
+*** CLIENT DRIVER:(SQL*PLUS) 2021-03-08T08:54:48.805945+00:00
+*** CONTAINER ID:(3) 2021-03-08T08:54:48.805947+00:00
+ 
+86B64B6701F5012EE053F706E80A06B7
+
+*** 2021-03-08T08:54:49.014803+00:00 (PDB19(3))
+joxcsys_required_dirobj_exists: directory object exists with required path /u01/app/oracle/product/19c/dbhome_1/javavm/admin/, pid 11066 cid 3

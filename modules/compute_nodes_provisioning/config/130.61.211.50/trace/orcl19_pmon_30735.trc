@@ -1,0 +1,53 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_pmon_30735.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	bastionlogan
+Release:	5.4.17-2036.103.3.1.el7uek.x86_64
+Version:	#2 SMP Sun Feb 14 12:48:17 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 1
+Oracle process number: 2
+Unix process pid: 30735, image: oracle@bastionlogan (PMON)
+
+
+*** 2021-03-05T17:46:31.967507+00:00 (CDB$ROOT(1))
+*** SESSION ID:(1.45790) 2021-03-05T17:46:31.967536+00:00
+*** CLIENT ID:() 2021-03-05T17:46:31.967541+00:00
+*** SERVICE NAME:(SYS$BACKGROUND) 2021-03-05T17:46:31.967545+00:00
+*** MODULE NAME:() 2021-03-05T17:46:31.967549+00:00
+*** ACTION NAME:() 2021-03-05T17:46:31.967553+00:00
+*** CLIENT DRIVER:() 2021-03-05T17:46:31.967557+00:00
+*** CONTAINER ID:(1) 2021-03-05T17:46:31.967561+00:00
+ 
+Marked process 0x704ebe28 pid=13 serial=1 ospid=30757_30757 newly dead
+
+*** 2021-03-05T17:46:32.019574+00:00 (CDB$ROOT(1))
+Marked process 0x70507f08 pid=34 serial=1 ospid=30802 newly dead
+
+*** 2021-03-05T17:46:33.036324+00:00 (CDB$ROOT(1))
+Marked process 0x7050d488 pid=38 serial=2 ospid=30819 newly dead
+User session information :
+  sid: 17 ser: 62210
+  client details:
+    O/S info: user: oracle, term: pts/4, ospid: 30609
+    machine: bastionlogan program: sqlplus@bastionlogan (TNS V1-V3)
+    application name: sqlplus@bastionlogan (TNS V1-V3), hash value=105973848
+Marked process 0x7051aa48 pid=48 serial=3 ospid=30852 newly dead
+User session information :
+  sid: 29 ser: 19314
+  client details:
+    O/S info: user: root, term: unknown, ospid: 4388
+    machine: DESKTOP-G6UOFFL program: SQL Developer
+    application name: SQL Developer, hash value=1012150930
+Marked process 0x70523fe8 pid=55 serial=24 ospid=7668 newly dead
+User session information :
+  sid: 273 ser: 52391
+  client details:
+    O/S info: user: mgmt_agent, term: unknown, ospid: 1234
+    machine: bastionlogan.lbpbreg.lbvcn1.oraclevcn.com program: JDBC Thin Client
+    application name: la_database_sql, hash value=2837797060
+    action name: query_oracledb, hash value=1981891240

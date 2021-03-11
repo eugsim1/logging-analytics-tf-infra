@@ -1,0 +1,37 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_mz01_5394.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	cust-db19
+Release:	5.4.17-2036.102.0.2.el7uek.x86_64
+Version:	#2 SMP Tue Jan 5 12:41:34 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 1
+Oracle process number: 62
+Unix process pid: 5394, image: oracle@cust-db19 (MZ01)
+
+
+*** 2021-03-08T14:25:59.350549+00:00 (PDB19(3))
+*** SESSION ID:(39.11782) 2021-03-08T14:25:59.350577+00:00
+*** CLIENT ID:() 2021-03-08T14:25:59.350581+00:00
+*** SERVICE NAME:(SYS$BACKGROUND) 2021-03-08T14:25:59.350585+00:00
+*** MODULE NAME:(MMON_SLAVE) 2021-03-08T14:25:59.350589+00:00
+*** ACTION NAME:(Auto-DBFUS Action) 2021-03-08T14:25:59.350592+00:00
+*** CLIENT DRIVER:() 2021-03-08T14:25:59.350596+00:00
+*** CONTAINER ID:(3) 2021-03-08T14:25:59.350599+00:00
+ 
+kgxgncin: clsssinit: CLSS init failed with status 3
+kgxgncin: clsssinit: return status 3 (0 SKGXN not av) from CLSS
+kgxgncin: clsssinit: CLSS init failed with status 3
+kgxgncin: clsssinit: return status 3 (0 SKGXN not av) from CLSS
+kgxgncin: clsssinit: CLSS init failed with status 3
+kgxgncin: clsssinit: return status 3 (0 SKGXN not av) from CLSS
+kgxgncin: clsssinit: CLSS init failed with status 3
+kgxgncin: clsssinit: return status 3 (0 SKGXN not av) from CLSS
+
+*** 2021-03-08T14:26:16.882398+00:00 (PDB19(3))
+kgxgncin: clsssinit: CLSS init failed with status 3
+kgxgncin: clsssinit: return status 3 (0 SKGXN not av) from CLSS

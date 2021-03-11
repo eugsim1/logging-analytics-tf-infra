@@ -1,0 +1,40 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_mz03_13562.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	cust-db19
+Release:	5.4.17-2036.102.0.2.el7uek.x86_64
+Version:	#2 SMP Tue Jan 5 12:41:34 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 1
+Oracle process number: 60
+Unix process pid: 13562, image: oracle@cust-db19 (MZ03)
+
+
+*** 2021-03-07T18:08:43.446290+00:00 (CDB$ROOT(1))
+*** SESSION ID:(38.39243) 2021-03-07T18:08:43.446332+00:00
+*** CLIENT ID:() 2021-03-07T18:08:43.446338+00:00
+*** SERVICE NAME:(SYS$BACKGROUND) 2021-03-07T18:08:43.446344+00:00
+*** MODULE NAME:(MMON_SLAVE) 2021-03-07T18:08:43.446349+00:00
+*** ACTION NAME:(Flush KSXM hash table action) 2021-03-07T18:08:43.446355+00:00
+*** CLIENT DRIVER:() 2021-03-07T18:08:43.446360+00:00
+*** CONTAINER ID:(1) 2021-03-07T18:08:43.446366+00:00
+ 
+  name=SYS.DBMS_STATS_INTERNAL
+  name=SYS.DBMS_STATS_INTERNAL_AGG
+
+*** 2021-03-07T18:08:46.609727+00:00 (CDB$ROOT(1))
+  name=SYS.DBMS_STATS_ADVISOR
+
+*** 2021-03-07T18:08:47.585709+00:00 (PDB$SEED(2))
+  name=SYS.DBMS_STATS_INTERNAL
+
+*** 2021-03-07T18:08:48.667810+00:00 (PDB$SEED(2))
+  name=SYS.DBMS_STATS_INTERNAL
+  name=SYS.DBMS_STATS_INTERNAL_AGG
+
+*** 2021-03-07T18:08:49.378304+00:00 (PDB$SEED(2))
+  name=SYS.DBMS_SPD_INTERNAL

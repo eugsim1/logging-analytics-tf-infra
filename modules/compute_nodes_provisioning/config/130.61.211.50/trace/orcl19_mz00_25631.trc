@@ -1,0 +1,27 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_mz00_25631.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	bastionlogan
+Release:	5.4.17-2036.103.3.1.el7uek.x86_64
+Version:	#2 SMP Sun Feb 14 12:48:17 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 0 <none>
+Oracle process number: 38
+Unix process pid: 25631, image: oracle@bastionlogan (MZ00)
+
+
+*** 2021-03-05T17:54:59.368872+00:00 (CDB$ROOT(1))
+*** SESSION ID:(22.47264) 2021-03-05T17:54:59.368899+00:00
+*** CLIENT ID:() 2021-03-05T17:54:59.368903+00:00
+*** SERVICE NAME:() 2021-03-05T17:54:59.368907+00:00
+*** MODULE NAME:(MMON_SLAVE) 2021-03-05T17:54:59.368910+00:00
+*** ACTION NAME:(Advance DML freqs to next slot) 2021-03-05T17:54:59.368915+00:00
+*** CLIENT DRIVER:() 2021-03-05T17:54:59.368919+00:00
+*** CONTAINER ID:(1) 2021-03-05T17:54:59.368923+00:00
+ 
+kebmpsp_2: fail to switch into container con_id=[2]
+kebmpsp_2: fail to switch into container con_id=[3]

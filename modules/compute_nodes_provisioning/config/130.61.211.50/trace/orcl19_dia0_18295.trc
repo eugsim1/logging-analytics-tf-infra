@@ -1,0 +1,32 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_dia0_18295.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	bastionlogan
+Release:	5.4.17-2036.103.3.1.el7uek.x86_64
+Version:	#2 SMP Sun Feb 14 12:48:17 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 0 <none>
+Oracle process number: 18
+Unix process pid: 18295, image: oracle@bastionlogan (DIA0)
+
+
+*** 2021-03-05T14:30:58.180390+00:00 (CDB$ROOT(1))
+*** SESSION ID:(9.47302) 2021-03-05T14:30:58.180416+00:00
+*** CLIENT ID:() 2021-03-05T14:30:58.180421+00:00
+*** SERVICE NAME:() 2021-03-05T14:30:58.180424+00:00
+*** MODULE NAME:() 2021-03-05T14:30:58.180428+00:00
+*** ACTION NAME:() 2021-03-05T14:30:58.180432+00:00
+*** CLIENT DRIVER:() 2021-03-05T14:30:58.180435+00:00
+*** CONTAINER ID:(1) 2021-03-05T14:30:58.180440+00:00
+ 
+HM: Early Warning and/or Long Waiting Session (LWS) is enabled.
+    The output can be found in trace files of the form:
+    orcl19_dia0_18295_lws_n.trc where n is a number between 1 and 5.
+
+*** 2021-03-05T14:30:58.180462+00:00 (CDB$ROOT(1))
+HM: Moving the default trace file to: orcl19_dia0_18295_base_1.trc
+ 

@@ -1,0 +1,58 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_mmon_19942.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	bastionlogan
+Release:	5.4.17-2036.103.3.1.el7uek.x86_64
+Version:	#2 SMP Sun Feb 14 12:48:17 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 0 <none>
+Oracle process number: 32
+Unix process pid: 19942, image: oracle@bastionlogan (MMON)
+
+
+*** 2021-03-05T16:04:28.090780+00:00 (CDB$ROOT(1))
+*** SESSION ID:(16.59240) 2021-03-05T16:04:28.090801+00:00
+*** CLIENT ID:() 2021-03-05T16:04:28.090805+00:00
+*** SERVICE NAME:() 2021-03-05T16:04:28.090808+00:00
+*** MODULE NAME:() 2021-03-05T16:04:28.090810+00:00
+*** ACTION NAME:() 2021-03-05T16:04:28.090813+00:00
+*** CLIENT DRIVER:() 2021-03-05T16:04:28.090815+00:00
+*** CONTAINER ID:(1) 2021-03-05T16:04:28.090818+00:00
+ 
+dbkrfssm: mmon not open
+
+*** 2021-03-05T16:04:31.981454+00:00 (CDB$ROOT(1))
+QPI: Obtaining lock SUCCESSFUL, qp_result=0 at : 05-MAR-21 04.04.31.975473000 PM +00:00
+QPI: Got lock get_opatch_lsinventory
+QPI: In opatch_run_job
+QPI: In sanity check..
+QPI:  t_root is /u01/app/oracle/product/19c/dbhome_1/
+QPI:  t_orabase is /u01/app/oracle/product/19c/dbhome_1/
+QPI:  t_op_inst_path is /u01/app/oracle/product/19c/dbhome_1/OPatch/
+QPI:  t_op_scpt_path is /u01/app/oracle/product/19c/dbhome_1/QOpatch/
+QPI:  t_op_log_path is /u01/app/oracle/product/19c/dbhome_1/rdbms/log/
+QPI: op_scpt_path :/u01/app/oracle/product/19c/dbhome_1/QOpatchpos1
+QPI: opatch file present, opatch
+QPI: qopiprep.bat file present
+QPI: In opatch_inv_refresh_job
+QPI: In REFRESH_OPATCH_DATA
+
+*** 2021-03-05T16:04:33.905257+00:00 (CDB$ROOT(1))
+QPI: Latest xml inventory is loaded into table
+QPI: Release lock get_opatch_lsinventory
+QPI: Releasing lock SUCCESSFUL, qp_result=0 at : 05-MAR-21 04.04.33.949580000 PM +00:00
+keh_auto_cb: Auto ADDM Action Failed - no msg (Len 0 != 80)
+
+*** 2021-03-05T16:11:29.740463+00:00 (CDB$ROOT(1))
+keh_auto_cb: Auto ADDM Action Failed - no msg (Len 0 != 80)
+
+*** 2021-03-05T16:18:30.989641+00:00 (CDB$ROOT(1))
+keh_auto_cb: Auto ADDM Action Failed - no msg (Len 0 != 80)
+keh_auto_cb: Auto ADDM Action Failed - no msg (Len 0 != 80)
+
+*** 2021-03-05T16:32:33.810959+00:00 (CDB$ROOT(1))
+keh_auto_cb: Auto ADDM Action Failed - no msg (Len 0 != 80)

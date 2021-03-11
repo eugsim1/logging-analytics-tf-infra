@@ -1,0 +1,87 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_m003_23381.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	cust-db19
+Release:	5.4.17-2036.102.0.2.el7uek.x86_64
+Version:	#2 SMP Tue Jan 5 12:41:34 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 1
+Oracle process number: 53
+Unix process pid: 23381, image: oracle@cust-db19 (M003)
+
+
+*** 2021-03-09T08:12:36.650332+00:00 (CDB$ROOT(1))
+*** SESSION ID:(264.19163) 2021-03-09T08:12:36.650359+00:00
+*** CLIENT ID:() 2021-03-09T08:12:36.650363+00:00
+*** SERVICE NAME:(SYS$BACKGROUND) 2021-03-09T08:12:36.650367+00:00
+*** MODULE NAME:(MMON_SLAVE) 2021-03-09T08:12:36.650372+00:00
+*** ACTION NAME:(KDILM background EXEcution) 2021-03-09T08:12:36.650376+00:00
+*** CLIENT DRIVER:() 2021-03-09T08:12:36.650381+00:00
+*** CONTAINER ID:(1) 2021-03-09T08:12:36.650387+00:00
+ 
+*********** START A RUN OF [KDILM background EXEcution] *************
+
+*** 2021-03-09T08:14:37.098038+00:00 (CDB$ROOT(1))
+*** CONTAINER ID:(1) 2021-03-09T08:14:37.098090+00:00
+ 
+*********** START A RUN OF [KDILM background EXEcution] *************
+*** MODULE NAME:(MMON_SLAVE) 2021-03-09T08:14:37.098326+00:00
+*** ACTION NAME:(KDILM background CLeaNup) 2021-03-09T08:14:37.098335+00:00
+*** CONTAINER ID:(1) 2021-03-09T08:14:37.098340+00:00
+ 
+*********** START A RUN OF [KDILM background CLeaNup] *************
+*** MODULE NAME:(MMON_SLAVE) 2021-03-09T08:14:37.098556+00:00
+*** ACTION NAME:(Automatic Report Flush) 2021-03-09T08:14:37.098566+00:00
+*** CONTAINER ID:(1) 2021-03-09T08:14:37.098570+00:00
+ 
+*********** START A RUN OF [Automatic Report Flush] *************
+
+*** 2021-03-09T08:15:37.388056+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-09T08:15:37.388091+00:00
+*** ACTION NAME:(Intensive AutoTask Dispatcher) 2021-03-09T08:15:37.388097+00:00
+*** CONTAINER ID:(1) 2021-03-09T08:15:37.388101+00:00
+ 
+*********** START A RUN OF [Intensive AutoTask Dispatcher] *************
+*** MODULE NAME:(MMON_SLAVE) 2021-03-09T08:15:37.388313+00:00
+*** ACTION NAME:(Automatic Report Flush) 2021-03-09T08:15:37.388321+00:00
+*** CONTAINER ID:(1) 2021-03-09T08:15:37.388325+00:00
+ 
+*********** START A RUN OF [Automatic Report Flush] *************
+
+*** 2021-03-09T08:19:38.280072+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-09T08:19:38.280124+00:00
+*** ACTION NAME:(KDILM background EXEcution) 2021-03-09T08:19:38.280131+00:00
+*** CONTAINER ID:(1) 2021-03-09T08:19:38.280135+00:00
+ 
+*********** START A RUN OF [KDILM background EXEcution] *************
+*** MODULE NAME:(MMON_SLAVE) 2021-03-09T08:19:38.280374+00:00
+*** ACTION NAME:(KDILM background CLeaNup) 2021-03-09T08:19:38.280385+00:00
+*** CONTAINER ID:(1) 2021-03-09T08:19:38.280392+00:00
+ 
+*********** START A RUN OF [KDILM background CLeaNup] *************
+*** MODULE NAME:(MMON_SLAVE) 2021-03-09T08:19:38.280512+00:00
+*** ACTION NAME:(Intensive AutoTask Dispatcher) 2021-03-09T08:19:38.280520+00:00
+*** CONTAINER ID:(1) 2021-03-09T08:19:38.280525+00:00
+ 
+*********** START A RUN OF [Intensive AutoTask Dispatcher] *************
+*** MODULE NAME:(MMON_SLAVE) 2021-03-09T08:19:38.280570+00:00
+*** ACTION NAME:(Automatic Report Flush) 2021-03-09T08:19:38.280576+00:00
+*** CONTAINER ID:(1) 2021-03-09T08:19:38.280580+00:00
+ 
+*********** START A RUN OF [Automatic Report Flush] *************
+
+*** 2021-03-09T08:20:38.440846+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-09T08:20:38.440879+00:00
+*** ACTION NAME:(KDILM background CLeaNup) 2021-03-09T08:20:38.440885+00:00
+*** CONTAINER ID:(1) 2021-03-09T08:20:38.440889+00:00
+ 
+*********** START A RUN OF [KDILM background CLeaNup] *************
+*** MODULE NAME:(MMON_SLAVE) 2021-03-09T08:20:38.441111+00:00
+*** ACTION NAME:(Auto-Flush Slave Action) 2021-03-09T08:20:38.441120+00:00
+*** CONTAINER ID:(1) 2021-03-09T08:20:38.441125+00:00
+ 
+*********** START A RUN OF [Auto-Flush Slave Action] *************

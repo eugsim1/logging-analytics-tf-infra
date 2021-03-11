@@ -1,0 +1,41 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_lgwr_25475.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	bastionlogan
+Release:	5.4.17-2036.103.3.1.el7uek.x86_64
+Version:	#2 SMP Sun Feb 14 12:48:17 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 0 <none>
+Oracle process number: 20
+Unix process pid: 25475, image: oracle@bastionlogan (LGWR)
+
+
+*** 2021-03-05T17:54:56.179699+00:00 (CDB$ROOT(1))
+*** SESSION ID:(10.24553) 2021-03-05T17:54:56.179743+00:00
+*** CLIENT ID:() 2021-03-05T17:54:56.179748+00:00
+*** SERVICE NAME:() 2021-03-05T17:54:56.179752+00:00
+*** MODULE NAME:() 2021-03-05T17:54:56.179756+00:00
+*** ACTION NAME:() 2021-03-05T17:54:56.179760+00:00
+*** CLIENT DRIVER:() 2021-03-05T17:54:56.179763+00:00
+*** CONTAINER ID:(1) 2021-03-05T17:54:56.179768+00:00
+ 
+Created 2 redo writer workers (2 groups of 1 each)
+Control file resized from 1172 to 1174 blocks
+
+*** 2021-03-10T18:30:01.344237+00:00 (CDB$ROOT(1))
+kccrsd_append: rectype = 9, lbn = 586, recs = 292
+Control file resized from 1206 to 1210 blocks
+
+*** 2021-03-10T23:22:01.622660+00:00 (CDB$ROOT(1))
+kccrsd_append: rectype = 9, lbn = 603, recs = 584
+*** 2021-03-11 06:16:36.181958 [krsv.c:2729]
+
+*** 2021-03-11T06:16:36.183116+00:00 (CDB$ROOT(1))
+krso_proc_stop: Clearing start ARCH error state
+
+*** 2021-03-11T06:16:37.183296+00:00 (CDB$ROOT(1))
+Waking up the heartbeat redo informer process

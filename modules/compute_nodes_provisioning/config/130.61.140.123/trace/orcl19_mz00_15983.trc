@@ -1,0 +1,270 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_mz00_15983.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	cust-db19
+Release:	5.4.17-2036.102.0.2.el7uek.x86_64
+Version:	#2 SMP Tue Jan 5 12:41:34 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 1
+Oracle process number: 56
+Unix process pid: 15983, image: oracle@cust-db19 (MZ00)
+
+
+*** 2021-03-07T18:13:30.821196+00:00 (CDB$ROOT(1))
+*** SESSION ID:(35.56271) 2021-03-07T18:13:30.821233+00:00
+*** CLIENT ID:() 2021-03-07T18:13:30.821239+00:00
+*** SERVICE NAME:(SYS$BACKGROUND) 2021-03-07T18:13:30.821245+00:00
+*** MODULE NAME:(MMON_SLAVE) 2021-03-07T18:13:30.821251+00:00
+*** ACTION NAME:(JAVAVM JIT slave action) 2021-03-07T18:13:30.821256+00:00
+*** CLIENT DRIVER:() 2021-03-07T18:13:30.821261+00:00
+*** CONTAINER ID:(1) 2021-03-07T18:13:30.821266+00:00
+ 
+JIT starting
+
+*** 2021-03-07T18:13:30.821294+00:00 (CDB$ROOT(1))
+JIT running
+Compiling for container 1
+Compiling java/net/NetPermission.<init>:(Ljava/lang/String;)V
+Reading CompilerOptions...
+
+*** 2021-03-07T18:13:33.646634+00:00 (PDB$SEED(2))
+Loading newly compiled method 0 from SYS.java/net/NetPermission in container 2
+
+*** 2021-03-07T18:13:33.648142+00:00 (CDB$ROOT(1))
+Done compiling java/net/NetPermission.<init>
+Compiling java/lang/Class.forName:(Ljava/lang/String;)Ljava/lang/Class;
+
+*** 2021-03-07T18:13:33.712901+00:00 (PDB$SEED(2))
+Loading newly compiled method 107 from SYS.java/lang/Class in container 2
+
+*** 2021-03-07T18:13:33.713434+00:00 (CDB$ROOT(1))
+Done compiling java/lang/Class.forName
+Compiling sun/nio/cs/UTF_8.newEncoder:()Ljava/nio/charset/CharsetEncoder;
+
+*** 2021-03-07T18:13:33.731159+00:00 (PDB$SEED(2))
+Loading newly compiled method 1 from SYS.java/nio/charset/CharsetEncoder in container 2
+Loading newly compiled method 0 from SYS.sun/nio/cs/UTF_8$Encoder in container 2
+Loading newly compiled method 8 from SYS.sun/nio/cs/UTF_8$Encoder in container 2
+Loading newly compiled method 3 from SYS.sun/nio/cs/UTF_8 in container 2
+
+*** 2021-03-07T18:13:33.783426+00:00 (CDB$ROOT(1))
+Done compiling sun/nio/cs/UTF_8.newEncoder
+Compiling java/util/Locale$LocaleKey.hashCode:()I
+
+*** 2021-03-07T18:13:33.788637+00:00 (PDB$SEED(2))
+Loading newly compiled method 2 from SYS.java/util/Locale$LocaleKey in container 2
+
+*** 2021-03-07T18:13:33.788959+00:00 (CDB$ROOT(1))
+Done compiling java/util/Locale$LocaleKey.hashCode
+Compiling java/io/PrintStream.requireNonNull:(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+
+*** 2021-03-07T18:13:33.815821+00:00 (PDB$SEED(2))
+Loading newly compiled method 50 from SYS.java/io/PrintStream in container 2
+
+*** 2021-03-07T18:13:33.816281+00:00 (CDB$ROOT(1))
+Done compiling java/io/PrintStream.requireNonNull
+Compiling java/security/SecurityPermission.<init>:(Ljava/lang/String;)V
+
+*** 2021-03-07T18:13:33.823139+00:00 (PDB$SEED(2))
+Loading newly compiled method 0 from SYS.java/security/SecurityPermission in container 2
+
+*** 2021-03-07T18:13:33.823500+00:00 (CDB$ROOT(1))
+Done compiling java/security/SecurityPermission.<init>
+Compiling java/lang/ThreadGroup.getParent:()Ljava/lang/ThreadGroup;
+
+*** 2021-03-07T18:13:33.842592+00:00 (PDB$SEED(2))
+Loading newly compiled method 12 from SYS.java/lang/ThreadGroup in container 2
+Loading newly compiled method 5 from SYS.java/lang/ThreadGroup in container 2
+
+*** 2021-03-07T18:13:33.848174+00:00 (CDB$ROOT(1))
+Done compiling java/lang/ThreadGroup.getParent
+Compiling java/io/FileDescriptor.<init>:(I)V
+
+*** 2021-03-07T18:13:33.853393+00:00 (PDB$SEED(2))
+Loading newly compiled method 1 from SYS.java/io/FileDescriptor in container 2
+
+*** 2021-03-07T18:13:33.853815+00:00 (CDB$ROOT(1))
+Done compiling java/io/FileDescriptor.<init>
+Compiling java/io/FileDescriptor.getStandardFD:(I)Ljava/io/FileDescriptor;
+
+*** 2021-03-07T18:13:33.863317+00:00 (PDB$SEED(2))
+Loading newly compiled method 8 from SYS.java/io/FileDescriptor in container 2
+Loading newly compiled method 9 from SYS.java/io/FileDescriptor in container 2
+
+*** 2021-03-07T18:13:33.871430+00:00 (CDB$ROOT(1))
+Done compiling java/io/FileDescriptor.getStandardFD
+Compiling java/nio/charset/CodingErrorAction.<init>:(Ljava/lang/String;)V
+
+*** 2021-03-07T18:13:33.878846+00:00 (PDB$SEED(2))
+Loading newly compiled method 0 from SYS.java/nio/charset/CodingErrorAction in container 2
+
+*** 2021-03-07T18:13:33.879152+00:00 (CDB$ROOT(1))
+Done compiling java/nio/charset/CodingErrorAction.<init>
+Compiling sun/nio/cs/FastCharsetProvider.canonicalize:(Ljava/lang/String;)Ljava/lang/String;
+
+*** 2021-03-07T18:13:33.892974+00:00 (PDB$SEED(2))
+Loading newly compiled method 2 from SYS.sun/nio/cs/FastCharsetProvider in container 2
+
+*** 2021-03-07T18:13:33.893318+00:00 (CDB$ROOT(1))
+Done compiling sun/nio/cs/FastCharsetProvider.canonicalize
+Compiling java/nio/charset/Charset.lookup2:(Ljava/lang/String;)Ljava/nio/charset/Charset;
+
+*** 2021-03-07T18:13:33.964911+00:00 (PDB$SEED(2))
+Loading newly compiled method 22 from SYS.java/nio/charset/Charset in container 2
+Loading newly compiled method 27 from SYS.java/nio/charset/Charset in container 2
+
+*** 2021-03-07T18:13:34.000980+00:00 (CDB$ROOT(1))
+Done compiling java/nio/charset/Charset.lookup2
+Compiling java/nio/charset/CharsetEncoder.<init>:(Ljava/nio/charset/Charset;FF[B)V
+
+*** 2021-03-07T18:13:34.052159+00:00 (PDB$SEED(2))
+Loading newly compiled method 0 from SYS.java/nio/charset/CharsetEncoder in container 2
+
+*** 2021-03-07T18:13:34.052618+00:00 (CDB$ROOT(1))
+Done compiling java/nio/charset/CharsetEncoder.<init>
+Compiling java/nio/charset/CharsetEncoder.replaceWith:([B)Ljava/nio/charset/CharsetEncoder;
+
+*** 2021-03-07T18:13:34.315479+00:00 (PDB$SEED(2))
+Loading newly compiled method 4 from SYS.java/nio/charset/CharsetEncoder in container 2
+
+*** 2021-03-07T18:13:34.315958+00:00 (CDB$ROOT(1))
+Done compiling java/nio/charset/CharsetEncoder.replaceWith
+Compiling sun/nio/cs/UTF_8$Encoder.isLegalReplacement:([B)Z
+
+*** 2021-03-07T18:13:34.326949+00:00 (PDB$SEED(2))
+Loading newly compiled method 2 from SYS.sun/nio/cs/UTF_8$Encoder in container 2
+
+*** 2021-03-07T18:13:34.327333+00:00 (CDB$ROOT(1))
+Done compiling sun/nio/cs/UTF_8$Encoder.isLegalReplacement
+Compiling sun/nio/cs/UTF_8$Encoder.implReplaceWith:([B)V
+
+*** 2021-03-07T18:13:34.332319+00:00 (PDB$SEED(2))
+Loading newly compiled method 6 from SYS.sun/nio/cs/UTF_8$Encoder in container 2
+
+*** 2021-03-07T18:13:34.332664+00:00 (CDB$ROOT(1))
+Done compiling sun/nio/cs/UTF_8$Encoder.implReplaceWith
+Compiling for container 1
+Compiling oracle/aurora/zephyr/bytecode/ByteCode$OpcodeInfo.<init>:(ILjava/lang/String;II)V
+Done compiling oracle/aurora/zephyr/bytecode/ByteCode$OpcodeInfo.<init>
+Compiling oracle/aurora/zephyr/vm/VMServices.getVMMethod:(Ljava/lang/reflect/Method;)Loracle/aurora/zephyr/vm/VMMethod;
+Done compiling oracle/aurora/zephyr/vm/VMServices.getVMMethod
+Compiling oracle/sql/CHAR.getStringWithReplacement:()Ljava/lang/String;
+
+*** 2021-03-07T18:13:34.623997+00:00 (CDB$ROOT(1))
+Done compiling oracle/sql/CHAR.getStringWithReplacement
+Compiling sun/util/locale/BaseLocale$Key.<init>:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
+
+*** 2021-03-07T18:13:34.917544+00:00 (PDB$SEED(2))
+Loading newly compiled method 2 from SYS.sun/util/locale/BaseLocale$Key in container 2
+
+*** 2021-03-07T18:13:34.918096+00:00 (CDB$ROOT(1))
+Done compiling sun/util/locale/BaseLocale$Key.<init>
+Compiling java/lang/ref/SoftReference.<init>:(Ljava/lang/Object;Ljava/lang/ref/ReferenceQueue;)V
+
+*** 2021-03-07T18:13:34.928438+00:00 (PDB$SEED(2))
+Loading newly compiled method 1 from SYS.java/lang/ref/SoftReference in container 2
+
+*** 2021-03-07T18:13:34.928875+00:00 (CDB$ROOT(1))
+Done compiling java/lang/ref/SoftReference.<init>
+Compiling java/util/Collections$EmptyList.iterator:()Ljava/util/Iterator;
+
+*** 2021-03-07T18:13:34.939347+00:00 (PDB$SEED(2))
+Loading newly compiled method 56 from SYS.java/util/Collections in container 2
+Loading newly compiled method 1 from SYS.java/util/Collections$EmptyList in container 2
+
+*** 2021-03-07T18:13:34.946743+00:00 (CDB$ROOT(1))
+Done compiling java/util/Collections$EmptyList.iterator
+Compiling java/util/Collections$EmptyList.isEmpty:()Z
+
+*** 2021-03-07T18:13:34.948814+00:00 (PDB$SEED(2))
+Loading newly compiled method 4 from SYS.java/util/Collections$EmptyList in container 2
+
+*** 2021-03-07T18:13:34.949131+00:00 (CDB$ROOT(1))
+Done compiling java/util/Collections$EmptyList.isEmpty
+Compiling java/security/Policy$PolicyInfo.<init>:(Ljava/security/Policy;Z)V
+
+*** 2021-03-07T18:13:34.955086+00:00 (PDB$SEED(2))
+Loading newly compiled method 0 from SYS.java/security/Policy$PolicyInfo in container 2
+
+*** 2021-03-07T18:13:34.955380+00:00 (CDB$ROOT(1))
+Done compiling java/security/Policy$PolicyInfo.<init>
+Compiling sun/nio/cs/StreamEncoder.forOutputStreamWriter:(Ljava/io/OutputStream;Ljava/lang/Object;Ljava/nio/charset/Charset;)Lsun/nio/cs/StreamEncoder;
+
+*** 2021-03-07T18:13:35.003403+00:00 (PDB$SEED(2))
+Loading newly compiled method 20 from SYS.sun/nio/cs/StreamEncoder in container 2
+
+*** 2021-03-07T18:13:35.003938+00:00 (CDB$ROOT(1))
+Done compiling sun/nio/cs/StreamEncoder.forOutputStreamWriter
+Compiling sun/util/locale/LocaleObjectCache$CacheEntry.<init>:(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/ref/ReferenceQueue;)V
+
+*** 2021-03-07T18:13:35.012583+00:00 (PDB$SEED(2))
+Loading newly compiled method 0 from SYS.sun/util/locale/LocaleObjectCache$CacheEntry in container 2
+
+*** 2021-03-07T18:13:35.013008+00:00 (CDB$ROOT(1))
+Done compiling sun/util/locale/LocaleObjectCache$CacheEntry.<init>
+Compiling java/io/BufferedWriter.<init>:(Ljava/io/Writer;)V
+
+*** 2021-03-07T18:13:35.040074+00:00 (PDB$SEED(2))
+Loading newly compiled method 1 from SYS.java/io/BufferedWriter in container 2
+Loading newly compiled method 0 from SYS.java/io/BufferedWriter in container 2
+
+*** 2021-03-07T18:13:35.044335+00:00 (CDB$ROOT(1))
+Done compiling java/io/BufferedWriter.<init>
+Compiling sun/util/locale/LocaleUtils.toUpperString:(Ljava/lang/String;)Ljava/lang/String;
+
+*** 2021-03-07T18:13:35.103099+00:00 (PDB$SEED(2))
+Loading newly compiled method 3 from SYS.sun/util/locale/LocaleUtils in container 2
+Loading newly compiled method 6 from SYS.sun/util/locale/LocaleUtils in container 2
+
+*** 2021-03-07T18:13:35.149065+00:00 (CDB$ROOT(1))
+Done compiling sun/util/locale/LocaleUtils.toUpperString
+Compiling sun/util/locale/LocaleUtils.toTitleString:(Ljava/lang/String;)Ljava/lang/String;
+
+*** 2021-03-07T18:13:35.185914+00:00 (PDB$SEED(2))
+Loading newly compiled method 7 from SYS.sun/util/locale/LocaleUtils in container 2
+
+*** 2021-03-07T18:13:35.186362+00:00 (CDB$ROOT(1))
+Done compiling sun/util/locale/LocaleUtils.toTitleString
+Compiling sun/util/locale/LocaleUtils.isAlpha:(C)Z
+
+*** 2021-03-07T18:13:35.189543+00:00 (PDB$SEED(2))
+Loading newly compiled method 10 from SYS.sun/util/locale/LocaleUtils in container 2
+
+*** 2021-03-07T18:13:35.189888+00:00 (CDB$ROOT(1))
+Done compiling sun/util/locale/LocaleUtils.isAlpha
+Compiling java/security/Policy.<init>:()V
+
+*** 2021-03-07T18:13:35.196167+00:00 (PDB$SEED(2))
+Loading newly compiled method 0 from SYS.java/security/Policy in container 2
+
+*** 2021-03-07T18:13:35.196484+00:00 (CDB$ROOT(1))
+Done compiling java/security/Policy.<init>
+Compiling java/nio/ByteOrder.<init>:(Ljava/lang/String;)V
+
+*** 2021-03-07T18:13:35.202004+00:00 (PDB$SEED(2))
+Loading newly compiled method 0 from SYS.java/nio/ByteOrder in container 2
+
+*** 2021-03-07T18:13:35.202314+00:00 (CDB$ROOT(1))
+Done compiling java/nio/ByteOrder.<init>
+Compiling sun/util/locale/LocaleObjectCache.<init>:()V
+
+*** 2021-03-07T18:13:35.223298+00:00 (PDB$SEED(2))
+Loading newly compiled method 1 from SYS.sun/util/locale/LocaleObjectCache in container 2
+Loading newly compiled method 0 from SYS.sun/util/locale/LocaleObjectCache in container 2
+
+*** 2021-03-07T18:13:35.228242+00:00 (CDB$ROOT(1))
+Done compiling sun/util/locale/LocaleObjectCache.<init>
+Compiling sun/util/locale/LocaleObjectCache.get:(Ljava/lang/Object;)Ljava/lang/Object;
+
+*** 2021-03-07T18:13:35.338998+00:00 (PDB$SEED(2))
+Loading newly compiled method 4 from SYS.sun/util/locale/LocaleObjectCache in container 2
+
+*** 2021-03-07T18:13:35.489113+00:00 (CDB$ROOT(1))
+joxjitexe(2) caught: 448;
+
+*** 2021-03-07T18:13:35.489174+00:00 (CDB$ROOT(1))
+JIT ending

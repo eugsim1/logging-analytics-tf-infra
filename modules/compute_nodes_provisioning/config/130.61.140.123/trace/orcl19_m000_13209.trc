@@ -1,0 +1,40 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_m000_13209.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	cust-db19
+Release:	5.4.17-2036.102.0.2.el7uek.x86_64
+Version:	#2 SMP Tue Jan 5 12:41:34 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 0 <none>
+Oracle process number: 8
+Unix process pid: 13209, image: oracle@cust-db19 (M000)
+
+
+*** 2021-03-07T18:08:15.688399+00:00 (CDB$ROOT(1))
+*** SESSION ID:(19.5249) 2021-03-07T18:08:15.688427+00:00
+*** CLIENT ID:() 2021-03-07T18:08:15.688433+00:00
+*** SERVICE NAME:() 2021-03-07T18:08:15.688437+00:00
+*** MODULE NAME:(MMON_SLAVE) 2021-03-07T18:08:15.688441+00:00
+*** ACTION NAME:(Sweep incidents slave action) 2021-03-07T18:08:15.688446+00:00
+*** CLIENT DRIVER:() 2021-03-07T18:08:15.688451+00:00
+*** CONTAINER ID:(1) 2021-03-07T18:08:15.688456+00:00
+ 
+*********** START A RUN OF [Sweep incidents slave action] *************
+
+*** 2021-03-07T18:08:41.012469+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-07T18:08:41.012518+00:00
+*** ACTION NAME:(Monitor FRA Space) 2021-03-07T18:08:41.012525+00:00
+*** CONTAINER ID:(1) 2021-03-07T18:08:41.012531+00:00
+ 
+*********** START A RUN OF [Monitor FRA Space] *************
+
+*** 2021-03-07T18:10:18.433743+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-07T18:10:18.433777+00:00
+*** ACTION NAME:(Automatic Report Flush) 2021-03-07T18:10:18.433793+00:00
+*** CONTAINER ID:(1) 2021-03-07T18:10:18.433798+00:00
+ 
+*********** START A RUN OF [Automatic Report Flush] *************

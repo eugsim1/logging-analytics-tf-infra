@@ -1,0 +1,49 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_j001_22452.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	bastionlogan
+Release:	5.4.17-2036.103.3.1.el7uek.x86_64
+Version:	#2 SMP Sun Feb 14 12:48:17 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 1
+Oracle process number: 63
+Unix process pid: 22452, image: oracle@bastionlogan (J001)
+
+
+*** 2021-03-11T06:00:01.165578+00:00 (PDB19(3))
+*** SESSION ID:(280.44026) 2021-03-11T06:00:01.165605+00:00
+*** CLIENT ID:() 2021-03-11T06:00:01.165610+00:00
+*** SERVICE NAME:(SYS$USERS) 2021-03-11T06:00:01.165615+00:00
+*** MODULE NAME:(DBMS_SCHEDULER) 2021-03-11T06:00:01.165620+00:00
+*** ACTION NAME:(ORA$AT_OS_OPT_SY_261) 2021-03-11T06:00:01.165624+00:00
+*** CLIENT DRIVER:() 2021-03-11T06:00:01.165629+00:00
+*** CONTAINER ID:(3) 2021-03-11T06:00:01.165633+00:00
+ 
+
+CursorDiagnosticsNodes:  
+  ChildNode:  ChildNumber=3 ID=3 reason=Optimizer mismatch(12) size=2x476 _fix_control_key= 0                    -866096202           
+  ChildNode:  ChildNumber=5 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=4 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=3 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=2 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=1 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=0 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+AgedOutCursorDiagnosticNodes:  
+  ChildNode:  ChildNumber=4 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=3 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=2 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=1 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=0 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=3 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=2 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=0 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=3 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=1 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=3 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=2 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  
+  ChildNode:  ChildNumber=1 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=000007d000000000  upgradeable_new_oacmxl=0000008000000000  
+  ChildNode:  ChildNumber=0 ID=39 reason=Bind mismatch(22) size=4x8 bind_position=0000000000000000  original_oacflg=0000000300000000  original_oacmxl=0000008000000000  upgradeable_new_oacmxl=000007d000000000  

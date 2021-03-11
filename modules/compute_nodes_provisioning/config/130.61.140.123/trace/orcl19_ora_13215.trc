@@ -1,0 +1,41 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_ora_13215.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	cust-db19
+Release:	5.4.17-2036.102.0.2.el7uek.x86_64
+Version:	#2 SMP Tue Jan 5 12:41:34 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 1
+Oracle process number: 36
+Unix process pid: 13215, image: oracle@cust-db19 (TNS V1-V3)
+
+
+*** 2021-03-07T18:08:16.951969+00:00 (CDB$ROOT(1))
+*** SESSION ID:(17.55040) 2021-03-07T18:08:16.951997+00:00
+*** CLIENT ID:() 2021-03-07T18:08:16.952001+00:00
+*** SERVICE NAME:() 2021-03-07T18:08:16.952005+00:00
+*** MODULE NAME:(sqlplus@cust-db19 (TNS V1-V3)) 2021-03-07T18:08:16.952008+00:00
+*** ACTION NAME:() 2021-03-07T18:08:16.952012+00:00
+*** CLIENT DRIVER:(SQL*PLUS) 2021-03-07T18:08:16.952016+00:00
+*** CONTAINER ID:(1) 2021-03-07T18:08:16.952020+00:00
+ 
+  pool 4 OK to cache: dbfsz 0 <= bcsz 0
+  pool 5 OK to cache: dbfsz 0 <= bcsz 0
+  pool 6 skipped (default size)
+  pool 7 OK to cache: dbfsz 0 <= bcsz 0
+  pool 8 OK to cache: dbfsz 0 <= bcsz 0
+kcbifc: Full Database caching mode changed from 0 to 2 dbfsz_DEF 1609564160 bcsz_DEF 1716273152
+
+*** 2021-03-07T18:08:17.594806+00:00 (CDB$ROOT(1))
+Information: Dictionary Credential Encryption is NOT enabledjoxcsys_required_dirobj_exists: directory object exists with required path /u01/app/oracle/product/19c/dbhome_1/javavm/admin/, pid 13215 cid 1
+
+*** 2021-03-07T18:08:18.765566+00:00 (PDB$SEED(2))
+86B64B6701F5012EE053F706E80A06B7
+
+*** 2021-03-07T18:08:25.965648+00:00 (CDB$ROOT(1))
+Shared IO Pool size defaulting to 117440512, 106, 1, 117440512 atp0 
+Special Shared IO pool request 117440512 with Auto-SGA

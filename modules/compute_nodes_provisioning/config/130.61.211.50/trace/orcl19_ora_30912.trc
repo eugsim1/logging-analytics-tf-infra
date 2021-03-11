@@ -1,0 +1,52 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_ora_30912.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	bastionlogan
+Release:	5.4.17-2036.103.3.1.el7uek.x86_64
+Version:	#2 SMP Sun Feb 14 12:48:17 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 1
+Oracle process number: 59
+Unix process pid: 30912, image: oracle@bastionlogan (TNS V1-V3)
+
+
+*** 2021-03-10T19:40:01.794038+00:00 (CDB$ROOT(1))
+*** SESSION ID:(282.30705) 2021-03-10T19:40:01.794062+00:00
+*** CLIENT ID:() 2021-03-10T19:40:01.794066+00:00
+*** SERVICE NAME:(SYS$USERS) 2021-03-10T19:40:01.794068+00:00
+*** MODULE NAME:(sqlplus@bastionlogan (TNS V1-V3)) 2021-03-10T19:40:01.794072+00:00
+*** ACTION NAME:() 2021-03-10T19:40:01.794075+00:00
+*** CLIENT DRIVER:(SQL*PLUS) 2021-03-10T19:40:01.794077+00:00
+*** CONTAINER ID:(1) 2021-03-10T19:40:01.794080+00:00
+ 
+ORA-3 Forced write to alert log Eugene from cron_sql script
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_ora_30912.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	bastionlogan
+Release:	5.4.17-2036.103.3.1.el7uek.x86_64
+Version:	#2 SMP Sun Feb 14 12:48:17 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 1
+Oracle process number: 59
+Unix process pid: 30912, image: oracle@bastionlogan (TNS V1-V3)
+
+
+*** 2021-03-11T04:40:01.930074+00:00 (CDB$ROOT(1))
+*** SESSION ID:(282.54426) 2021-03-11T04:40:01.930827+00:00
+*** CLIENT ID:() 2021-03-11T04:40:01.930837+00:00
+*** SERVICE NAME:(SYS$USERS) 2021-03-11T04:40:01.930842+00:00
+*** MODULE NAME:(sqlplus@bastionlogan (TNS V1-V3)) 2021-03-11T04:40:01.930846+00:00
+*** ACTION NAME:() 2021-03-11T04:40:01.930851+00:00
+*** CLIENT DRIVER:(SQL*PLUS) 2021-03-11T04:40:01.930854+00:00
+*** CONTAINER ID:(1) 2021-03-11T04:40:01.930857+00:00
+ 
+ORA-3 Forced write to alert log Eugene from cron_sql script

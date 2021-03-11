@@ -1,0 +1,32 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_ora_10432.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	cust-db19
+Release:	5.4.17-2036.102.0.2.el7uek.x86_64
+Version:	#2 SMP Tue Jan 5 12:41:34 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 0 <none>
+Oracle process number: 36
+Unix process pid: 10432, image: oracle@cust-db19 (TNS V1-V3)
+
+
+*** 2021-03-07T18:01:12.403483+00:00 (CDB$ROOT(1))
+*** SESSION ID:(17.15364) 2021-03-07T18:01:12.403512+00:00
+*** CLIENT ID:() 2021-03-07T18:01:12.403516+00:00
+*** SERVICE NAME:() 2021-03-07T18:01:12.403519+00:00
+*** MODULE NAME:(sqlplus@cust-db19 (TNS V1-V3)) 2021-03-07T18:01:12.403523+00:00
+*** ACTION NAME:() 2021-03-07T18:01:12.403526+00:00
+*** CLIENT DRIVER:(SQL*PLUS) 2021-03-07T18:01:12.403530+00:00
+*** CONTAINER ID:(1) 2021-03-07T18:01:12.403534+00:00
+ 
+Set as converted control file due to db_unique_name mismatch
+Changing di2dbun from seeddata to orcl19
+kcrrmnt: RT: Role transition work is not done
+*** 2021-03-07 18:01:12.415536 [krsh.c:6348]
+Redo network throttle feature is disabled at mount time
+krsd_cb_role_change: role 1
+krsd_dest32_eval: Using STANDBY_ARCHIVE_DEST parameter default value as USE_DB_RECOVERY_FILE_DEST [krsd.c:18157]

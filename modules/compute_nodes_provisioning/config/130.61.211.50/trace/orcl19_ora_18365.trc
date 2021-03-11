@@ -1,0 +1,61 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_ora_18365.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	bastionlogan
+Release:	5.4.17-2036.103.3.1.el7uek.x86_64
+Version:	#2 SMP Sun Feb 14 12:48:17 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 1
+Oracle process number: 8
+Unix process pid: 18365, image: oracle@bastionlogan (TNS V1-V3)
+
+
+*** 2021-03-05T14:31:40.365528+00:00 (CDB$ROOT(1))
+*** SESSION ID:(17.27332) 2021-03-05T14:31:40.365550+00:00
+*** CLIENT ID:() 2021-03-05T14:31:40.365554+00:00
+*** SERVICE NAME:() 2021-03-05T14:31:40.365556+00:00
+*** MODULE NAME:(rman@bastionlogan (TNS V1-V3)) 2021-03-05T14:31:40.365559+00:00
+*** ACTION NAME:(0000021 FINISHED64) 2021-03-05T14:31:40.365562+00:00
+*** CLIENT DRIVER:() 2021-03-05T14:31:40.365565+00:00
+*** CONTAINER ID:(1) 2021-03-05T14:31:40.365568+00:00
+ 
+ RECID #8 Recno 8 
+  Internal Status: 6
+  External Status: 2
+    Command id: 2021-03-05T14:31:02
+  Operation: restore
+  Start and End time 03/05/21 14:31:04 03/05/21 14:31:40
+
+*** 2021-03-05T14:31:55.657702+00:00 (CDB$ROOT(1))
+*** ACTION NAME:(0000022 FINISHED64) 2021-03-05T14:31:55.657734+00:00
+ 
+ RECID #9 Recno 9 
+  Internal Status: 6
+  External Status: 2
+    Command id: 2021-03-05T14:31:02
+  Operation: restore
+  Start and End time 03/05/21 14:31:40 03/05/21 14:31:55
+
+*** 2021-03-05T14:31:56.954500+00:00 (CDB$ROOT(1))
+*** ACTION NAME:(0000023 FINISHED64) 2021-03-05T14:31:56.954534+00:00
+ 
+ RECID #10 Recno 10 
+  Internal Status: 6
+  External Status: 2
+    Command id: 2021-03-05T14:31:02
+  Operation: restore
+  Start and End time 03/05/21 14:31:55 03/05/21 14:31:56
+
+*** 2021-03-05T14:31:58.236693+00:00 (CDB$ROOT(1))
+*** ACTION NAME:(0000024 FINISHED64) 2021-03-05T14:31:58.236725+00:00
+ 
+ RECID #11 Recno 11 
+  Internal Status: 6
+  External Status: 2
+    Command id: 2021-03-05T14:31:02
+  Operation: restore
+  Start and End time 03/05/21 14:31:56 03/05/21 14:31:58

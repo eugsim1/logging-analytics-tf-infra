@@ -1,0 +1,160 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_qm02_24941.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	bastionlogan
+Release:	5.4.17-2036.103.3.1.el7uek.x86_64
+Version:	#2 SMP Sun Feb 14 12:48:17 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 1
+Oracle process number: 51
+Unix process pid: 24941, image: oracle@bastionlogan (QM02)
+
+
+*** 2021-03-05T14:49:57.877654+00:00 (CDB$ROOT(1))
+*** SESSION ID:(264.12939) 2021-03-05T14:49:57.877684+00:00
+*** CLIENT ID:() 2021-03-05T14:49:57.877689+00:00
+*** SERVICE NAME:(SYS$BACKGROUND) 2021-03-05T14:49:57.877693+00:00
+*** MODULE NAME:(Streams) 2021-03-05T14:49:57.877698+00:00
+*** ACTION NAME:(QMON Coordinator) 2021-03-05T14:49:57.877703+00:00
+*** CLIENT DRIVER:() 2021-03-05T14:49:57.877707+00:00
+*** CONTAINER ID:(1) 2021-03-05T14:49:57.877712+00:00
+ 
+ksvkillslaves: detected hung proc 0x70543a28 [Unix process pid: 24949, image: oracle@bastionlogan (Q004)]
+----------------------------------------
+SO: 0x70bc3840, type: process (2), map: 0x70543a28
+    state: LIVE (0x4532), flags: 0x1
+    owner: (nil), proc: 0x70bc3840
+    link: 0x70bc3860[0x70bc3860, 0x70bc3860]
+    child list count: 7, link: 0x70bc38b0[0x70307df0, 0x677e3758]
+    conid: 1, conuid: 1, SGA version=(1,0), pg: 0
+SOC: 0x70543a28, type: process (2), map: 0x70bc3840
+     state: LIVE (0x99fc), flags: INIT (0x1)
+(process) Oracle pid:55, ser:1, calls cur/top: 0x61929d50/0x61929d50
+          flags : (0x2) SYSTEM  icon_uid:0 logon_pdbid=0
+          flags2: (0x30),  flags3: (0x10) 
+          call error: 0, sess error: 0, txn error 0
+          intr queue: MP:448 
+  (post info) last post received: 448 152 16
+              last post received-location: ksu.h LINE:18649 ID:ksusig
+              last process to post me: 0x7053e4a8 1 2
+              last post sent: 472 0 3
+              last post sent-location: ksl2.h LINE:4395 ID:kslpsr
+              last process posted by me: 0x7053e4a8 1 2
+              waiter on post event: 473
+  (latch info) hold_bits=0x0 ud_influx=0x1e1
+  Process Group: DEFAULT, pseudo proc: 0x706afcf8
+  O/S info: user: oracle, term: UNKNOWN, ospid: 24949 
+  OSD pid info: 
+  Short stack dump: 
+ksedsts()+426<-ksdxfstk()+58<-ksdxcb()+872<-sspuser()+200<-__sighandler()<-semtimedop()+10<-skgpwwait()+187<-ksliwat()+2218<-kslwaitctx()+188<-kwqmnslv()+688<-kwsbsmspm()+1681<-kwsbgcbkms()+84<-ksvrdp_int()+1941<-opirip()+583<-opidrv()+581<-sou2o()+165<-opimai_real()+173<-ssthrdmain()+417<-main()+256<-__libc_start_main()+245
+
+  PdbInfo:  Id=1 Name=CDB$ROOT Uid=1 DBid=367729602 Guid=86B637B62FDF7A65E053F706E80A27CA State=OPEN Flags=BPC/[00000004] Closing=0 CloseAborting=0 OfflineSCN=0x0000000000000000 CreateSCN=0x0000000000000000 RDBA=4194824 DictState=ACTIVE DictFlags=[00000000] BlockSize=8192 SpaceUsage=0 MaxSpaceUsage=0 MaxDiagUsage=0 MaxAuditUsage=0 FedRootId=0 UndoSwitchoverSCN=0x0000000000000000 SrcPDB= DBLink= PDBCount=1 SgaVersion=(1,0) DropTime=0 RcvState=(Needed=0,State=0,OLog=0x0,CLog=0x0,DLog=0x0,OnlyPmon=0) ForceRcvState=(State=0,flags=0x0,Log=0x0) PostPlugCompletionSCN=0x0000000000000000 TenantKey= LockdownSyncCounter=0 Credname=    KGL-UOL (Process state object)
+  KGX Atomic Operation Log 0x70544ba8
+   Mutex (nil)(0, 0) idn 0 oper NONE(0)
+   FSO mutex uid 262142 efd 0 whr 0 slp 0
+  KGX Atomic Operation Log 0x70544c10
+   Mutex (nil)(0, 0) idn 0 oper NONE(0)
+   FSO mutex uid 262142 efd 0 whr 0 slp 0
+  KGX Atomic Operation Log 0x70544c78
+   Mutex (nil)(0, 0) idn 0 oper NONE(0)
+   FSO mutex uid 262142 efd 0 whr 0 slp 0
+  KGX Atomic Operation Log 0x70544ce0
+   Mutex (nil)(0, 0) idn 0 oper NONE(0)
+   FSO mutex uid 262142 efd 0 whr 0 slp 0
+  KGX Atomic Operation Log 0x70544d48
+   Mutex (nil)(0, 0) idn 0 oper NONE(0)
+   FSO mutex uid 262142 efd 0 whr 0 slp 0
+  KGX Atomic Operation Log 0x70544db0
+   Mutex (nil)(0, 0) idn 0 oper NONE(0)
+   FSO mutex uid 262142 efd 0 whr 0 slp 0
+  KGX Atomic Operation Log 0x70544e18
+   Mutex (nil)(0, 0) idn 0 oper NONE(0)
+   FSO mutex uid 262142 efd 0 whr 0 slp 0
+  KGX Atomic Operation Log 0x70544e80
+   Mutex (nil)(0, 0) idn 0 oper NONE(0)
+   FSO mutex uid 262142 efd 0 whr 0 slp 0
+  KGX Atomic Operation Log 0x70544ee8
+   Mutex (nil)(0, 0) idn 0 oper NONE(0)
+   FSO mutex uid 262142 efd 0 whr 0 slp 0
+  ----------------------------------------
+  SO: 0x703f5850, type: ksz parent (33), map: 0x6def9960
+      state: LIVE (0x4532), flags: 0x1
+      owner: 0x70bc3840, proc: 0x70bc3840
+      link: 0x703f5870[0x70bc38b0, 0x70bc38b0]
+      child list count: 0, link: 0x703f58c0[0x703f58c0, 0x703f58c0]
+      conid: 1, conuid: 1, SGA version=(1,0), pg: 0
+  SOC: 0x6def9960, type: ksz parent (33), map: 0x703f5850
+       state: LIVE (0x99fc), flags: - (0x0)
+PSO child state object changes :
+Dump of memory from 0x00000000704DB0E0 to 0x00000000704DB2E8
+0704DB0E0 00000000 00000000 00000000 00000000  [................]
+        Repeat 31 times
+0704DB2E0 00000000 00000000                    [........]        
+ksvkillslaves: killing process
+----------------------------------------
+SO: 0x70bc3840, type: process (2), map: 0x70543a28
+    state: LIVE (0x4532), flags: 0x1
+    owner: (nil), proc: 0x70bc3840
+    link: 0x70bc3860[0x70bc3860, 0x70bc3860]
+    child list count: 1, link: 0x70bc38b0[0x703f5870, 0x703f5870]
+    conid: 1, conuid: 1, SGA version=(1,0), pg: 0
+SOC: 0x70543a28, type: process (2), map: 0x70bc3840
+     state: LIVE (0x99fc), flags: INIT (0x1)
+(process) Oracle pid:55, ser:1, calls cur/top: (nil)/(nil)
+          flags : (0x2) SYSTEM  icon_uid:0 logon_pdbid=0
+          flags2: (0x30),  flags3: (0x10) 
+          call error: 0, sess error: 0, txn error 0
+          intr queue: MP:448 
+(post info) last post received: 448 152 16
+            last post received-location: ksu.h LINE:18649 ID:ksusig
+            last process to post me: 0x7053e4a8 1 2
+            last post sent: 0 0 65
+            last post sent-location: ksv2.h LINE:1867 ID:ksvpst: cldel - post master
+            last process posted by me: 0x7053e4a8 1 2
+            waiter on post event: 0
+(latch info) hold_bits=0x0 ud_influx=0x1e1
+  Process Group: DEFAULT, pseudo proc: 0x706afcf8
+  O/S info: user: oracle, term: UNKNOWN, ospid: 24949 
+  OSD pid info: 
+Short stack dump: 
+ksedsts()+426<-ksdxfstk()+58<-ksdxcb()+872<-sspuser()+200<-__sighandler()<-io_destroy()+7<-ksfdsaiolmt_int()+513<-ksfdnfy()+128<-kscnfy()+1221<-ksudlp_int()+621<-ksudlp()+79<-kss_del_cb()+218<-kssdel()+216<-opidcl()+265<-opidrv()+701<-sou2o()+165<-opimai_real()+173<-ssthrdmain()+417<-main()+256<-__libc_start_main()+245
+
+PdbInfo:  Id=1 Name=CDB$ROOT Uid=1 DBid=367729602 Guid=86B637B62FDF7A65E053F706E80A27CA State=OPEN Flags=BPC/[00000004] Closing=0 CloseAborting=0 OfflineSCN=0x0000000000000000 CreateSCN=0x0000000000000000 RDBA=4194824 DictState=ACTIVE DictFlags=[00000000] BlockSize=8192 SpaceUsage=0 MaxSpaceUsage=0 MaxDiagUsage=0 MaxAuditUsage=0 FedRootId=0 UndoSwitchoverSCN=0x0000000000000000 SrcPDB= DBLink= PDBCount=1 SgaVersion=(1,0) DropTime=0 RcvState=(Needed=0,State=0,OLog=0x0,CLog=0x0,DLog=0x0,OnlyPmon=0) ForceRcvState=(State=0,flags=0x0,Log=0x0) PostPlugCompletionSCN=0x0000000000000000 TenantKey= LockdownSyncCounter=0 Credname=  KGL-UOL (Process state object)
+KGX Atomic Operation Log 0x70544ba8
+ Mutex (nil)(0, 0) idn 0 oper NONE(0)
+ FSO mutex uid 262142 efd 0 whr 0 slp 0
+KGX Atomic Operation Log 0x70544c10
+ Mutex (nil)(0, 0) idn 0 oper NONE(0)
+ FSO mutex uid 262142 efd 0 whr 0 slp 0
+KGX Atomic Operation Log 0x70544c78
+ Mutex (nil)(0, 0) idn 0 oper NONE(0)
+ FSO mutex uid 262142 efd 0 whr 0 slp 0
+KGX Atomic Operation Log 0x70544ce0
+ Mutex (nil)(0, 0) idn 0 oper NONE(0)
+ FSO mutex uid 262142 efd 0 whr 0 slp 0
+KGX Atomic Operation Log 0x70544d48
+ Mutex (nil)(0, 0) idn 0 oper NONE(0)
+ FSO mutex uid 262142 efd 0 whr 0 slp 0
+KGX Atomic Operation Log 0x70544db0
+ Mutex (nil)(0, 0) idn 0 oper NONE(0)
+ FSO mutex uid 262142 efd 0 whr 0 slp 0
+KGX Atomic Operation Log 0x70544e18
+ Mutex (nil)(0, 0) idn 0 oper NONE(0)
+ FSO mutex uid 262142 efd 0 whr 0 slp 0
+KGX Atomic Operation Log 0x70544e80
+ Mutex (nil)(0, 0) idn 0 oper NONE(0)
+ FSO mutex uid 262142 efd 0 whr 0 slp 0
+KGX Atomic Operation Log 0x70544ee8
+ Mutex (nil)(0, 0) idn 0 oper NONE(0)
+ FSO mutex uid 262142 efd 0 whr 0 slp 0
+PSO child state object changes :
+Dump of memory from 0x00000000704DB0E0 to 0x00000000704DB2E8
+0704DB0E0 00000000 00000000 00000000 00000000  [................]
+        Repeat 31 times
+0704DB2E0 00000000 00000000                    [........]        
+ksvp2penabled: ep->flg = 0, rpr->slv_flg = 0
+ksvp2penabled: ep = 0x7fdc64332510, rpr = 0x6de5d2d0

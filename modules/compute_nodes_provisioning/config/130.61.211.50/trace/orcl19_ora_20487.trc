@@ -1,0 +1,39 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_ora_20487.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	bastionlogan
+Release:	5.4.17-2036.103.3.1.el7uek.x86_64
+Version:	#2 SMP Sun Feb 14 12:48:17 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 1
+Oracle process number: 42
+Unix process pid: 20487, image: oracle@bastionlogan (TNS V1-V3)
+
+
+*** 2021-03-05T14:36:20.757745+00:00 (CDB$ROOT(1))
+*** SESSION ID:(18.48657) 2021-03-05T14:36:20.757774+00:00
+*** CLIENT ID:() 2021-03-05T14:36:20.757779+00:00
+*** SERVICE NAME:(SYS$USERS) 2021-03-05T14:36:20.757784+00:00
+*** MODULE NAME:(rman@bastionlogan (TNS V1-V3)) 2021-03-05T14:36:20.757789+00:00
+*** ACTION NAME:(0000004 FINISHED61) 2021-03-05T14:36:20.757793+00:00
+*** CLIENT DRIVER:() 2021-03-05T14:36:20.757798+00:00
+*** CONTAINER ID:(1) 2021-03-05T14:36:20.757802+00:00
+ 
+ RECID #2 Recno 2 
+  Internal Status: 6
+  External Status: 2
+    Command id: PDB$SEED
+  Operation: restore
+  Start and End time 03/05/21 14:36:04 03/05/21 14:36:20
+*** ACTION NAME:(0000017 FINISHED129) 2021-03-05T14:36:20.834126+00:00
+ 
+ RECID #1 Recno 1 
+  Internal Status: 34
+  External Status: 2
+    Command id: 2021-03-05T14:36:01
+  Operation: RMAN
+  Start and End time 03/05/21 14:36:02 03/05/21 14:36:20

@@ -1,0 +1,33 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_m006_16879.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	cust-db19
+Release:	5.4.17-2036.102.0.2.el7uek.x86_64
+Version:	#2 SMP Tue Jan 5 12:41:34 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 1
+Oracle process number: 64
+Unix process pid: 16879, image: oracle@cust-db19 (M006)
+
+
+*** 2021-03-10T08:38:09.395446+00:00 (CDB$ROOT(1))
+*** SESSION ID:(4.33687) 2021-03-10T08:38:09.395478+00:00
+*** CLIENT ID:() 2021-03-10T08:38:09.395482+00:00
+*** SERVICE NAME:(SYS$BACKGROUND) 2021-03-10T08:38:09.395484+00:00
+*** MODULE NAME:(MMON_SLAVE) 2021-03-10T08:38:09.395487+00:00
+*** ACTION NAME:(KDILM background EXEcution) 2021-03-10T08:38:09.395490+00:00
+*** CLIENT DRIVER:() 2021-03-10T08:38:09.395493+00:00
+*** CONTAINER ID:(1) 2021-03-10T08:38:09.395496+00:00
+ 
+*********** START A RUN OF [KDILM background EXEcution] *************
+
+*** 2021-03-10T08:41:10.061543+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-10T08:41:10.061574+00:00
+*** ACTION NAME:(ADR Container Space Management Statistics Flush) 2021-03-10T08:41:10.061580+00:00
+*** CONTAINER ID:(1) 2021-03-10T08:41:10.061583+00:00
+ 
+*********** START A RUN OF [ADR Container Space Management Statistics Flush] *************

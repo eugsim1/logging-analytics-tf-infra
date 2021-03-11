@@ -1,0 +1,121 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_cjq0_25821.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	bastionlogan
+Release:	5.4.17-2036.103.3.1.el7uek.x86_64
+Version:	#2 SMP Sun Feb 14 12:48:17 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 1
+Oracle process number: 50
+Unix process pid: 25821, image: oracle@bastionlogan (CJQ0)
+
+
+*** 2021-03-05T22:00:00.024494+00:00 (CDB$ROOT(1))
+*** SESSION ID:(31.63411) 2021-03-05T22:00:00.024521+00:00
+*** CLIENT ID:() 2021-03-05T22:00:00.024526+00:00
+*** SERVICE NAME:(SYS$BACKGROUND) 2021-03-05T22:00:00.024530+00:00
+*** MODULE NAME:() 2021-03-05T22:00:00.024535+00:00
+*** ACTION NAME:() 2021-03-05T22:00:00.024539+00:00
+*** CLIENT DRIVER:() 2021-03-05T22:00:00.024552+00:00
+*** CONTAINER ID:(1) 2021-03-05T22:00:00.024756+00:00
+ 
+Setting Resource Manager plan SCHEDULER[0x4D56]:DEFAULT_MAINTENANCE_PLAN via scheduler window
+Setting Resource Manager CDB plan DEFAULT_MAINTENANCE_PLAN via parameter
+Closing scheduler window
+
+*** 2021-03-06T02:00:00.089238+00:00 (CDB$ROOT(1))
+Closing Resource Manager plan via scheduler window
+Clearing Resource Manager CDB plan via parameter
+Setting Resource Manager plan SCHEDULER[0x4D57]:DEFAULT_MAINTENANCE_PLAN via scheduler window
+
+*** 2021-03-06T06:00:00.099405+00:00 (CDB$ROOT(1))
+Setting Resource Manager CDB plan DEFAULT_MAINTENANCE_PLAN via parameter
+
+*** 2021-03-06T06:00:00.159936+00:00 (PDB19(3))
+Setting Resource Manager plan SCHEDULER[0x4D53]:DEFAULT_MAINTENANCE_PLAN via scheduler window
+Setting Resource Manager plan DEFAULT_MAINTENANCE_PLAN via parameter
+Closing scheduler window
+
+*** 2021-03-06T10:00:00.181849+00:00 (PDB19(3))
+Closing Resource Manager plan via scheduler window
+Clearing Resource Manager plan via parameter
+Setting Resource Manager plan SCHEDULER[0x4D54]:DEFAULT_MAINTENANCE_PLAN via scheduler window
+
+*** 2021-03-06T14:00:00.086249+00:00 (PDB19(3))
+Setting Resource Manager plan DEFAULT_MAINTENANCE_PLAN via parameter
+Closing scheduler window
+
+*** 2021-03-07T02:00:00.058901+00:00 (CDB$ROOT(1))
+Closing Resource Manager plan via scheduler window
+Clearing Resource Manager CDB plan via parameter
+Not setting DEFAULT_MAINTENANCE_PLAN from maintenance scheduler window
+
+*** 2021-03-07T06:00:00.015338+00:00 (CDB$ROOT(1))
+because a resource plan is already enabled
+Closing scheduler window
+
+*** 2021-03-07T10:00:00.180292+00:00 (PDB19(3))
+Closing Resource Manager plan via scheduler window
+Clearing Resource Manager plan via parameter
+Setting Resource Manager plan SCHEDULER[0x4D55]:DEFAULT_MAINTENANCE_PLAN via scheduler window
+
+*** 2021-03-07T14:00:00.014235+00:00 (PDB19(3))
+Setting Resource Manager plan DEFAULT_MAINTENANCE_PLAN via parameter
+Closing scheduler window
+
+*** 2021-03-08T10:00:00.157634+00:00 (PDB19(3))
+Closing Resource Manager plan via scheduler window
+Clearing Resource Manager plan via parameter
+Setting Resource Manager plan SCHEDULER[0x4D52]:DEFAULT_MAINTENANCE_PLAN via scheduler window
+
+*** 2021-03-08T22:00:00.113256+00:00 (CDB$ROOT(1))
+Setting Resource Manager CDB plan DEFAULT_MAINTENANCE_PLAN via parameter
+Closing scheduler window
+
+*** 2021-03-09T02:00:00.193088+00:00 (CDB$ROOT(1))
+Closing Resource Manager plan via scheduler window
+Clearing Resource Manager CDB plan via parameter
+Setting Resource Manager plan SCHEDULER[0x4D4F]:DEFAULT_MAINTENANCE_PLAN via scheduler window
+
+*** 2021-03-09T06:00:00.080390+00:00 (PDB19(3))
+Setting Resource Manager plan DEFAULT_MAINTENANCE_PLAN via parameter
+Closing scheduler window
+
+*** 2021-03-09T10:00:00.124116+00:00 (PDB19(3))
+Closing Resource Manager plan via scheduler window
+Clearing Resource Manager plan via parameter
+Setting Resource Manager plan SCHEDULER[0x4D53]:DEFAULT_MAINTENANCE_PLAN via scheduler window
+
+*** 2021-03-09T22:00:00.014048+00:00 (CDB$ROOT(1))
+Setting Resource Manager CDB plan DEFAULT_MAINTENANCE_PLAN via parameter
+Closing scheduler window
+
+*** 2021-03-10T02:00:00.194519+00:00 (CDB$ROOT(1))
+Closing Resource Manager plan via scheduler window
+Clearing Resource Manager CDB plan via parameter
+Setting Resource Manager plan SCHEDULER[0x4D50]:DEFAULT_MAINTENANCE_PLAN via scheduler window
+
+*** 2021-03-10T06:00:00.086204+00:00 (PDB19(3))
+Setting Resource Manager plan DEFAULT_MAINTENANCE_PLAN via parameter
+Closing scheduler window
+
+*** 2021-03-10T10:00:00.157957+00:00 (PDB19(3))
+Closing Resource Manager plan via scheduler window
+Clearing Resource Manager plan via parameter
+Setting Resource Manager plan SCHEDULER[0x4D54]:DEFAULT_MAINTENANCE_PLAN via scheduler window
+
+*** 2021-03-10T22:00:00.033909+00:00 (CDB$ROOT(1))
+Setting Resource Manager CDB plan DEFAULT_MAINTENANCE_PLAN via parameter
+Closing scheduler window
+
+*** 2021-03-11T02:00:00.017892+00:00 (CDB$ROOT(1))
+Closing Resource Manager plan via scheduler window
+Clearing Resource Manager CDB plan via parameter
+Setting Resource Manager plan SCHEDULER[0x4D51]:DEFAULT_MAINTENANCE_PLAN via scheduler window
+
+*** 2021-03-11T06:00:00.033046+00:00 (PDB19(3))
+Setting Resource Manager plan DEFAULT_MAINTENANCE_PLAN via parameter

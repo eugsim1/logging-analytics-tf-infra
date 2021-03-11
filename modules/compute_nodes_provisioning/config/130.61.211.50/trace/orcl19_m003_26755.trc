@@ -1,0 +1,66 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_m003_26755.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	bastionlogan
+Release:	5.4.17-2036.103.3.1.el7uek.x86_64
+Version:	#2 SMP Sun Feb 14 12:48:17 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 1
+Oracle process number: 48
+Unix process pid: 26755, image: oracle@bastionlogan (M003)
+
+
+*** 2021-03-09T18:17:48.812577+00:00 (CDB$ROOT(1))
+*** SESSION ID:(49.42182) 2021-03-09T18:17:48.812618+00:00
+*** CLIENT ID:() 2021-03-09T18:17:48.812623+00:00
+*** SERVICE NAME:(SYS$BACKGROUND) 2021-03-09T18:17:48.812626+00:00
+*** MODULE NAME:(MMON_SLAVE) 2021-03-09T18:17:48.812631+00:00
+*** ACTION NAME:(Monitor Tablespace Thresholds) 2021-03-09T18:17:48.812635+00:00
+*** CLIENT DRIVER:() 2021-03-09T18:17:48.812641+00:00
+*** CONTAINER ID:(1) 2021-03-09T18:17:48.812645+00:00
+ 
+*********** START A RUN OF [Monitor Tablespace Thresholds] *************
+
+*** 2021-03-09T18:17:51.843367+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-09T18:17:51.843397+00:00
+*** ACTION NAME:(Automatic Report Flush) 2021-03-09T18:17:51.843403+00:00
+*** CONTAINER ID:(1) 2021-03-09T18:17:51.843407+00:00
+ 
+*********** START A RUN OF [Automatic Report Flush] *************
+
+*** 2021-03-09T18:21:52.740017+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-09T18:21:52.740051+00:00
+*** ACTION NAME:(Intensive AutoTask Dispatcher) 2021-03-09T18:21:52.740057+00:00
+*** CONTAINER ID:(1) 2021-03-09T18:21:52.740061+00:00
+ 
+*********** START A RUN OF [Intensive AutoTask Dispatcher] *************
+*** MODULE NAME:(MMON_SLAVE) 2021-03-09T18:21:52.740133+00:00
+*** ACTION NAME:(Automatic Report Flush) 2021-03-09T18:21:52.740140+00:00
+*** CONTAINER ID:(1) 2021-03-09T18:21:52.740145+00:00
+ 
+*********** START A RUN OF [Automatic Report Flush] *************
+
+*** 2021-03-09T18:22:52.960045+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-09T18:22:52.960073+00:00
+*** ACTION NAME:(ADR Container Space Management Statistics Flush) 2021-03-09T18:22:52.960078+00:00
+*** CONTAINER ID:(1) 2021-03-09T18:22:52.960085+00:00
+ 
+*********** START A RUN OF [ADR Container Space Management Statistics Flush] *************
+
+*** 2021-03-09T18:23:53.187688+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-09T18:23:53.187733+00:00
+*** ACTION NAME:(Automatic Report Flush) 2021-03-09T18:23:53.187740+00:00
+*** CONTAINER ID:(1) 2021-03-09T18:23:53.187744+00:00
+ 
+*********** START A RUN OF [Automatic Report Flush] *************
+
+*** 2021-03-09T18:27:54.077669+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-09T18:27:54.078351+00:00
+*** ACTION NAME:(CLI Partition execution) 2021-03-09T18:27:54.078360+00:00
+*** CONTAINER ID:(1) 2021-03-09T18:27:54.078364+00:00
+ 
+*********** START A RUN OF [CLI Partition execution] *************

@@ -1,0 +1,101 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_m000_16013.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	cust-db19
+Release:	5.4.17-2036.102.0.2.el7uek.x86_64
+Version:	#2 SMP Tue Jan 5 12:41:34 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 1
+Oracle process number: 64
+Unix process pid: 16013, image: oracle@cust-db19 (M000)
+
+
+*** 2021-03-10T23:39:29.644894+00:00 (CDB$ROOT(1))
+*** SESSION ID:(44.31) 2021-03-10T23:39:29.644939+00:00
+*** CLIENT ID:() 2021-03-10T23:39:29.644943+00:00
+*** SERVICE NAME:(SYS$BACKGROUND) 2021-03-10T23:39:29.644947+00:00
+*** MODULE NAME:(MMON_SLAVE) 2021-03-10T23:39:29.644950+00:00
+*** ACTION NAME:(CLI Partition execution) 2021-03-10T23:39:29.644954+00:00
+*** CLIENT DRIVER:() 2021-03-10T23:39:29.644958+00:00
+*** CONTAINER ID:(1) 2021-03-10T23:39:29.644962+00:00
+ 
+*********** START A RUN OF [CLI Partition execution] *************
+
+*** 2021-03-10T23:41:30.090862+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-10T23:41:30.090913+00:00
+*** ACTION NAME:(KDILM background EXEcution) 2021-03-10T23:41:30.090920+00:00
+*** CONTAINER ID:(1) 2021-03-10T23:41:30.090924+00:00
+ 
+*********** START A RUN OF [KDILM background EXEcution] *************
+
+*** 2021-03-10T23:42:30.314040+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-10T23:42:30.314084+00:00
+*** ACTION NAME:(KDILM background CLeaNup) 2021-03-10T23:42:30.314090+00:00
+*** CONTAINER ID:(1) 2021-03-10T23:42:30.314094+00:00
+ 
+*********** START A RUN OF [KDILM background CLeaNup] *************
+
+*** 2021-03-10T23:44:30.761754+00:00 (CDB$ROOT(1))
+*** CONTAINER ID:(1) 2021-03-10T23:44:30.761791+00:00
+ 
+*********** START A RUN OF [KDILM background CLeaNup] *************
+*** MODULE NAME:(MMON_SLAVE) 2021-03-10T23:44:30.761982+00:00
+*** ACTION NAME:(Intensive AutoTask Dispatcher) 2021-03-10T23:44:30.763778+00:00
+*** CONTAINER ID:(1) 2021-03-10T23:44:30.763788+00:00
+ 
+*********** START A RUN OF [Intensive AutoTask Dispatcher] *************
+
+*** 2021-03-10T23:46:31.272462+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-10T23:46:31.272515+00:00
+*** ACTION NAME:(KDILM background EXEcution) 2021-03-10T23:46:31.272522+00:00
+*** CONTAINER ID:(1) 2021-03-10T23:46:31.272526+00:00
+ 
+*********** START A RUN OF [KDILM background EXEcution] *************
+*** MODULE NAME:(MMON_SLAVE) 2021-03-10T23:46:31.272756+00:00
+*** ACTION NAME:(Intensive AutoTask Dispatcher) 2021-03-10T23:46:31.272763+00:00
+*** CONTAINER ID:(1) 2021-03-10T23:46:31.272767+00:00
+ 
+*********** START A RUN OF [Intensive AutoTask Dispatcher] *************
+
+*** 2021-03-10T23:47:31.495959+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-10T23:47:31.496010+00:00
+*** ACTION NAME:(KDILM background CLeaNup) 2021-03-10T23:47:31.496017+00:00
+*** CONTAINER ID:(1) 2021-03-10T23:47:31.496021+00:00
+ 
+*********** START A RUN OF [KDILM background CLeaNup] *************
+
+*** 2021-03-10T23:50:32.042063+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-10T23:50:32.042116+00:00
+*** ACTION NAME:(KDILM background EXEcution) 2021-03-10T23:50:32.042123+00:00
+*** CONTAINER ID:(1) 2021-03-10T23:50:32.042128+00:00
+ 
+*********** START A RUN OF [KDILM background EXEcution] *************
+
+*** 2021-03-10T23:51:32.265054+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-10T23:51:32.265087+00:00
+*** ACTION NAME:(KDILM background CLeaNup) 2021-03-10T23:51:32.265093+00:00
+*** CONTAINER ID:(1) 2021-03-10T23:51:32.265099+00:00
+ 
+*********** START A RUN OF [KDILM background CLeaNup] *************
+
+*** 2021-03-10T23:52:32.553045+00:00 (CDB$ROOT(1))
+*** CONTAINER ID:(1) 2021-03-10T23:52:32.553073+00:00
+ 
+*********** START A RUN OF [KDILM background CLeaNup] *************
+*********** START A RUN OF [KDILM background CLeaNup] *************
+
+*** 2021-03-10T23:54:33.001693+00:00 (CDB$ROOT(1))
+*** CONTAINER ID:(1) 2021-03-10T23:54:33.001729+00:00
+ 
+*********** START A RUN OF [KDILM background CLeaNup] *************
+
+*** 2021-03-10T23:55:33.225453+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-10T23:55:33.225490+00:00
+*** ACTION NAME:(Auto-Flush Slave Action) 2021-03-10T23:55:33.225496+00:00
+*** CONTAINER ID:(1) 2021-03-10T23:55:33.225500+00:00
+ 
+*********** START A RUN OF [Auto-Flush Slave Action] *************

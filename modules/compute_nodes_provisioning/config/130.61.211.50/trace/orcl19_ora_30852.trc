@@ -1,0 +1,90 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_ora_30852.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	bastionlogan
+Release:	5.4.17-2036.103.3.1.el7uek.x86_64
+Version:	#2 SMP Sun Feb 14 12:48:17 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 1
+Oracle process number: 48
+Unix process pid: 30852, image: oracle@bastionlogan
+
+
+*** 2021-03-05T16:36:58.604872+00:00 (CDB$ROOT(1))
+*** SESSION ID:(29.19314) 2021-03-05T16:36:58.604902+00:00
+*** CLIENT ID:() 2021-03-05T16:36:58.604905+00:00
+*** SERVICE NAME:(orcl19) 2021-03-05T16:36:58.604908+00:00
+*** MODULE NAME:(SQL Developer) 2021-03-05T16:36:58.604911+00:00
+*** ACTION NAME:() 2021-03-05T16:36:58.604914+00:00
+*** CLIENT DRIVER:(jdbcthin : 19.3.0.0.0) 2021-03-05T16:36:58.604917+00:00
+*** CONTAINER ID:(1) 2021-03-05T16:36:58.604920+00:00
+ 
+kztsmdumk: Neither Unified nor Typed TSE MK found!
+kztsmdumk: Neither Unified nor Typed TSE MK found!
+kztsmdumk: Neither Unified nor Typed TSE MK found!
+kztsmdumk: Neither Unified nor Typed TSE MK found!
+
+*** 2021-03-05T16:37:32.852829+00:00 (CDB$ROOT(1))
+Creating new database key for new master key and wallet
+kztsmdumk: Neither Unified nor Typed TSE MK found!
+kcbtse_decrypt_tskey: typed master key does not exist in wallet
+mkid: 2ca567a3ff484f36bf9b7ad99d4b58ec
+current pdb 1 kcbtsemkloc 1, kcbtsemkid is: ce7dbcea93814f25bfc22e10d68e0098
+kcb_tsemk_rolling_rekey: ignore datafile rekey with stale master key for file 1 (param 1 mkloc_act 8)
+kcbtse_print_kod: printing kcbtekod structure 0x7f55b384a310
+--kcbtekod_ena=2 kcbtekod_flag=0x6 kcbtekod_mkloc=0x0
+--kcbtekod_key=9168113cac5680b69375660fdd2c967300000000000000000000000000000000
+--kcbtekod_mkeyid=2ca567a3ff484f36bf9b7ad99d4b58ec
+Control file key with target mkid: 
+kcbtse_print_kod: printing kcbtekod structure 0x600b3bba
+--kcbtekod_ena=2 kcbtekod_flag=0xe kcbtekod_mkloc=0x1
+--kcbtekod_key=57255aa0e5ea95d51196f2f0789570c100000000000000000000000000000000
+--kcbtekod_mkeyid=ce7dbcea93814f25bfc22e10d68e0098
+kztsmdumk: Neither Unified nor Typed TSE MK found!
+kcbtse_decrypt_tskey: typed master key does not exist in wallet
+mkid: 2ca567a3ff484f36bf9b7ad99d4b58ec
+current pdb 1 kcbtsemkloc 1, kcbtsemkid is: ce7dbcea93814f25bfc22e10d68e0098
+kcb_tsemk_rolling_rekey: ignore datafile rekey with stale master key for file 3 (param 1 mkloc_act 8)
+kcbtse_print_kod: printing kcbtekod structure 0x7f55b384a310
+--kcbtekod_ena=2 kcbtekod_flag=0x6 kcbtekod_mkloc=0x0
+--kcbtekod_key=9168113cac5680b69375660fdd2c967300000000000000000000000000000000
+--kcbtekod_mkeyid=2ca567a3ff484f36bf9b7ad99d4b58ec
+Control file key with target mkid: 
+kcbtse_print_kod: printing kcbtekod structure 0x600b3bba
+--kcbtekod_ena=2 kcbtekod_flag=0xe kcbtekod_mkloc=0x1
+--kcbtekod_key=57255aa0e5ea95d51196f2f0789570c100000000000000000000000000000000
+--kcbtekod_mkeyid=ce7dbcea93814f25bfc22e10d68e0098
+kztsmdumk: Neither Unified nor Typed TSE MK found!
+kcbtse_decrypt_tskey: typed master key does not exist in wallet
+mkid: 2ca567a3ff484f36bf9b7ad99d4b58ec
+current pdb 1 kcbtsemkloc 1, kcbtsemkid is: ce7dbcea93814f25bfc22e10d68e0098
+kcb_tsemk_rolling_rekey: ignore datafile rekey with stale master key for file 4 (param 1 mkloc_act 8)
+kcbtse_print_kod: printing kcbtekod structure 0x7f55b384a310
+--kcbtekod_ena=2 kcbtekod_flag=0x6 kcbtekod_mkloc=0x0
+--kcbtekod_key=9168113cac5680b69375660fdd2c967300000000000000000000000000000000
+--kcbtekod_mkeyid=2ca567a3ff484f36bf9b7ad99d4b58ec
+Control file key with target mkid: 
+kcbtse_print_kod: printing kcbtekod structure 0x600b3bba
+--kcbtekod_ena=2 kcbtekod_flag=0xe kcbtekod_mkloc=0x1
+--kcbtekod_key=57255aa0e5ea95d51196f2f0789570c100000000000000000000000000000000
+--kcbtekod_mkeyid=ce7dbcea93814f25bfc22e10d68e0098
+kztsmdumk: Neither Unified nor Typed TSE MK found!
+kcbtse_decrypt_tskey: typed master key does not exist in wallet
+mkid: 2ca567a3ff484f36bf9b7ad99d4b58ec
+current pdb 1 kcbtsemkloc 1, kcbtsemkid is: ce7dbcea93814f25bfc22e10d68e0098
+kcb_tsemk_rolling_rekey: ignore datafile rekey with stale master key for file 201 (param 1 mkloc_act 8)
+kcbtse_print_kod: printing kcbtekod structure 0x7f55b384a310
+--kcbtekod_ena=2 kcbtekod_flag=0x6 kcbtekod_mkloc=0x0
+--kcbtekod_key=9168113cac5680b69375660fdd2c967300000000000000000000000000000000
+--kcbtekod_mkeyid=2ca567a3ff484f36bf9b7ad99d4b58ec
+Control file key with target mkid: 
+kcbtse_print_kod: printing kcbtekod structure 0x600b3bba
+--kcbtekod_ena=2 kcbtekod_flag=0xe kcbtekod_mkloc=0x1
+--kcbtekod_key=57255aa0e5ea95d51196f2f0789570c100000000000000000000000000000000
+--kcbtekod_mkeyid=ce7dbcea93814f25bfc22e10d68e0098
+Switching out all online logs for the new master key
+New database key and new master key created successfully

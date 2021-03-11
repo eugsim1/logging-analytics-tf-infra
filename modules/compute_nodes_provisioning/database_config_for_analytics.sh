@@ -60,7 +60,7 @@ cat /opt/oracle/mgmt_agent/agent_inst/config/security/resource/agent.ocid | sed 
 chown oracle:oinstall agent.txt
 EOF
 
-cat <<EOF>part1.txt
+cat <<EOF>database_entity.json
 {
 	"agentId": "`cat agent.txt`",
 	"compartmentId": "\$ANALYTICS_COMPARTMENT",
@@ -68,13 +68,13 @@ cat <<EOF>part1.txt
 	"namespace": "\$ANALYTICS_NAMESPACE",
 EOF
 
-cat <<-EOF>>part1.txt
+cat <<-EOF>>database_entity.json
 	"hostname": "$hostname_ip",
 	"name": "dbcs_$hostname_ip",
 EOF
 
 
-cat <<-EOF>>part1.txt
+cat <<-EOF>>database_entity.json
 "properties": {
 	"AUDIT_FILE_DEST": "$AUDIT_FILE_DEST",
 	"DIAGNOSTIC_DEST": "$DIAGNOSTIC_DEST",
@@ -89,8 +89,37 @@ cat <<-EOF>>part1.txt
 }
 EOF
 
-cat part1.txt
+cat database_entity.json
 
+
+cat<<-EOF>linux_entity.json
+{
+  "agentId": "`cat agent.txt`",
+  "compartmentId": "\$ANALYTICS_COMPARTMENT",
+  "entityTypeName": "omc_host_linux",
+  "freeformTags": {
+    "Creator": "Eugene Simos",
+    "Project": "analytics HOL"
+  },
+  "hostname": "$hostname_ip",
+  "name": "linux_$hostname_ip",
+  "namespace": "\$ANALYTICS_NAMESPACE",
+  "timezoneRegion": "Europe/Helsinki"
+}
+EOF
+
+cat linux_entity.json
+
+export HOSTNAME=`hostname`
+
+
+rm -rf /tmp/*.zip
+zip -r /tmp/trace.zip /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/*.trc
+zip -r /tmp/alert_log.zip         /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/alert*.log
+zip -r /tmp/incident.zip          /u01/app/oracle/diag/rdbms/orcl19/orcl19/incident
+zip -r /tmp/TNSAlertLogSource.zip        /u01/app/oracle/diag/tnslsnr/$HOSTNAME/listener/alert/log.xml
+zip -r /tmp/DBAlertXMLLogSource.zip  /u01/app/oracle/diag/rdbms/orcl19/orcl19/alert/log*.xml
+zip -r /tmp/all.zip /tmp/trace.zip /tmp/alert_log.zip /tmp/incident.zip /tmp/TNSAlertLogSource.zip /tmp/DBAlertXMLLogSource.zip 
 
 
 

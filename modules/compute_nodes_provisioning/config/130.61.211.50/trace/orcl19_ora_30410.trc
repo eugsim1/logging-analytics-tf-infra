@@ -1,0 +1,26 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_ora_30410.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	bastionlogan
+Release:	5.4.17-2036.103.3.1.el7uek.x86_64
+Version:	#2 SMP Sun Feb 14 12:48:17 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 1
+Oracle process number: 53
+Unix process pid: 30410, image: oracle@bastionlogan (TNS V1-V3)
+
+
+*** 2021-03-11T11:50:01.491945+00:00 (CDB$ROOT(1))
+*** SESSION ID:(281.2513) 2021-03-11T11:50:01.491976+00:00
+*** CLIENT ID:() 2021-03-11T11:50:01.491981+00:00
+*** SERVICE NAME:(SYS$USERS) 2021-03-11T11:50:01.491984+00:00
+*** MODULE NAME:(sqlplus@bastionlogan (TNS V1-V3)) 2021-03-11T11:50:01.491988+00:00
+*** ACTION NAME:() 2021-03-11T11:50:01.491991+00:00
+*** CLIENT DRIVER:(SQL*PLUS) 2021-03-11T11:50:01.491993+00:00
+*** CONTAINER ID:(1) 2021-03-11T11:50:01.491996+00:00
+ 
+ORA-3 Forced write to alert log Eugene from cron_sql script

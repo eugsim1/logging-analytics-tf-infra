@@ -1,0 +1,88 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_dbrm_14993.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	cust-db19
+Release:	5.4.17-2036.102.0.2.el7uek.x86_64
+Version:	#2 SMP Tue Jan 5 12:41:34 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 0 <none>
+Oracle process number: 14
+Unix process pid: 14993, image: oracle@cust-db19 (DBRM)
+
+
+*** 2021-03-07T18:11:40.417919+00:00 (CDB$ROOT(1))
+*** SESSION ID:(7.59032) 2021-03-07T18:11:40.417949+00:00
+*** CLIENT ID:() 2021-03-07T18:11:40.417953+00:00
+*** SERVICE NAME:() 2021-03-07T18:11:40.417957+00:00
+*** MODULE NAME:() 2021-03-07T18:11:40.417960+00:00
+*** ACTION NAME:() 2021-03-07T18:11:40.417964+00:00
+*** CLIENT DRIVER:() 2021-03-07T18:11:40.417967+00:00
+*** CONTAINER ID:(1) 2021-03-07T18:11:40.417971+00:00
+ 
+PGA LIMIT: using pga_aggregate_limit of 2048 MB
+
+*** 2021-03-07T18:11:42.425378+00:00 (CDB$ROOT(1))
+kgsksysstop: blocking mode (2) timestamp: 7515767892
+kgsksysstop: successful; Total stall time = 0 ms.
+PQQ: Skipping service checks
+kgsksysresume: successful
+START RESOURCE MANAGER PLAN/CONSUMER GROUP DUMP
+CDB ORA$INTERNAL_CDB_PLAN cpu_count=2 cpu_min=2.00
+  PDB #1 ORA$AUTOTASK_PLAN dirtype=AUTO shrs=0
+  PDB #1 ORA$ROOT_PLAN shrs=0
+END RESOURCE MANAGER PLAN/CONSUMER GROUP DUMP
+
+*** 2021-03-07T18:11:44.058661+00:00 (CDB$ROOT(1))
+kgsksysstop: blocking mode (2) timestamp: 7517401175
+kgsksysstop: successful; Total stall time = 0 ms.
+kgsksysresume: successful
+START RESOURCE MANAGER PLAN/CONSUMER GROUP DUMP
+CDB PE: PDB #2 PDB$SEED dirtype=DEF shrs=0
+PDB #2 PDB$SEED/INTERNAL_PLAN cpu_min=2.00
+END RESOURCE MANAGER PLAN/CONSUMER GROUP DUMP
+
+*** 2021-03-07T18:12:43.773653+00:00 (CDB$ROOT(1))
+kgsksysstop: blocking mode (2) timestamp: 7577116166
+kgsksysstop: successful; Total stall time = 0 ms.
+kgsksysresume: successful
+START RESOURCE MANAGER PLAN/CONSUMER GROUP DUMP
+PDB #2: CLOSED
+END RESOURCE MANAGER PLAN/CONSUMER GROUP DUMP
+
+*** 2021-03-07T18:12:47.959371+00:00 (CDB$ROOT(1))
+kgsksysstop: blocking mode (2) timestamp: 7581301885
+kgsksysstop: successful; Total stall time = 0 ms.
+kgsksysresume: successful
+START RESOURCE MANAGER PLAN/CONSUMER GROUP DUMP
+CDB PE: PDB #2 PDB$SEED dirtype=DEF shrs=0
+PDB #2 PDB$SEED/INTERNAL_PLAN cpu_min=2.00
+END RESOURCE MANAGER PLAN/CONSUMER GROUP DUMP
+
+*** 2021-03-07T18:13:38.504869+00:00 (CDB$ROOT(1))
+kgsksysstop: blocking mode (2) timestamp: 7631847385
+kgsksysstop: successful; Total stall time = 0 ms.
+kgsksysresume: successful
+START RESOURCE MANAGER PLAN/CONSUMER GROUP DUMP
+PDB #2: CLOSED
+END RESOURCE MANAGER PLAN/CONSUMER GROUP DUMP
+
+*** 2021-03-07T18:13:40.283551+00:00 (CDB$ROOT(1))
+kgsksysstop: blocking mode (2) timestamp: 7633626066
+kgsksysstop: successful; Total stall time = 0 ms.
+kgsksysresume: successful
+START RESOURCE MANAGER PLAN/CONSUMER GROUP DUMP
+CDB PE: PDB #2 PDB$SEED dirtype=DEF shrs=0
+PDB #2 PDB$SEED/INTERNAL_PLAN cpu_min=2.00
+END RESOURCE MANAGER PLAN/CONSUMER GROUP DUMP
+
+*** 2021-03-07T18:13:51.752716+00:00 (CDB$ROOT(1))
+kgsksysstop: blocking mode (2) timestamp: 7645095230
+kgsksysstop: successful; Total stall time = 0 ms.
+kgsksysresume: successful
+START RESOURCE MANAGER PLAN/CONSUMER GROUP DUMP
+PDB #2: CLOSED
+END RESOURCE MANAGER PLAN/CONSUMER GROUP DUMP

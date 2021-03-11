@@ -1,0 +1,32 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_mz00_23139.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	bastionlogan
+Release:	5.4.17-2036.103.3.1.el7uek.x86_64
+Version:	#2 SMP Sun Feb 14 12:48:17 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 1
+Oracle process number: 60
+Unix process pid: 23139, image: oracle@bastionlogan (MZ00)
+
+
+*** 2021-03-05T14:41:53.069700+00:00 (CDB$ROOT(1))
+*** SESSION ID:(38.22956) 2021-03-05T14:41:53.069731+00:00
+*** CLIENT ID:() 2021-03-05T14:41:53.069736+00:00
+*** SERVICE NAME:(SYS$BACKGROUND) 2021-03-05T14:41:53.069740+00:00
+*** MODULE NAME:(MMON_SLAVE) 2021-03-05T14:41:53.069745+00:00
+*** ACTION NAME:(JAVAVM JIT slave action) 2021-03-05T14:41:53.069749+00:00
+*** CLIENT DRIVER:() 2021-03-05T14:41:53.069754+00:00
+*** CONTAINER ID:(1) 2021-03-05T14:41:53.069758+00:00
+ 
+JIT starting
+
+*** 2021-03-05T14:41:53.069901+00:00 (CDB$ROOT(1))
+JIT running
+
+*** 2021-03-05T14:43:41.723475+00:00 (CDB$ROOT(1))
+JIT ending

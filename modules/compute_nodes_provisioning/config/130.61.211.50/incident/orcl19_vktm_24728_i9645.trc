@@ -1,0 +1,1142 @@
+Dump file /u01/app/oracle/diag/rdbms/orcl19/orcl19/incident/incdir_9645/orcl19_vktm_24728_i9645.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	bastionlogan
+Release:	5.4.17-2036.103.3.1.el7uek.x86_64
+Version:	#2 SMP Sun Feb 14 12:48:17 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 0 <none>
+Oracle process number: 5
+Unix process pid: 24728, image: oracle@bastionlogan (VKTM)
+
+
+*** 2021-03-05T14:46:43.143039+00:00
+*** CLIENT ID:() 2021-03-05T14:46:43.143048+00:00
+*** SERVICE NAME:() 2021-03-05T14:46:43.143053+00:00
+*** MODULE NAME:() 2021-03-05T14:46:43.143055+00:00
+*** ACTION NAME:() 2021-03-05T14:46:43.143058+00:00
+*** CLIENT DRIVER:() 2021-03-05T14:46:43.143061+00:00
+ 
+[TOC00000]
+Jump to table of contents
+Dump continued from file: /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_vktm_24728.trc
+[TOC00001]
+ORA-00800: soft external error, arguments: [Set Priority Failed], [VKTM], [Check traces and OS configuration], [Check Oracle document and MOS notes], []
+
+[TOC00001-END]
+[TOC00002]
+========= Dump for incident 9645 (ORA 800) ========
+[TOC00003]
+----- Beginning of Customized Incident Dump(s) -----
+ksesethighpri: (ksb.c:9772) Failed to elevate VKTM's priority from 0 to 1, policy 3
+Error Info: Category(-2), Opname(skgdism_create), Loc(sp.c:setpr:1), ErrMsg(Error 0) Dism(16)
+----- End of Customized Incident Dump(s) -----
+[TOC00003-END]
+[TOC00004]
+----- START Event Driven Actions Dump ----
+---- END Event Driven Actions Dump ----
+[TOC00004-END]
+[TOC00005]
+----- START DDE Actions Dump -----
+Executing SYNC actions
+Executing ASYNC actions
+[TOC00006]
+----- START DDE Action: 'dumpFrameContext' (Sync) -----
+[TOC00007]
+----- START Frame Context DUMP -----
+Status: 0
+---------------------------------------------------------------------------
+<Empty>
+---------------------------------------------------------------------------
+----- END Frame Context DUMP -----
+[TOC00007-END]
+----- END DDE Action: 'dumpFrameContext' (SUCCESS, 0 csec) -----
+[TOC00006-END]
+[TOC00008]
+----- START DDE Action: 'dumpDiagCtx' (Sync) -----
+[TOC00009]
+------- Diag Context Dump -------
+----- General DiagCtx Dump -----
+Serial#: 1
+Status: 3
+Flags: 0x801C
+Usage type: 0
+Diag Fixed SGA information:
+  Status: 2
+  Flags: 0x0
+  Incident Flag: UNSET
+  Heap: 0x601717a0
+Flood Control information:
+  Initialized: YES
+  Enabled: YES
+Diag init parameters:
+  Flags: 0x1
+  Base Flag: 0x0
+  Options: 0x800806
+  ADR option: 2
+  ADR Base: '/u01/app/oracle'
+  Product Type: 1
+  Product ID: 'orcl19'
+  Instance ID: 'orcl19'
+  Flood Control Gate: 0x3499ea0
+  Flood Control Ctx size: 8
+  ADR default lib ID: 1
+  UTS in mem trace enabled: TRUE
+  UTS default bucket size: 4294967295
+  UTS default bucket: 0x66737518
+  Incident ID cache cbf: 0x34974f0
+  Incident ID cache pop init: TRUE
+  UTS default trace file attr:
+    Flags: 0x1
+    Prefix: 'orcl19_vktm'
+    PIDStr: '24728'
+    Suffix: ''
+    Notify cbk: 0x349adb0
+    Size limits: 18446744073709551615
+    Size cbk: 0x349ec30
+  DDE alive update cbk: 0xdbbdc0
+  DDE alive start cbk: 0xdbc560
+  DDE alive clear cbk: 0xdbc630
+  Custom Flood Control cbk: (nil)
+----- END General DiagCtx Dump -----
+----- DDE Diagnostic Information Dump -----
+Depth: 1
+DDE flags: 0x0
+Heap: 0x7f3599eb0090
+Incident Context pointer in diag: 0x7f3599ebe9d0
+Incident ID Cache: 0x667ede98 
+Invocation Context #: 0
+----- Invocation Context Dump -----
+Address: 0x7f3599ebe128
+Phase: 3
+flags: 0x18E0005
+Incident ID: 9645
+Error Descriptor: ORA-800 [Set Priority Failed] [VKTM] [Check traces and OS configuration] [Check Oracle document and MOS notes] [] [] [] [] [] [] [] []
+Error class: 0
+Problem Key # of args: 0
+Number of actions: 14
+----- Incident Context Dump -----
+Address: 0x7f3599ebe9d0
+Incident ID: 9645
+Problem Key: ORA 800
+Error: ORA-800 [Set Priority Failed] [VKTM] [Check traces and OS configuration] [Check Oracle document and MOS notes] [] [] [] [] [] [] [] []
+[00]: dbgexExplicitEndInc [diag_dde]
+[01]: dbgeEndDDEInvocationImpl [diag_dde]
+[02]: ksbsethighpri_int [background_proc]<-- Signaling
+[03]: ksbrdp [background_proc]
+[04]: opirip [OPI]
+[05]: opidrv [OPI]
+[06]: sou2o []
+[07]: opimai_real [OPI]
+[08]: ssthrdmain []
+[09]: main []
+[10]: __libc_start_main []
+MD [00]: 'ProcId'='5.1' (0x2)
+MD [01]: 'PdbName'='CDB$ROOT' (0x0)
+MD [02]: 'Client ProcId'='oracle@bastionlogan.24728_139868274090944' (0x0)
+Impact 0: 
+Impact 1: 
+Impact 2: 
+Impact 3: 
+Derived Impact: 
+----- END Incident Context Dump -----
+--------- Invocation TOC Context ---------
+Current TOC number: 0
+Current TOC section depth: 0
+TOC enabled?: No
+TOC Magic: 0
+TOC Flags: 0
+------- END Invocation TOC Context -------
+----- END Invocation Context Dump -----
+Invocation Context #: 1
+----- Invocation Context Dump -----
+Address: 0x7f3599ec4ca8
+Phase: 0
+flags: 0x0
+Incident ID: 0
+Error Descriptor: 
+Error class: 0
+Problem Key # of args: 0
+Number of actions: 0
+--------- Invocation TOC Context ---------
+Current TOC number: 10
+Current TOC section depth: 4
+TOC enabled?: Yes
+TOC Magic: 3249914550
+TOC Flags: 0
+stack location 00 current value: 2
+stack location 01 current value: 5
+stack location 02 current value: 8
+stack location 03 current value: 9
+------- END Invocation TOC Context -------
+----- END Invocation Context Dump -----
+----- END DDE Diagnostic Information Dump -----
+----- UTS Diagnostic Information Dump (addr=0x7f3599eac850) -----
+flags_dbgtc=0x0 seq_ptr_dbgtc=0x66729d9c
+def_bucket_dbgtc=0x66737518 gid_dbgtc=20
+defTraceFile_dbgtc=0x7f3599eba5f8 fstack_dbgtc=0x7f3599eada58
+lastEpochTsOutputted_dbgtc=668270803156661 lastRecWriteDumpMs_dbgtc=0
+recWriteDepth_dbgtc=0 numRecWriteDumps_dbgtc=0
+tidStr_dbgtc=2664096704
+==== Dumping UTS file=0x7f3599eba5f8 desc=default ====
+Type=2 flags=0 err=0 cbk=0x12849620 sctx=(nil)
+--- Dumping UTS file (ADR type) file=0x7f3599eba5f8 ---
+File name: /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_vktm_24728.trc
+flags=0x203 needInit=0 nfyMasked=0 bytes=1190 written=1190 check=1190 seg=1190 stats=1464
+attrib: flags=0x1 pref=orcl19_vktm pid=24728 suffix=
+        limit=18446744073709551615 nfy=0x349adb0
+Segment_attributes:
+segNum=1 prevSegNum=0
+firstSegNum=1 prevFirstSegNum=1 lowestExistSegNum=1
+segSize=0 firstSegSize=0 numSegs=5 retainFirst=1
+cbk=0x349efe0
+--- Dumping file stack addr=0x7f3599eada58 cnt=1 ---
+Pos=0 fileP=0x7f3599ec1918
+==== Dumping UTS file=0x7f3599ec1918 desc=stack ====
+Type=2 flags=0 err=0 cbk=0x12849620 sctx=(nil)
+--- Dumping UTS file (ADR type) file=0x7f3599ec1918 ---
+File name: /u01/app/oracle/diag/rdbms/orcl19/orcl19/incident/incdir_9645/orcl19_vktm_24728_i9645.trc
+flags=0x22b needInit=0 nfyMasked=0 bytes=6751 written=2655 check=6751 seg=6751 stats=10019
+attrib: flags=0x1 pref=orcl19_vktm pid=24728 suffix=i9645
+        limit=18446744073709551615 nfy=0x349adb0
+Segment_attributes:
+segNum=1 prevSegNum=0
+firstSegNum=1 prevFirstSegNum=1 lowestExistSegNum=1
+segSize=0 firstSegSize=0 numSegs=0 retainFirst=0
+cbk=0x349efe0
+----- END UTS Diagnostic Information Dump -----
+----- Events Diagnostic Information Dump -----
+Active Fast Chk Desc in DiagCtx is (nil)
+Active Event group is not Default Group
+--- Dump of Event Group  ---
+Event Group desc : Default Event Group
+Located at Address 0x7f3599eab5e0
+Event group id 1
+Event group version 1
+Event group heap 0x7f359ec1d7c0
+Fast Check Descriptor is NULL
+
+----- END Dump of Event Group ----
+--- Dump of Event Group  ---
+Event Group desc : Active Event Group
+Located at Address 0x7f3599eadb30
+Event group id 4
+Event group version 1
+Event group heap 0x7f359ec62200
+Fast Check Descriptor is NULL
+
+----- END Dump of Event Group ----
+----- END Events Diagnostic Information Dump -----
+----- ADR Diagnostic Information Dump -----
+ADR Flags: 0x1601
+Retries: 0
+ADR Home #0
+  ADR Id: 197368179
+  Create Id: 0
+  Base Flag: 0x0
+  Product Type: 1
+  Product Name: rdbms
+  Product Id: orcl19
+  Instance Id: orcl19
+  Base Directory: /u01/app/oracle
+  Home Directory: /u01/app/oracle/diag/rdbms/orcl19/orcl19
+  Relative Path: diag/rdbms/orcl19/orcl19/
+Home Loc #0: 0
+Test Action: 0x0, 0
+----- ADS Open Files Dump -----
+  ################ Open Stream File: 0 ################
+PathFile: /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_vktm_24728.trc
+OpFlag: 10, Status: 1, MagicBeg: 2153609765, MagicNum: 3593058129
+Stream Access
+----- ADS Stream Desc Dump -----
+fd: 8
+----- END ADS Stream Desc Dump -----
+File Name Fragment: 19/trace/orcl19_vktm_24728.trc
+  ################ Open Stream File: 1 ################
+PathFile: /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_vktm_24728.trm
+OpFlag: 136, Status: 1, MagicBeg: 2153609765, MagicNum: 3593058129
+Stream Access
+----- ADS Stream Desc Dump -----
+fd: 9
+----- END ADS Stream Desc Dump -----
+File Name Fragment: 19/trace/orcl19_vktm_24728.trm
+  ################ Open Stream File: 2 ################
+PathFile: /u01/app/oracle/diag/rdbms/orcl19/orcl19/incident/incdir_9645/orcl19_vktm_24728_i9645.toc
+OpFlag: 136, Status: 1, MagicBeg: 2153609765, MagicNum: 3593058129
+Stream Access
+----- ADS Stream Desc Dump -----
+fd: 10
+----- END ADS Stream Desc Dump -----
+File Name Fragment: 45/orcl19_vktm_24728_i9645.toc
+  ################ Open Stream File: 3 ################
+PathFile: /u01/app/oracle/diag/rdbms/orcl19/orcl19/incident/incdir_9645/orcl19_vktm_24728_i9645.trc
+OpFlag: 10, Status: 1, MagicBeg: 2153609765, MagicNum: 3593058129
+Stream Access
+----- ADS Stream Desc Dump -----
+fd: 11
+----- END ADS Stream Desc Dump -----
+File Name Fragment: 45/orcl19_vktm_24728_i9645.trc
+  ################ Open Stream File: 4 ################
+PathFile: /u01/app/oracle/diag/rdbms/orcl19/orcl19/incident/incdir_9645/orcl19_vktm_24728_i9645.trm
+OpFlag: 136, Status: 1, MagicBeg: 2153609765, MagicNum: 3593058129
+Stream Access
+----- ADS Stream Desc Dump -----
+fd: 12
+----- END ADS Stream Desc Dump -----
+File Name Fragment: 45/orcl19_vktm_24728_i9645.trm
+----- END ADS Open Files Dump -----
+----- END ADR Diagnostic Information Dump -----
+----- ADL Diagnostic Information Dump -----
+ADL Flags: 0x2c
+Timestamp: 389047
+Timestamp Hash: fffffffffffffffdX
+Host Name: bastionlogan
+NW Address: 10.1.1.2
+----- END ADL Diagnostic Information Dump -----
+----- Diag Context Memory -----
+7F359EC1D6D0 00000001 00000000 00000000 00000000  [................]
+7F359EC1D6E0 00000007 00000001 00000003 00000000  [................]
+7F359EC1D6F0 9EC5D9A0 00007F35 172BF7E0 00000000  [....5.....+.....]
+7F359EC1D700 00000001 00000000 00000000 00000000  [................]
+7F359EC1D710 99EBC560 00007F35 99E62408 00007F35  [`...5....$..5...]
+7F359EC1D720 99EAC230 00007F35 99EAC2B0 00007F35  [0...5.......5...]
+7F359EC1D730 9EC0E9A8 00007F35 9EC0EA98 00007F35  [....5.......5...]
+7F359EC1D740 9EC0EB60 00007F35 9EC0EC5F 00007F35  [`...5..._...5...]
+7F359EC1D750 99EAA7C8 00007F35 99EAA8C7 00007F35  [....5.......5...]
+7F359EC1D760 99EAAF80 00007F35 99EAB07F 00007F35  [....5.......5...]
+7F359EC1D770 99EACC88 00007F35 99EACD87 00007F35  [....5.......5...]
+7F359EC1D780 99EAD440 00007F35 99EAD53F 00007F35  [@...5...?...5...]
+7F359EC1D790 99EABC30 00007F35 99EABD2F 00007F35  [0...5.../...5...]
+7F359EC1D7A0 99EAC850 00007F35 00000000 00000000  [P...5...........]
+7F359EC1D7B0 00000000 00000000 9EB00048 00007F35  [........H...5...]
+7F359EC1D7C0 9EC62200 00007F35 00000000 00000000  [."..5...........]
+7F359EC1D7D0 00000000 00000000 99E623D0 00007F35  [.........#..5...]
+7F359EC1D7E0 99E623E0 00007F35 00000000 00000000  [.#..5...........]
+7F359EC1D7F0 00000000 00000000 00010300 0000FFFF  [................]
+7F359EC1D800 00000000 00000000 00001040 67616964  [........@...diag]
+7F359EC1D810 61677020 00000000 20000000 7FFF7FFF  [ pga....... ....]
+7F359EC1D820 7FFF7FFF 00001040 00010001 00000000  [....@...........]
+7F359EC1D830 00000000 00000000 9EC0E940 00007F35  [........@...5...]
+7F359EC1D840 99EADBC0 00007F35 00000000 00000000  [....5...........]
+7F359EC1D850 00000000 00000000 00000000 00000000  [................]
+        Repeat 719 times
+7F359EC20550 17D5D190 00000000 99EAB638 00007F35  [........8...5...]
+7F359EC20560 66729D08 00000000 00000000 00000000  [..rf............]
+7F359EC20570 00000000 00000000 9EC1D0D0 00007F35  [............5...]
+7F359EC20580 9EC1D090 00007F35 0000801C 00000000  [....5...........]
+7F359EC20590 99EB0130 00007F35 99EBE128 00007F35  [0...5...(...5...]
+7F359EC205A0 99EC4CA8 00007F35 00000001 00000000  [.L..5...........]
+7F359EC205B0 00000001 00000000 9EC0F358 00007F35  [........X...5...]
+7F359EC205C0 99EB0268 00007F35 0C642210 00000000  [h...5...."d.....]
+7F359EC205D0 99EBE9D0 00007F35 99EAB5E0 00007F35  [....5.......5...]
+7F359EC205E0 99EADB30 00007F35 9ECA18D0 00007F35  [0...5.......5...]
+7F359EC205F0 00000001 00000000 00000000 00000000  [................]
+7F359EC20600 00000000 00000000 00000000 00000000  [................]
+        Repeat 4 times
+7F359EC20650 00000001 00000000 00DB7A70 00000000  [........pz......]
+7F359EC20660 00DB8C70 00000000 99EBC4D0 00007F35  [p...........5...]
+7F359EC20670 9EC5D9A0 00007F35 00000000 00000000  [....5...........]
+7F359EC20680 00000000 00000000 00000000 00000000  [................]
+        Repeat 1 times
+7F359EC206A0 99EAC9D8 00007F35 00000000 00000000  [....5...........]
+7F359EC206B0 00000000 00000000 00000000 00000000  [................]
+----- Diag Context Init Params Memory -----
+7F3599EAB630                   00000001 00000000          [........]
+7F3599EAB640 3130752F 7070612F 61726F2F 00656C63  [/u01/app/oracle.]
+7F3599EAB650 00000000 00000000 00000000 00000000  [................]
+        Repeat 21 times
+7F3599EAB7B0 00000001 6C63726F 00003931 00000000  [....orcl19......]
+7F3599EAB7C0 00000000 00000000 00000000 00000000  [................]
+        Repeat 2 times
+7F3599EAB7F0 00000000 63726F00 0039316C 00000000  [.....orcl19.....]
+7F3599EAB800 00000000 00000000 00000000 00000000  [................]
+        Repeat 2 times
+7F3599EAB830 00000000 00000000 03499EA0 00000000  [..........I.....]
+7F3599EAB840 00000008 00800806 00000002 00000000  [................]
+7F3599EAB850 00000000 00000000 0349E680 00000000  [..........I.....]
+7F3599EAB860 0C7FB9D0 00000000 0C7FD4E0 00000000  [................]
+7F3599EAB870 00000000 00000000 00000001 00000001  [................]
+7F3599EAB880 FFFFFFFF 00000000 66737518 00000000  [.........usf....]
+7F3599EAB890 034974F0 00000000 00000001 00000000  [.tI.............]
+7F3599EAB8A0 00000001 6C63726F 765F3931 006D746B  [....orcl19_vktm.]
+7F3599EAB8B0 00000000 00000000 00000000 00000000  [................]
+        Repeat 2 times
+7F3599EAB8E0 00000000 37343200 00003832 00000000  [.....24728......]
+7F3599EAB8F0 00000000 00000000 00000000 00000000  [................]
+        Repeat 4 times
+7F3599EAB940 0349ADB0 00000000 FFFFFFFF FFFFFFFF  [..I.............]
+7F3599EAB950 00000000 00000000 0349EC30 00000000  [........0.I.....]
+7F3599EAB960 00000000 00000000 00000000 00000000  [................]
+        Repeat 1 times
+7F3599EAB980 00000000 00000000 00000001 00000000  [................]
+7F3599EAB990 00000001 00000001 00000001 00000000  [................]
+7F3599EAB9A0 00000000 00000000 00000000 00000000  [................]
+        Repeat 1 times
+7F3599EAB9C0 00DBBDC0 00000000 00DBC560 00000000  [........`.......]
+7F3599EAB9D0 00DBC630 00000000 00000000 00000000  [0...............]
+7F3599EAB9E0 0350F220 00000000                    [ .P.....]        
+----- Diag Thread Local Root Dump -----
+Sequence#: 2
+Flags: 0x0
+Diag Pointers by type:
+  [0]: 0x7f359ec1d6d0
+  [1]: (nil)
+  [2]: (nil)
+Library References:
+  [00]: ID=0 (0x7f359ec1d0b0):
+        Precedence: 0
+        Reference Count: 0
+        Usage type: 0
+        Usage flags: 0x0
+  [01]: ID=0 (0x7f359ec1d0c0):
+        Precedence: 0
+        Reference Count: 0
+        Usage type: 0
+        Usage flags: 0x0
+  [02]: ID=2 (0x7f359ec1d0d0):
+        Precedence: 3
+        Reference Count: 1
+        Usage type: 0
+        Usage flags: 0x0
+  [03]: ID=3 (0x7f359ec1d0e0):
+        Precedence: 4
+        Reference Count: 1
+        Usage type: 0
+        Usage flags: 0x0
+  [04]: ID=0 (0x7f359ec1d0f0):
+        Precedence: 0
+        Reference Count: 0
+        Usage type: 0
+        Usage flags: 0x0
+  [05]: ID=0 (0x7f359ec1d100):
+        Precedence: 0
+        Reference Count: 0
+        Usage type: 0
+        Usage flags: 0x0
+  [06]: ID=0 (0x7f359ec1d110):
+        Precedence: 0
+        Reference Count: 0
+        Usage type: 0
+        Usage flags: 0x0
+  [07]: ID=0 (0x7f359ec1d120):
+        Precedence: 0
+        Reference Count: 0
+        Usage type: 0
+        Usage flags: 0x0
+  [08]: ID=8 (0x7f359ec1d130):
+        Precedence: 16
+        Reference Count: 1
+        Usage type: 0
+        Usage flags: 0x0
+  [09]: ID=0 (0x7f359ec1d140):
+        Precedence: 0
+        Reference Count: 0
+        Usage type: 0
+        Usage flags: 0x0
+  [10]: ID=0 (0x7f359ec1d150):
+        Precedence: 0
+        Reference Count: 0
+        Usage type: 0
+        Usage flags: 0x0
+  [11]: ID=0 (0x7f359ec1d160):
+        Precedence: 0
+        Reference Count: 0
+        Usage type: 0
+        Usage flags: 0x0
+  [12]: ID=0 (0x7f359ec1d170):
+        Precedence: 0
+        Reference Count: 0
+        Usage type: 0
+        Usage flags: 0x0
+  [13]: ID=0 (0x7f359ec1d180):
+        Precedence: 0
+        Reference Count: 0
+        Usage type: 0
+        Usage flags: 0x0
+  [14]: ID=0 (0x7f359ec1d190):
+        Precedence: 0
+        Reference Count: 0
+        Usage type: 0
+        Usage flags: 0x0
+  [15]: ID=0 (0x7f359ec1d1a0):
+        Precedence: 0
+        Reference Count: 0
+        Usage type: 0
+        Usage flags: 0x0
+  [16]: ID=0 (0x7f359ec1d1b0):
+        Precedence: 0
+        Reference Count: 0
+        Usage type: 0
+        Usage flags: 0x0
+  [17]: ID=0 (0x7f359ec1d1c0):
+        Precedence: 0
+        Reference Count: 0
+        Usage type: 0
+        Usage flags: 0x0
+  [18]: ID=0 (0x7f359ec1d1d0):
+        Precedence: 0
+        Reference Count: 0
+        Usage type: 0
+        Usage flags: 0x0
+  [19]: ID=0 (0x7f359ec1d1e0):
+        Precedence: 0
+        Reference Count: 0
+        Usage type: 0
+        Usage flags: 0x0
+  [20]: ID=0 (0x7f359ec1d1f0):
+        Precedence: 0
+        Reference Count: 0
+        Usage type: 0
+        Usage flags: 0x0
+  [21]: ID=0 (0x7f359ec1d200):
+        Precedence: 0
+        Reference Count: 0
+        Usage type: 0
+        Usage flags: 0x0
+  [22]: ID=0 (0x7f359ec1d210):
+        Precedence: 0
+        Reference Count: 0
+        Usage type: 0
+        Usage flags: 0x0
+  [23]: ID=0 (0x7f359ec1d220):
+        Precedence: 0
+        Reference Count: 0
+        Usage type: 0
+        Usage flags: 0x0
+  [24]: ID=0 (0x7f359ec1d230):
+        Precedence: 0
+        Reference Count: 0
+        Usage type: 0
+        Usage flags: 0x0
+  [25]: ID=0 (0x7f359ec1d240):
+        Precedence: 0
+        Reference Count: 0
+        Usage type: 0
+        Usage flags: 0x0
+  [26]: ID=0 (0x7f359ec1d250):
+        Precedence: 0
+        Reference Count: 0
+        Usage type: 0
+        Usage flags: 0x0
+  [27]: ID=0 (0x7f359ec1d260):
+        Precedence: 0
+        Reference Count: 0
+        Usage type: 0
+        Usage flags: 0x0
+  [28]: ID=0 (0x7f359ec1d270):
+        Precedence: 0
+        Reference Count: 0
+        Usage type: 0
+        Usage flags: 0x0
+  [29]: ID=0 (0x7f359ec1d280):
+        Precedence: 0
+        Reference Count: 0
+        Usage type: 0
+        Usage flags: 0x0
+----- Diag Thread Local Root Memory -----
+7F359EC1D090 3B9EF5C8 00000000 9EC1D6D0 00007F35  [...;........5...]
+7F359EC1D0A0 00000000 00000000 00000000 00000000  [................]
+        Repeat 2 times
+7F359EC1D0D0 99EAB638 00007F35 00000002 00000103  [8...5...........]
+7F359EC1D0E0 9EC1D300 00007F35 00000003 00000104  [....5...........]
+7F359EC1D0F0 00000000 00000000 00000000 00000000  [................]
+        Repeat 3 times
+7F359EC1D130 9EB8B868 00007F35 00000008 00000110  [h...5...........]
+7F359EC1D140 00000000 00000000 00000000 00000000  [................]
+        Repeat 20 times
+7F359EC1D290 00000002 00000000                    [........]        
+----- END Diag Thread Local Root Dump -----
+----- Diag Context Flood Control Memory -----
+066729D10                   601717A0 00000000          [...`....]
+066729D20 673F6F08 00000000 00000010 00000000  [.o?g............]
+066729D30 00000000 0000000D 66B8E3A0 00000000  [...........f....]
+066729D40 673F6EE0 00000000 7803A88F 00000000  [.n?g.......x....]
+066729D50 601717A0 00000000 673F7020 00000000  [...`.... p?g....]
+066729D60 00000010 00000000 00000000 0000000E  [................]
+066729D70 66BD9EC8 00000000 676EEB48 00000000  [...f....H.ng....]
+066729D80 7803A88F 00000000 601717A0 00000000  [...x.......`....]
+066729D90 00000001 00000001                    [........]        
+------- END Diag Context Dump -------
+[TOC00009-END]
+----- END DDE Action: 'dumpDiagCtx' (SUCCESS, 0 csec) -----
+[TOC00008-END]
+[TOC00010]
+----- START DDE Action: 'dumpBuckets' (Sync) -----
+----- END DDE Action: 'dumpBuckets' (SUCCESS, 0 csec) -----
+[TOC00010-END]
+[TOC00011]
+----- START DDE Action: 'dumpGeneralConfiguration' (Sync) -----
+[TOC00012]
+========= General Configuration ========
+--------- GC Source: [generic GC] --------
+[0000]: item 0=ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+[0000]: item 1=System name:	Linux
+[0000]: item 2=Node name:	bastionlogan
+[0000]: item 3=Release:	5.4.17-2036.103.3.1.el7uek.x86_64
+[0000]: item 4=Version:	#2 SMP Sun Feb 14 12:48:17 PST 2021
+[0000]: item 5=Machine:	x86_64
+--------- GC Source: [unittest_GC] --------
+--------- GC Source: [kernel_GC] --------
+[0003]: banner=Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+[0003]: product_str=Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+[0003]: product_version=19.0.0.0.0
+[0003]: build_label=RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+[0003]: installed_feature_1=Partitioning
+[0003]: installed_feature_2=OLAP
+[0003]: installed_feature_3=Advanced Analytics
+[0003]: installed_feature_4=Real Application Testing
+[0003]: installed_features_num=4
+[0003]: instance_name=orcl19
+[0001]: os_name=Linux
+[0001]: number_cpu=1
+[0001]: number_core_cpu=2
+--------- GC Source: [Non_Default_Kernel_Parameters] --------
+[0004]: processes=300
+[0004]: nls_language=AMERICAN
+[0004]: nls_territory=AMERICA
+[0004]: filesystemio_options=setall
+[0004]: sga_target=1065353216
+[0004]: control_files=/u01/app/oracle/oradata19/ORCL19/control01.ctl, /u01/app/oracle/oradata19/ORCL19/control02.ctl
+[0004]: db_block_size=8192
+[0004]: compatible=19.0.0
+[0004]: undo_tablespace=UNDOTBS1
+[0004]: remote_login_passwordfile=EXCLUSIVE
+[0004]: dispatchers=(PROTOCOL=TCP) (SERVICE=orcl19XDB)
+[0004]: local_listener=LISTENER_ORCL19
+[0004]: audit_file_dest=/u01/app/oracle/admin/orcl19/adump
+[0004]: audit_trail=DB
+[0004]: db_name=orcl19
+[0004]: open_cursors=300
+[0004]: pga_aggregate_target=355467264
+[0004]: diagnostic_dest=/u01/app/oracle
+[0004]: enable_pluggable_database=TRUE
+--------- GC Source: [Visible_Default_Kernel_Parameters] --------
+[0004]: sessions=472
+[0004]: timed_statistics=TRUE
+[0004]: timed_os_statistics=0
+[0004]: resource_limit=TRUE
+[0004]: license_max_sessions=0
+[0004]: license_sessions_warning=0
+[0004]: long_module_action=TRUE
+[0004]: standby_db_preserve_states=NONE
+[0004]: instance_abort_delay_time=0
+[0004]: cpu_count=2
+[0004]: cpu_min_count=2
+[0004]: sga_max_size=1065353216
+[0004]: use_large_pages=TRUE
+[0004]: pre_page_sga=TRUE
+[0004]: shared_memory_address=0
+[0004]: hi_shared_memory_address=0
+[0004]: lock_sga=FALSE
+[0004]: allow_group_access_to_sga=FALSE
+[0004]: sga_min_size=0
+[0004]: shared_pool_size=0
+[0004]: large_pool_size=0
+[0004]: java_pool_size=0
+[0004]: streams_pool_size=0
+[0004]: shared_pool_reserved_size=13421772
+[0004]: java_soft_sessionspace_limit=0
+[0004]: java_max_sessionspace_size=0
+[0004]: pga_aggregate_limit=2147483648
+[0004]: spfile=/u01/app/oracle/product/19c/dbhome_1/dbs/spfileorcl19.ora
+[0004]: instance_type=RDBMS
+[0004]: uniform_log_timestamp_format=TRUE
+[0004]: nls_comp=BINARY
+[0004]: nls_length_semantics=BYTE
+[0004]: nls_nchar_conv_excp=FALSE
+[0004]: disk_asynch_io=TRUE
+[0004]: tape_asynch_io=TRUE
+[0004]: dbwr_io_slaves=0
+[0004]: backup_tape_io_slaves=FALSE
+[0004]: dnfs_batch_size=4096
+[0004]: clonedb=FALSE
+[0004]: instant_restore=FALSE
+[0004]: ofs_threads=4
+[0004]: resource_manager_cpu_allocation=2
+[0004]: max_iops=0
+[0004]: max_mbps=0
+[0004]: max_idle_time=0
+[0004]: max_idle_blocker_time=0
+[0004]: file_mapping=FALSE
+[0004]: max_datapump_jobs_per_pdb=100
+[0004]: max_datapump_parallel_per_job=50
+[0004]: service_names=orcl19
+[0004]: threaded_execution=FALSE
+[0004]: enable_dnfs_dispatcher=FALSE
+[0004]: gcs_server_processes=0
+[0004]: instance_mode=READ-WRITE
+[0004]: memory_target=0
+[0004]: memory_max_target=0
+[0004]: control_file_record_keep_time=7
+[0004]: db_block_buffers=0
+[0004]: db_block_checksum=TYPICAL
+[0004]: db_ultra_safe=OFF
+[0004]: db_cache_size=0
+[0004]: db_2k_cache_size=0
+[0004]: db_4k_cache_size=0
+[0004]: db_8k_cache_size=0
+[0004]: db_16k_cache_size=0
+[0004]: db_32k_cache_size=0
+[0004]: db_keep_cache_size=0
+[0004]: db_recycle_cache_size=0
+[0004]: memoptimize_pool_size=0
+[0004]: db_big_table_cache_percent_target=0
+[0004]: encrypt_new_tablespaces=CLOUD_ONLY
+[0004]: db_writer_processes=1
+[0004]: db_flash_cache_size=0
+[0004]: db_cache_advice=ON
+[0004]: log_archive_dest_state_1=enable
+[0004]: log_archive_dest_state_2=enable
+[0004]: log_archive_dest_state_3=enable
+[0004]: log_archive_dest_state_4=enable
+[0004]: log_archive_dest_state_5=enable
+[0004]: log_archive_dest_state_6=enable
+[0004]: log_archive_dest_state_7=enable
+[0004]: log_archive_dest_state_8=enable
+[0004]: log_archive_dest_state_9=enable
+[0004]: log_archive_dest_state_10=enable
+[0004]: log_archive_dest_state_11=enable
+[0004]: log_archive_dest_state_12=enable
+[0004]: log_archive_dest_state_13=enable
+[0004]: log_archive_dest_state_14=enable
+[0004]: log_archive_dest_state_15=enable
+[0004]: log_archive_dest_state_16=enable
+[0004]: log_archive_dest_state_17=enable
+[0004]: log_archive_dest_state_18=enable
+[0004]: log_archive_dest_state_19=enable
+[0004]: log_archive_dest_state_20=enable
+[0004]: log_archive_dest_state_21=enable
+[0004]: log_archive_dest_state_22=enable
+[0004]: log_archive_dest_state_23=enable
+[0004]: log_archive_dest_state_24=enable
+[0004]: log_archive_dest_state_25=enable
+[0004]: log_archive_dest_state_26=enable
+[0004]: log_archive_dest_state_27=enable
+[0004]: log_archive_dest_state_28=enable
+[0004]: log_archive_dest_state_29=enable
+[0004]: log_archive_dest_state_30=enable
+[0004]: log_archive_dest_state_31=enable
+[0004]: log_archive_start=FALSE
+[0004]: log_archive_min_succeed_dest=1
+[0004]: log_archive_trace=0
+[0004]: data_guard_sync_latency=0
+[0004]: log_archive_format=%t_%s_%r.dbf
+[0004]: data_guard_max_io_time=240
+[0004]: data_guard_max_longio_time=240
+[0004]: log_archive_max_processes=4
+[0004]: log_buffer=7299072
+[0004]: log_checkpoint_interval=0
+[0004]: log_checkpoint_timeout=1800
+[0004]: archive_lag_target=0
+[0004]: db_files=200
+[0004]: db_file_multiblock_read_count=128
+[0004]: read_only_open_delayed=FALSE
+[0004]: cluster_database=FALSE
+[0004]: cluster_database_instances=1
+[0004]: db_recovery_file_dest_size=0
+[0004]: standby_file_management=MANUAL
+[0004]: db_unrecoverable_scn_tracking=TRUE
+[0004]: thread=0
+[0004]: enabled_PDBs_on_standby=*
+[0004]: fast_start_io_target=0
+[0004]: fast_start_mttr_target=0
+[0004]: log_checkpoints_to_alert=FALSE
+[0004]: db_lost_write_protect=NONE
+[0004]: recovery_parallelism=0
+[0004]: enable_goldengate_replication=FALSE
+[0004]: inmemory_adg_enabled=TRUE
+[0004]: db_flashback_retention_target=1440
+[0004]: data_transfer_cache_size=0
+[0004]: enable_imc_with_mira=FALSE
+[0004]: adg_account_info_tracking=LOCAL
+[0004]: adg_redirect_dml=FALSE
+[0004]: dml_locks=2076
+[0004]: replication_dependency_tracking=TRUE
+[0004]: transactions=519
+[0004]: transactions_per_rollback_segment=5
+[0004]: temp_undo_enabled=FALSE
+[0004]: undo_management=AUTO
+[0004]: undo_retention=900
+[0004]: fast_start_parallel_rollback=LOW
+[0004]: resumable_timeout=0
+[0004]: instance_number=0
+[0004]: heat_map=OFF
+[0004]: inmemory_size=0
+[0004]: inmemory_xmem_size=0
+[0004]: allow_rowid_column_type=FALSE
+[0004]: db_block_checking=FALSE
+[0004]: recyclebin=on
+[0004]: db_index_compression_inheritance=NONE
+[0004]: db_securefile=PREFERRED
+[0004]: inmemory_force=DEFAULT
+[0004]: inmemory_query=ENABLE
+[0004]: inmemory_expressions_usage=ENABLE
+[0004]: inmemory_virtual_columns=MANUAL
+[0004]: inmemory_max_populate_servers=0
+[0004]: inmemory_trickle_repopulate_servers_percent=1
+[0004]: inmemory_optimized_arithmetic=DISABLE
+[0004]: inmemory_automatic_level=OFF
+[0004]: serial_reuse=disable
+[0004]: ldap_directory_access=NONE
+[0004]: ldap_directory_sysauth=no
+[0004]: os_roles=FALSE
+[0004]: remote_os_authent=FALSE
+[0004]: remote_os_roles=FALSE
+[0004]: sec_case_sensitive_logon=TRUE
+[0004]: license_max_users=0
+[0004]: audit_sys_operations=TRUE
+[0004]: DBFIPS_140=FALSE
+[0004]: one_step_plugin_for_pdb_with_tde=FALSE
+[0004]: unified_audit_sga_queue_size=1048576
+[0004]: global_names=FALSE
+[0004]: distributed_lock_timeout=60
+[0004]: commit_point_strength=1
+[0004]: global_txn_processes=1
+[0004]: instance_name=orcl19
+[0004]: shared_servers=1
+[0004]: use_dedicated_broker=FALSE
+[0004]: connection_brokers=((TYPE=DEDICATED)(BROKERS=1)), ((TYPE=EMON)(BROKERS=1))
+[0004]: cursor_space_for_time=FALSE
+[0004]: session_cached_cursors=50
+[0004]: remote_dependencies_mode=TIMESTAMP
+[0004]: plsql_v2_compatibility=FALSE
+[0004]: plsql_warnings=DISABLE:ALL
+[0004]: plsql_code_type=INTERPRETED
+[0004]: plsql_debug=FALSE
+[0004]: plsql_optimize_level=2
+[0004]: plscope_settings=IDENTIFIERS:NONE
+[0004]: permit_92_wrap_format=TRUE
+[0004]: java_jit_enabled=TRUE
+[0004]: java_restrict=none
+[0004]: job_queue_processes=4000
+[0004]: scheduler_follow_pdbtz=FALSE
+[0004]: parallel_min_percent=0
+[0004]: create_bitmap_area_size=8388608
+[0004]: bitmap_merge_area_size=1048576
+[0004]: cursor_sharing=EXACT
+[0004]: result_cache_mode=MANUAL
+[0004]: parallel_min_servers=4
+[0004]: parallel_max_servers=40
+[0004]: parallel_execution_message_size=16384
+[0004]: hash_area_size=131072
+[0004]: private_temp_table_prefix=ORA$PTT_
+[0004]: result_cache_max_size=5341184
+[0004]: result_cache_max_result=5
+[0004]: result_cache_remote_expiration=0
+[0004]: shadow_core_dump=partial
+[0004]: background_core_dump=partial
+[0004]: background_dump_dest=/u01/app/oracle/product/19c/dbhome_1/rdbms/log
+[0004]: user_dump_dest=/u01/app/oracle/product/19c/dbhome_1/rdbms/log
+[0004]: core_dump_dest=/u01/app/oracle/diag/rdbms/orcl19/orcl19/cdump
+[0004]: resource_manage_goldengate=FALSE
+[0004]: object_cache_optimal_size=10240000
+[0004]: object_cache_max_size_percent=10
+[0004]: lob_signature_enable=FALSE
+[0004]: session_max_open_files=10
+[0004]: open_links=4
+[0004]: open_links_per_instance=4
+[0004]: optimizer_features_enable=19.1.0
+[0004]: sort_area_size=65536
+[0004]: sort_area_retained_size=0
+[0004]: cell_offload_processing=TRUE
+[0004]: cell_offload_decryption=TRUE
+[0004]: cell_offload_compaction=ADAPTIVE
+[0004]: cell_offload_plan_display=AUTO
+[0004]: db_unique_name=orcl19
+[0004]: sql_trace=FALSE
+[0004]: os_authent_prefix=ops$
+[0004]: optimizer_mode=ALL_ROWS
+[0004]: sql92_security=TRUE
+[0004]: blank_trimming=FALSE
+[0004]: star_transformation_enabled=FALSE
+[0004]: parallel_degree_policy=MANUAL
+[0004]: parallel_adaptive_multi_user=FALSE
+[0004]: parallel_threads_per_cpu=1
+[0004]: optimizer_index_cost_adj=100
+[0004]: optimizer_index_caching=0
+[0004]: query_rewrite_enabled=TRUE
+[0004]: query_rewrite_integrity=enforced
+[0004]: workarea_size_policy=AUTO
+[0004]: optimizer_dynamic_sampling=2
+[0004]: statistics_level=TYPICAL
+[0004]: cursor_bind_capture_destination=memory+disk
+[0004]: skip_unusable_indexes=TRUE
+[0004]: optimizer_ignore_hints=FALSE
+[0004]: optimizer_secure_view_merging=TRUE
+[0004]: ddl_lock_timeout=0
+[0004]: deferred_segment_creation=TRUE
+[0004]: optimizer_use_pending_statistics=FALSE
+[0004]: optimizer_capture_sql_plan_baselines=FALSE
+[0004]: optimizer_use_sql_plan_baselines=TRUE
+[0004]: parallel_min_time_threshold=AUTO
+[0004]: parallel_degree_limit=CPU
+[0004]: parallel_force_local=FALSE
+[0004]: optimizer_use_invisible_indexes=FALSE
+[0004]: dst_upgrade_insert_conv=TRUE
+[0004]: parallel_servers_target=40
+[0004]: max_string_size=STANDARD
+[0004]: optimizer_adaptive_reporting_only=FALSE
+[0004]: optimizer_adaptive_plans=TRUE
+[0004]: optimizer_inmemory_aware=TRUE
+[0004]: cursor_invalidation=IMMEDIATE
+[0004]: approx_for_aggregation=FALSE
+[0004]: approx_for_count_distinct=FALSE
+[0004]: approx_for_percentile=none
+[0004]: optimizer_adaptive_statistics=FALSE
+[0004]: optimizer_ignore_parallel_hints=FALSE
+[0004]: parallel_min_degree=1
+[0004]: sec_protocol_error_trace_action=TRACE
+[0004]: sec_protocol_error_further_action=(DROP,3)
+[0004]: sec_max_failed_login_attempts=3
+[0004]: sec_return_server_release_banner=FALSE
+[0004]: enable_ddl_logging=FALSE
+[0004]: client_result_cache_size=0
+[0004]: client_result_cache_lag=3000
+[0004]: outbound_dblink_protocols=ALL
+[0004]: allow_global_dblinks=FALSE
+[0004]: client_statistics_level=TYPICAL
+[0004]: aq_tm_processes=1
+[0004]: hs_autoregister=TRUE
+[0004]: xml_db_events=enable
+[0004]: dg_broker_start=FALSE
+[0004]: dg_broker_config_file1=/u01/app/oracle/product/19c/dbhome_1/dbs/dr1orcl19.dat
+[0004]: dg_broker_config_file2=/u01/app/oracle/product/19c/dbhome_1/dbs/dr2orcl19.dat
+[0004]: olap_page_pool_size=0
+[0004]: asm_power_limit=1
+[0004]: asm_io_processes=20
+[0004]: control_management_pack_access=DIAGNOSTIC+TUNING
+[0004]: awr_pdb_autoflush_enabled=FALSE
+[0004]: awr_pdb_max_parallel_slaves=10
+[0004]: awr_snapshot_time_offset=0
+[0004]: sqltune_category=DEFAULT
+[0004]: autotask_max_active_pdbs=2
+[0004]: enable_automatic_maintenance_pdb=TRUE
+[0004]: spatial_vector_acceleration=FALSE
+[0004]: max_dump_file_size=unlimited
+[0004]: trace_enabled=TRUE
+[0004]: noncdb_compatible=FALSE
+[0004]: common_user_prefix=C##
+[0004]: target_pdbs=1
+[0004]: max_pdbs=254
+[0004]: cdb_cluster=FALSE
+[0004]: disable_pdb_feature=0
+[0004]: containers_parallel_degree=65535
+[0004]: default_sharing=metadata
+[0004]: shrd_dupl_table_refresh_rate=60
+[0004]: multishard_query_data_consistency=strong
+[0004]: multishard_query_partial_results=not allowed
+========= End of General Configuration ========
+[TOC00012-END]
+----- END DDE Action: 'dumpGeneralConfiguration' (SUCCESS, 0 csec) -----
+[TOC00011-END]
+[TOC00013]
+----- START DDE Action: 'dumpKernelDiagState' (Sync) -----
+[TOC00014]
+------- Kernel Diag Dump -------
+dbkcBSExt: 0
+dbkedDefDump info:
+  Internal err count: 0
+  Error Flags: 0x0
+  Exception: FALSE
+Bootstrapping info:
+  Flags: 0x17
+  Options: 0x800806
+  Diag Dest: /u01/app/oracle
+  DB Unique name: orcl19
+  Instance Name: orcl19
+------- END Kernel Diag Dump -------
+[TOC00014-END]
+----- END DDE Action: 'dumpKernelDiagState' (SUCCESS, 0 csec) -----
+[TOC00013-END]
+[TOC00015]
+----- START DDE Action: 'dumpBucketsRdbms' (Sync) -----
+[TOC00016]
+-------------------------------------------------------------------------------
+Trace Bucket Dump Begin: rdbms trace pool
+CDB_NAME(CON_ID):CON_UID:TIME(*=approx):SEQ:COMPONENT:FILE@LINE:FUNCTION:SECT/DUMP:SID:SERIAL#: DATA
+-------------------------------------------------------------------------------
+CDB$ROOT(1):1:2021-03-05 14:46:43.117 :80000035:db_trace:kst.c@733:kstipg(): [10280:5] kst: process state object created on 03-05 14:46:43.117
+CDB$ROOT(1):1:2021-03-05 14:46:43.117 :80000036:db_trace:kst.c@739:kstipg(): [10280:5] kst: process info: ospid=24728 pso_num=5 pso_serial#=1
+CDB$ROOT(1):1:2021-03-05 14:46:43.117 :80000037:db_trace:kso.c@7130:ksonfy(): [10420:5] kso: new process: pid=24728 osp_idx=4 osp_ver=0 osp_pg=0 (spawn #3)
+CDB$ROOT(1):1:2021-03-05 14:46:43.117 :80000038:db_trace:kso.c@7134:ksonfy(): [10420:5] kso: new process: first_req_pid=24715 spawner_pid=24725 sga_crt_ts=x3B5460
+CDB$ROOT(1):1:2021-03-05 14:46:43.117 :80000039:db_trace:kso.c@7138:ksonfy(): [10420:5] kso: new process: pso_index=5 reservation=1 time=3889426
+CDB$ROOT(1):1:2021-03-05 14:46:43.117 :8000003A:db_trace:kso.c@7142:ksonfy(): [10420:5] kso: spawn diagnostics: queue time=1 secs
+CDB$ROOT(1):1:2021-03-05 14:46:43.117 :8000003B:db_trace:kso.c@7144:ksonfy(): [10420:5] kso: spawn diagnostics: fork time=0 secs
+CDB$ROOT(1):1:2021-03-05 14:46:43.117 :8000003C:db_trace:kso.c@7146:ksonfy(): [10420:5] kso: spawn diagnostics: exec time=0 secs
+CDB$ROOT(1):1:2021-03-05 14:46:43.117 :8000003D:db_trace:kso.c@7148:ksonfy(): [10420:5] kso: spawn diagnostics: pre dbkc time=0 secs
+CDB$ROOT(1):1:2021-03-05 14:46:43.117 :8000003E:db_trace:kso.c@7150:ksonfy(): [10420:5] kso: spawn diagnostics: post dbkc time=0 secs
+-------------------------------------------------------------------------------
+Trace Bucket Dump End: rdbms trace pool
+[TOC00016-END]
+----- END DDE Action: 'dumpBucketsRdbms' (SUCCESS, 0 csec) -----
+[TOC00015-END]
+[TOC00017]
+----- START DDE Action: 'dumpASMState' (Sync) -----
+asmb index = 255
+dbflags_kfnpg = 0x0
+clsinc_kfnvpg = 0
+clientid_kfnvpg = -1
+busyclean_kfnvpg = invalid
+nodename_kfnvpg = 
+asmbcnt_kfnsg = 0
+clientinc_kfnvsg = 1
+startid_kfnvsg = 1066402000
+instdeathcnt_kfnvsg = 1
+[TOC00018]
+-------------------------------------------------------------------------------
+Trace Bucket Dump Begin: KFKIO
+CDB_NAME(CON_ID):TIME(*=approx):SEQ:FILE@LINE:FUNCTION: DATA
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+Trace Bucket Dump End: KFKIO
+[TOC00018-END]
+[TOC00019]
+-------------------------------------------------------------------------------
+Trace Bucket Dump Begin: KFKSB
+CDB_NAME(CON_ID):TIME(*=approx):SEQ:FILE@LINE:FUNCTION: DATA
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+Trace Bucket Dump End: KFKSB
+[TOC00019-END]
+----- END DDE Action: 'dumpASMState' (SUCCESS, 0 csec) -----
+[TOC00017-END]
+[TOC00020]
+----- START DDE Action: 'DUMP_PATCH' (Sync) -----
+[TOC00021]
+========= Applied Patch Information ========
+========= End of Applied Patch Information ========
+[TOC00021-END]
+----- END DDE Action: 'DUMP_PATCH' (SUCCESS, 0 csec) -----
+[TOC00020-END]
+[TOC00022]
+----- START DDE Action: 'dumpKSIPCState' (Sync) -----
+----- END DDE Action: 'dumpKSIPCState' (SUCCESS, 0 csec) -----
+[TOC00022-END]
+[TOC00023]
+----- START DDE Action: 'xdb_dump_buckets' (Sync) -----
+[TOC00024]
+-------------------------------------------------------------------------------
+Trace Bucket Dump Begin: xdb_bucket
+CDB_NAME(CON_ID):TIME(*=approx):SEQ:COMPONENT: DATA
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+Trace Bucket Dump End: xdb_bucket
+[TOC00024-END]
+[TOC00025]
+-------------------------------------------------------------------------------
+Trace Bucket Dump Begin: xdb_bucket
+CDB_NAME(CON_ID):TIME(*=approx):SEQ:COMPONENT: DATA
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+Trace Bucket Dump End: xdb_bucket
+[TOC00025-END]
+[TOC00026]
+-------------------------------------------------------------------------------
+Trace Bucket Dump Begin: xdb_bucket
+CDB_NAME(CON_ID):TIME(*=approx):SEQ:COMPONENT: DATA
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+Trace Bucket Dump End: xdb_bucket
+[TOC00026-END]
+[TOC00027]
+-------------------------------------------------------------------------------
+Trace Bucket Dump Begin: xdb_bucket
+CDB_NAME(CON_ID):TIME(*=approx):SEQ:COMPONENT: DATA
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+Trace Bucket Dump End: xdb_bucket
+[TOC00027-END]
+----- END DDE Action: 'xdb_dump_buckets' (SUCCESS, 0 csec) -----
+[TOC00023-END]
+[TOC00028]
+----- START DDE Action: 'dumpKGERing' (Sync) -----
+----- END DDE Action: 'dumpKGERing' (SUCCESS, 0 csec) -----
+[TOC00028-END]
+[TOC00029]
+----- START DDE Action: 'dumpKGEIEParms' (Sync) -----
+-------------------------------------------------------------------------------
+Dump memory pointed to by internal error parameters.
+-------------------------------------------------------------------------------
+----- END DDE Action: 'dumpKGEIEParms' (SUCCESS, 0 csec) -----
+[TOC00029-END]
+[TOC00030]
+----- START DDE Action: 'dumpKGEState' (Sync) -----
+kgepgtfr      0x7ffcfb6d5e10
+kgepgtba      0x7ffcfb6d9130
+kgepgter      0
+kgepgpar      kgepgbpa      0x7f359ec5e308
+kgepgepa      0x7f359ec5ef08
+kgepgtfd      7
+kgepgdmc      0
+kgepgflg      0x400
+kgepg_stkgfr  (nil)
+kgepgkgsmp    0x7f359ec5d9a0
+kgepgspm      5
+kgepg_ba_set_in_eh          (nil)
+kgepg_kgecatch_set_in_eh_ba (nil)
+kge_ba_set_in_eh_funcloc    (nil)
+kge_ba_set_in_eh_fileloc    (nil)
+------------------- start error stack dump with barriers
+   <error barrier> at 0x7ffcfb6d9130 placed dbge.c@1568
+   <error barrier> at 0x7ffcfb6d9210 placed ksb.c@10452
+------------------- end   error stack dump with barriers
+----- END DDE Action: 'dumpKGEState' (SUCCESS, 0 csec) -----
+[TOC00030-END]
+[TOC00031]
+----- START DDE Action: 'kpuActionDefault' (Sync) -----
+Begin OCI Current State Dump
+End OCI Current State Dump
+
+Begin OCI Call Context Dump
+End OCI Call Context Dump
+
+Begin OCI Process state dump
+ttcdrvdmplocation: msg-0 ln-0 reporting 0
+HST is NULL or no two task connection
+------------------- Begin KOKA State DUMP ----------------------
+------------------- End   KOKA State DUMP ----------------------
+End OCI Process state dump.
+----- END DDE Action: 'kpuActionDefault' (SUCCESS, 0 csec) -----
+[TOC00031-END]
+----- END DDE Actions Dump (total 0 csec) -----
+[TOC00005-END]
+End of Incident Dump
+[TOC00002-END]
+TOC00000 - Table of contents
+TOC00001 - Error Stack
+TOC00002 - Dump for incident 9645 (ORA 800)
+| TOC00003 - Beginning of Customized Incident Dump(s)
+| TOC00004 - START Event Driven Actions Dump
+| TOC00005 - START DDE Actions Dump
+| | TOC00006 - START DDE Action: 'dumpFrameContext' (Sync)
+| | | TOC00007 - START Frame Context DUMP
+| | TOC00008 - START DDE Action: 'dumpDiagCtx' (Sync)
+| | | TOC00009 - Diag Context Dump
+| | TOC00010 - START DDE Action: 'dumpBuckets' (Sync)
+| | TOC00011 - START DDE Action: 'dumpGeneralConfiguration' (Sync)
+| | | TOC00012 - General Configuration
+| | TOC00013 - START DDE Action: 'dumpKernelDiagState' (Sync)
+| | | TOC00014 - Kernel Diag Dump
+| | TOC00015 - START DDE Action: 'dumpBucketsRdbms' (Sync)
+| | | TOC00016 - Trace Bucket Dump Begin: rdbms trace pool
+| | TOC00017 - START DDE Action: 'dumpASMState' (Sync)
+| | | TOC00018 - Trace Bucket Dump Begin: KFKIO
+| | | TOC00019 - Trace Bucket Dump Begin: KFKSB
+| | TOC00020 - START DDE Action: 'DUMP_PATCH' (Sync)
+| | | TOC00021 - Applied Patch Information
+| | TOC00022 - START DDE Action: 'dumpKSIPCState' (Sync)
+| | TOC00023 - START DDE Action: 'xdb_dump_buckets' (Sync)
+| | | TOC00024 - Trace Bucket Dump Begin: xdb_bucket
+| | | TOC00025 - Trace Bucket Dump Begin: xdb_bucket
+| | | TOC00026 - Trace Bucket Dump Begin: xdb_bucket
+| | | TOC00027 - Trace Bucket Dump Begin: xdb_bucket
+| | TOC00028 - START DDE Action: 'dumpKGERing' (Sync)
+| | TOC00029 - START DDE Action: 'dumpKGEIEParms' (Sync)
+| | TOC00030 - START DDE Action: 'dumpKGEState' (Sync)
+| | TOC00031 - START DDE Action: 'kpuActionDefault' (Sync)
+End of TOC

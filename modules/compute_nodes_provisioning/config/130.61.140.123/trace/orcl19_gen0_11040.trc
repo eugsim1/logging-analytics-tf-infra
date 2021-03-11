@@ -1,0 +1,26 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_gen0_11040.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	cust-db19
+Release:	5.4.17-2036.102.0.2.el7uek.x86_64
+Version:	#2 SMP Tue Jan 5 12:41:34 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 1
+Oracle process number: 6
+Unix process pid: 11040, image: oracle@cust-db19 (GEN0)
+
+
+*** 2021-03-07T18:07:48.224129+00:00 (CDB$ROOT(1))
+*** SESSION ID:(3.31031) 2021-03-07T18:07:48.224161+00:00
+*** CLIENT ID:() 2021-03-07T18:07:48.224165+00:00
+*** SERVICE NAME:(SYS$BACKGROUND) 2021-03-07T18:07:48.224169+00:00
+*** MODULE NAME:() 2021-03-07T18:07:48.224173+00:00
+*** ACTION NAME:() 2021-03-07T18:07:48.224177+00:00
+*** CLIENT DRIVER:() 2021-03-07T18:07:48.224180+00:00
+*** CONTAINER ID:(1) 2021-03-07T18:07:48.224184+00:00
+ 
+Shutdown FD slave class

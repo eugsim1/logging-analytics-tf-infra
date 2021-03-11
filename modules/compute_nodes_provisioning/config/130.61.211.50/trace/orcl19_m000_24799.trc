@@ -1,0 +1,64 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_m000_24799.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	bastionlogan
+Release:	5.4.17-2036.103.3.1.el7uek.x86_64
+Version:	#2 SMP Sun Feb 14 12:48:17 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 0 <none>
+Oracle process number: 36
+Unix process pid: 24799, image: oracle@bastionlogan (M000)
+
+
+*** 2021-03-05T14:46:46.510715+00:00 (CDB$ROOT(1))
+*** SESSION ID:(19.57276) 2021-03-05T14:46:46.510742+00:00
+*** CLIENT ID:() 2021-03-05T14:46:46.510747+00:00
+*** SERVICE NAME:() 2021-03-05T14:46:46.510750+00:00
+*** MODULE NAME:(MMON_SLAVE) 2021-03-05T14:46:46.510754+00:00
+*** ACTION NAME:(Sweep incidents slave action) 2021-03-05T14:46:46.510759+00:00
+*** CLIENT DRIVER:() 2021-03-05T14:46:46.510763+00:00
+*** CONTAINER ID:(1) 2021-03-05T14:46:46.510767+00:00
+ 
+*********** START A RUN OF [Sweep incidents slave action] *************
+
+*** 2021-03-05T14:47:22.467638+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-05T14:47:22.467668+00:00
+*** ACTION NAME:(Monitor Tablespace Thresholds) 2021-03-05T14:47:22.467674+00:00
+*** CONTAINER ID:(1) 2021-03-05T14:47:22.467679+00:00
+ 
+*********** START A RUN OF [Monitor Tablespace Thresholds] *************
+
+*** 2021-03-05T14:47:23.613906+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-05T14:47:23.613948+00:00
+*** ACTION NAME:(Index usage tracking statistics flush) 2021-03-05T14:47:23.613954+00:00
+*** CONTAINER ID:(1) 2021-03-05T14:47:23.613959+00:00
+ 
+*********** START A RUN OF [Index usage tracking statistics flush] *************
+*** MODULE NAME:(MMON_SLAVE) 2021-03-05T14:47:23.614034+00:00
+*** ACTION NAME:(ADR Container Space Management Statistics Flush) 2021-03-05T14:47:23.614040+00:00
+*** CONTAINER ID:(1) 2021-03-05T14:47:23.614044+00:00
+ 
+*********** START A RUN OF [ADR Container Space Management Statistics Flush] *************
+*** MODULE NAME:(MMON_SLAVE) 2021-03-05T14:47:23.615895+00:00
+*** ACTION NAME:(ADR PDB Purge Auto Task) 2021-03-05T14:47:23.615908+00:00
+*** CONTAINER ID:(1) 2021-03-05T14:47:23.615914+00:00
+ 
+*********** START A RUN OF [ADR PDB Purge Auto Task] *************
+
+*** 2021-03-05T14:47:47.689915+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-05T14:47:47.689948+00:00
+*** ACTION NAME:(KDILM background CLeaNup) 2021-03-05T14:47:47.689954+00:00
+*** CONTAINER ID:(1) 2021-03-05T14:47:47.689959+00:00
+ 
+*********** START A RUN OF [KDILM background CLeaNup] *************
+
+*** 2021-03-05T14:49:48.198759+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-05T14:49:48.198807+00:00
+*** ACTION NAME:(KDILM background EXEcution) 2021-03-05T14:49:48.198814+00:00
+*** CONTAINER ID:(1) 2021-03-05T14:49:48.198818+00:00
+ 
+*********** START A RUN OF [KDILM background EXEcution] *************

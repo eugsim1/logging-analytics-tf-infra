@@ -1,0 +1,53 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_mmon_15029.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	cust-db19
+Release:	5.4.17-2036.102.0.2.el7uek.x86_64
+Version:	#2 SMP Tue Jan 5 12:41:34 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 0 <none>
+Oracle process number: 32
+Unix process pid: 15029, image: oracle@cust-db19 (MMON)
+
+
+*** 2021-03-07T18:11:40.719111+00:00 (CDB$ROOT(1))
+*** SESSION ID:(16.26996) 2021-03-07T18:11:40.719136+00:00
+*** CLIENT ID:() 2021-03-07T18:11:40.719141+00:00
+*** SERVICE NAME:() 2021-03-07T18:11:40.719144+00:00
+*** MODULE NAME:() 2021-03-07T18:11:40.719147+00:00
+*** ACTION NAME:() 2021-03-07T18:11:40.719151+00:00
+*** CLIENT DRIVER:() 2021-03-07T18:11:40.719154+00:00
+*** CONTAINER ID:(1) 2021-03-07T18:11:40.719158+00:00
+ 
+dbkrfssm: mmon not open
+dbkrfssm: mmon not open
+
+*** 2021-03-07T18:11:44.339922+00:00 (CDB$ROOT(1))
+QPI: Obtaining lock SUCCESSFUL, qp_result=0 at : 07-MAR-21 06.11.44.339866000 PM +00:00
+QPI: Got lock get_opatch_lsinventory
+QPI: In opatch_run_job
+QPI: In sanity check..
+QPI:  t_root is /u01/app/oracle/product/19c/dbhome_1/
+QPI:  t_orabase is /u01/app/oracle/product/19c/dbhome_1/
+QPI:  t_op_inst_path is /u01/app/oracle/product/19c/dbhome_1/OPatch/
+QPI:  t_op_scpt_path is /u01/app/oracle/product/19c/dbhome_1/QOpatch/
+QPI:  t_op_log_path is /u01/app/oracle/product/19c/dbhome_1/rdbms/log/
+QPI: op_scpt_path :/u01/app/oracle/product/19c/dbhome_1/QOpatchpos1
+QPI: opatch file present, opatch
+QPI: qopiprep.bat file present
+QPI: In opatch_inv_refresh_job
+QPI: In REFRESH_OPATCH_DATA
+
+*** 2021-03-07T18:11:46.762896+00:00 (CDB$ROOT(1))
+Shared IO Pool size defaulting to 117440512, 106, 1, 117440512 atp0 
+Special Shared IO pool request 117440512 with Auto-SGA
+QPI: Latest xml inventory is loaded into table
+QPI: Release lock get_opatch_lsinventory
+QPI: Releasing lock SUCCESSFUL, qp_result=0 at : 07-MAR-21 06.11.46.883082000 PM +00:00
+
+*** 2021-03-07T18:11:47.676662+00:00 (CDB$ROOT(1))
+keh_auto_cb: Auto ADDM Action Failed - no msg (Len 0 != 80)

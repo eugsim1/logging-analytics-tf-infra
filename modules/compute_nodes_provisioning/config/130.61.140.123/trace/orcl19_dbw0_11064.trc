@@ -1,0 +1,208 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_dbw0_11064.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	cust-db19
+Release:	5.4.17-2036.102.0.2.el7uek.x86_64
+Version:	#2 SMP Tue Jan 5 12:41:34 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 1
+Oracle process number: 19
+Unix process pid: 11064, image: oracle@cust-db19 (DBW0)
+
+
+*** 2021-03-07T18:02:53.567974+00:00 (CDB$ROOT(1))
+*** SESSION ID:(246.23913) 2021-03-07T18:02:53.568006+00:00
+*** CLIENT ID:() 2021-03-07T18:02:53.568012+00:00
+*** SERVICE NAME:(SYS$BACKGROUND) 2021-03-07T18:02:53.568018+00:00
+*** MODULE NAME:() 2021-03-07T18:02:53.568024+00:00
+*** ACTION NAME:() 2021-03-07T18:02:53.568029+00:00
+*** CLIENT DRIVER:() 2021-03-07T18:02:53.568054+00:00
+*** CONTAINER ID:(1) 2021-03-07T18:02:53.568060+00:00
+ 
+  pool 4 OK to cache: dbfsz 0 <= bcsz 0
+  pool 5 OK to cache: dbfsz 0 <= bcsz 0
+  pool 6 skipped (default size)
+  pool 7 OK to cache: dbfsz 0 <= bcsz 0
+  pool 8 OK to cache: dbfsz 0 <= bcsz 0
+
+*** 2021-03-07T18:03:23.647760+00:00 (CDB$ROOT(1))
+  pool 4 OK to cache: dbfsz 0 <= bcsz 0
+  pool 5 OK to cache: dbfsz 0 <= bcsz 0
+  pool 6 skipped (default size)
+  pool 7 OK to cache: dbfsz 0 <= bcsz 0
+  pool 8 OK to cache: dbfsz 0 <= bcsz 0
+
+*** 2021-03-07T18:03:38.687833+00:00 (CDB$ROOT(1))
+  pool 4 OK to cache: dbfsz 0 <= bcsz 0
+  pool 5 OK to cache: dbfsz 0 <= bcsz 0
+  pool 6 skipped (default size)
+  pool 7 OK to cache: dbfsz 0 <= bcsz 0
+  pool 8 OK to cache: dbfsz 0 <= bcsz 0
+
+*** 2021-03-07T18:03:44.695804+00:00 (CDB$ROOT(1))
+  pool 4 OK to cache: dbfsz 0 <= bcsz 0
+  pool 5 OK to cache: dbfsz 0 <= bcsz 0
+  pool 6 skipped (default size)
+  pool 7 OK to cache: dbfsz 0 <= bcsz 0
+  pool 8 OK to cache: dbfsz 0 <= bcsz 0
+
+*** 2021-03-07T18:03:47.714988+00:00 (CDB$ROOT(1))
+  pool 4 OK to cache: dbfsz 0 <= bcsz 0
+  pool 5 OK to cache: dbfsz 0 <= bcsz 0
+  pool 6 skipped (default size)
+  pool 7 OK to cache: dbfsz 0 <= bcsz 0
+  pool 8 OK to cache: dbfsz 0 <= bcsz 0
+
+*** 2021-03-07T18:03:50.761157+00:00 (CDB$ROOT(1))
+  pool 4 OK to cache: dbfsz 0 <= bcsz 0
+  pool 5 OK to cache: dbfsz 0 <= bcsz 0
+  pool 6 skipped (default size)
+  pool 7 OK to cache: dbfsz 0 <= bcsz 0
+  pool 8 OK to cache: dbfsz 0 <= bcsz 0
+
+*** 2021-03-07T18:03:53.801554+00:00 (CDB$ROOT(1))
+  pool 4 OK to cache: dbfsz 0 <= bcsz 0
+  pool 5 OK to cache: dbfsz 0 <= bcsz 0
+  pool 6 skipped (default size)
+  pool 7 OK to cache: dbfsz 0 <= bcsz 0
+  pool 8 OK to cache: dbfsz 0 <= bcsz 0
+
+*** 2021-03-07T18:03:56.812142+00:00 (CDB$ROOT(1))
+  pool 4 OK to cache: dbfsz 0 <= bcsz 0
+  pool 5 OK to cache: dbfsz 0 <= bcsz 0
+  pool 6 skipped (default size)
+  pool 7 OK to cache: dbfsz 0 <= bcsz 0
+  pool 8 OK to cache: dbfsz 0 <= bcsz 0
+
+*** 2021-03-07T18:03:59.829580+00:00 (CDB$ROOT(1))
+  pool 4 OK to cache: dbfsz 0 <= bcsz 0
+  pool 5 OK to cache: dbfsz 0 <= bcsz 0
+  pool 6 skipped (default size)
+  pool 7 OK to cache: dbfsz 0 <= bcsz 0
+  pool 8 OK to cache: dbfsz 0 <= bcsz 0
+
+*** 2021-03-07T18:04:02.888818+00:00 (CDB$ROOT(1))
+  pool 4 OK to cache: dbfsz 0 <= bcsz 0
+  pool 5 OK to cache: dbfsz 0 <= bcsz 0
+  pool 6 skipped (default size)
+  pool 7 OK to cache: dbfsz 0 <= bcsz 0
+  pool 8 OK to cache: dbfsz 0 <= bcsz 0
+
+*** 2021-03-07T18:04:05.977797+00:00 (CDB$ROOT(1))
+  pool 4 OK to cache: dbfsz 0 <= bcsz 0
+  pool 5 OK to cache: dbfsz 0 <= bcsz 0
+  pool 6 skipped (default size)
+  pool 7 OK to cache: dbfsz 0 <= bcsz 0
+  pool 8 OK to cache: dbfsz 0 <= bcsz 0
+
+*** 2021-03-07T18:04:09.033798+00:00 (CDB$ROOT(1))
+  pool 4 OK to cache: dbfsz 0 <= bcsz 0
+  pool 5 OK to cache: dbfsz 0 <= bcsz 0
+  pool 6 skipped (default size)
+  pool 7 OK to cache: dbfsz 0 <= bcsz 0
+  pool 8 OK to cache: dbfsz 0 <= bcsz 0
+
+*** 2021-03-07T18:04:12.119933+00:00 (CDB$ROOT(1))
+  pool 4 OK to cache: dbfsz 0 <= bcsz 0
+  pool 5 OK to cache: dbfsz 0 <= bcsz 0
+  pool 6 skipped (default size)
+  pool 7 OK to cache: dbfsz 0 <= bcsz 0
+  pool 8 OK to cache: dbfsz 0 <= bcsz 0
+
+*** 2021-03-07T18:04:15.176205+00:00 (CDB$ROOT(1))
+  pool 4 OK to cache: dbfsz 0 <= bcsz 0
+  pool 5 OK to cache: dbfsz 0 <= bcsz 0
+  pool 6 skipped (default size)
+  pool 7 OK to cache: dbfsz 0 <= bcsz 0
+  pool 8 OK to cache: dbfsz 0 <= bcsz 0
+
+*** 2021-03-07T18:04:18.204270+00:00 (CDB$ROOT(1))
+  pool 4 OK to cache: dbfsz 0 <= bcsz 0
+  pool 5 OK to cache: dbfsz 0 <= bcsz 0
+  pool 6 skipped (default size)
+  pool 7 OK to cache: dbfsz 0 <= bcsz 0
+  pool 8 OK to cache: dbfsz 0 <= bcsz 0
+
+*** 2021-03-07T18:04:21.260392+00:00 (CDB$ROOT(1))
+  pool 4 OK to cache: dbfsz 0 <= bcsz 0
+  pool 5 OK to cache: dbfsz 0 <= bcsz 0
+  pool 6 skipped (default size)
+  pool 7 OK to cache: dbfsz 0 <= bcsz 0
+  pool 8 OK to cache: dbfsz 0 <= bcsz 0
+
+*** 2021-03-07T18:04:24.285622+00:00 (CDB$ROOT(1))
+  pool 4 OK to cache: dbfsz 0 <= bcsz 0
+  pool 5 OK to cache: dbfsz 0 <= bcsz 0
+  pool 6 skipped (default size)
+  pool 7 OK to cache: dbfsz 0 <= bcsz 0
+  pool 8 OK to cache: dbfsz 0 <= bcsz 0
+
+*** 2021-03-07T18:04:27.334537+00:00 (CDB$ROOT(1))
+  pool 4 OK to cache: dbfsz 0 <= bcsz 0
+  pool 5 OK to cache: dbfsz 0 <= bcsz 0
+  pool 6 skipped (default size)
+  pool 7 OK to cache: dbfsz 0 <= bcsz 0
+  pool 8 OK to cache: dbfsz 0 <= bcsz 0
+
+*** 2021-03-07T18:04:30.346363+00:00 (CDB$ROOT(1))
+  pool 4 OK to cache: dbfsz 0 <= bcsz 0
+  pool 5 OK to cache: dbfsz 0 <= bcsz 0
+  pool 6 skipped (default size)
+  pool 7 OK to cache: dbfsz 0 <= bcsz 0
+  pool 8 OK to cache: dbfsz 0 <= bcsz 0
+
+*** 2021-03-07T18:04:33.369172+00:00 (CDB$ROOT(1))
+  pool 4 OK to cache: dbfsz 0 <= bcsz 0
+  pool 5 OK to cache: dbfsz 0 <= bcsz 0
+  pool 6 skipped (default size)
+  pool 7 OK to cache: dbfsz 0 <= bcsz 0
+  pool 8 OK to cache: dbfsz 0 <= bcsz 0
+
+*** 2021-03-07T18:04:39.446602+00:00 (CDB$ROOT(1))
+  pool 4 OK to cache: dbfsz 0 <= bcsz 0
+  pool 5 OK to cache: dbfsz 0 <= bcsz 0
+  pool 6 skipped (default size)
+  pool 7 OK to cache: dbfsz 0 <= bcsz 0
+  pool 8 OK to cache: dbfsz 0 <= bcsz 0
+
+*** 2021-03-07T18:04:45.475284+00:00 (CDB$ROOT(1))
+  pool 4 OK to cache: dbfsz 0 <= bcsz 0
+  pool 5 OK to cache: dbfsz 0 <= bcsz 0
+  pool 6 skipped (default size)
+  pool 7 OK to cache: dbfsz 0 <= bcsz 0
+  pool 8 OK to cache: dbfsz 0 <= bcsz 0
+
+*** 2021-03-07T18:04:48.479822+00:00 (CDB$ROOT(1))
+  pool 4 OK to cache: dbfsz 0 <= bcsz 0
+  pool 5 OK to cache: dbfsz 0 <= bcsz 0
+  pool 6 skipped (default size)
+  pool 7 OK to cache: dbfsz 0 <= bcsz 0
+  pool 8 OK to cache: dbfsz 0 <= bcsz 0
+
+*** 2021-03-07T18:04:51.534154+00:00 (CDB$ROOT(1))
+  pool 4 OK to cache: dbfsz 0 <= bcsz 0
+  pool 5 OK to cache: dbfsz 0 <= bcsz 0
+  pool 6 skipped (default size)
+  pool 7 OK to cache: dbfsz 0 <= bcsz 0
+  pool 8 OK to cache: dbfsz 0 <= bcsz 0
+
+*** 2021-03-07T18:04:54.600526+00:00 (CDB$ROOT(1))
+  pool 4 OK to cache: dbfsz 0 <= bcsz 0
+  pool 5 OK to cache: dbfsz 0 <= bcsz 0
+  pool 6 skipped (default size)
+  pool 7 OK to cache: dbfsz 0 <= bcsz 0
+  pool 8 OK to cache: dbfsz 0 <= bcsz 0
+
+*** 2021-03-07T18:05:00.671858+00:00 (CDB$ROOT(1))
+  pool 4 OK to cache: dbfsz 0 <= bcsz 0
+  pool 5 OK to cache: dbfsz 0 <= bcsz 0
+  pool 6 skipped (default size)
+  pool 7 OK to cache: dbfsz 0 <= bcsz 0
+  pool 8 OK to cache: dbfsz 0 <= bcsz 0
+
+*** 2021-03-07T18:05:12.783041+00:00 (CDB$ROOT(1))
+kcbifc: Full Database caching mode changed from 2 to 0 dbfsz_DEF 1593835520 bcsz_DEF 1539833856

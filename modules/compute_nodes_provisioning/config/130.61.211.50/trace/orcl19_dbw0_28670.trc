@@ -1,0 +1,95 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_dbw0_28670.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	bastionlogan
+Release:	5.4.17-2036.103.3.1.el7uek.x86_64
+Version:	#2 SMP Sun Feb 14 12:48:17 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 1
+Oracle process number: 19
+Unix process pid: 28670, image: oracle@bastionlogan (DBW0)
+
+
+*** 2021-03-11T06:19:25.191281+00:00 (CDB$ROOT(1))
+*** SESSION ID:(246.5604) 2021-03-11T06:19:25.191307+00:00
+*** CLIENT ID:() 2021-03-11T06:19:25.191311+00:00
+*** SERVICE NAME:() 2021-03-11T06:19:25.191313+00:00
+*** MODULE NAME:() 2021-03-11T06:19:25.191316+00:00
+*** ACTION NAME:() 2021-03-11T06:19:25.191318+00:00
+*** CLIENT DRIVER:() 2021-03-11T06:19:25.191321+00:00
+*** CONTAINER ID:(1) 2021-03-11T06:19:25.191324+00:00
+ 
+kcbtse_verify_keysig: typed master key does not exist in wallet
+mkid: ce7dbcea93814f25bfc22e10d68e0098
+current pdb 1 kcbtsemkloc 1, kcbtsemkid is: ce7dbcea93814f25bfc22e10d68e0098
+mkloc 1
+----- Abridged Call Stack Trace -----
+<Skipped 1 stack frames>
+kcbtse_verify_keysig<-kcvvrf<-kcfbsy<-kcvvia<-ksb_act_run_int<-ksb_act_run<-ksbabs<-ksbrdp<-opirip<-opidrv<-sou2o<-opimai_real<-ssthrdmain<-main<-__libc_start_main 
+----- End of Abridged Call Stack Trace -----
+Partial short call stack signature: 0x803d6dff527f01af
+.
+kcbtse_populate_tbskey: master key does not exist in the wallet (pdb=1 tsn=1) in key: kcbtse_print_kod: printing kcbtekod structure 0x7fa5f7883310
+--kcbtekod_ena=2 kcbtekod_flag=0xe kcbtekod_mkloc=0x1
+--kcbtekod_key=57255aa0e5ea95d51196f2f0789570c100000000000000000000000000000000
+--kcbtekod_mkeyid=ce7dbcea93814f25bfc22e10d68e0098
+dbkey from control file:
+kcbtse_print_kod: printing kcbtekod structure 0x600b3bba
+--kcbtekod_ena=2 kcbtekod_flag=0xe kcbtekod_mkloc=0x1
+--kcbtekod_key=57255aa0e5ea95d51196f2f0789570c100000000000000000000000000000000
+--kcbtekod_mkeyid=ce7dbcea93814f25bfc22e10d68e0098
+dbkey not mapped in memory
+kcbtse_verify_keysig: typed master key does not exist in wallet
+mkid: ce7dbcea93814f25bfc22e10d68e0098
+current pdb 1 kcbtsemkloc 1, kcbtsemkid is: ce7dbcea93814f25bfc22e10d68e0098
+mkloc 1
+----- Abridged Call Stack Trace -----
+<Skipped 1 stack frames>
+kcbtse_verify_keysig<-kcvvrf<-kcfbsy<-kcvvia<-ksb_act_run_int<-ksb_act_run<-ksbabs<-ksbrdp<-opirip<-opidrv<-sou2o<-opimai_real<-ssthrdmain<-main<-__libc_start_main 
+----- End of Abridged Call Stack Trace -----
+Partial short call stack signature: 0x803d6dff527f01af
+.
+kcbtse_populate_tbskey: master key does not exist in the wallet (pdb=1 tsn=2) in key: kcbtse_print_kod: printing kcbtekod structure 0x7fa5f7883310
+--kcbtekod_ena=2 kcbtekod_flag=0xe kcbtekod_mkloc=0x1
+--kcbtekod_key=57255aa0e5ea95d51196f2f0789570c100000000000000000000000000000000
+--kcbtekod_mkeyid=ce7dbcea93814f25bfc22e10d68e0098
+dbkey from control file:
+kcbtse_print_kod: printing kcbtekod structure 0x600b3bba
+--kcbtekod_ena=2 kcbtekod_flag=0xe kcbtekod_mkloc=0x1
+--kcbtekod_key=57255aa0e5ea95d51196f2f0789570c100000000000000000000000000000000
+--kcbtekod_mkeyid=ce7dbcea93814f25bfc22e10d68e0098
+dbkey not mapped in memory
+kcbtse_verify_keysig: typed master key does not exist in wallet
+mkid: ce7dbcea93814f25bfc22e10d68e0098
+current pdb 1 kcbtsemkloc 1, kcbtsemkid is: ce7dbcea93814f25bfc22e10d68e0098
+mkloc 1
+----- Abridged Call Stack Trace -----
+<Skipped 1 stack frames>
+kcbtse_verify_keysig<-kcvvrf<-kcfbsy<-kcvvia<-ksb_act_run_int<-ksb_act_run<-ksbabs<-ksbrdp<-opirip<-opidrv<-sou2o<-opimai_real<-ssthrdmain<-main<-__libc_start_main 
+----- End of Abridged Call Stack Trace -----
+Partial short call stack signature: 0x803d6dff527f01af
+.
+kcbtse_populate_tbskey: master key does not exist in the wallet (pdb=1 tsn=3) in key: kcbtse_print_kod: printing kcbtekod structure 0x7fa5f7883310
+--kcbtekod_ena=2 kcbtekod_flag=0xe kcbtekod_mkloc=0x1
+--kcbtekod_key=57255aa0e5ea95d51196f2f0789570c100000000000000000000000000000000
+--kcbtekod_mkeyid=ce7dbcea93814f25bfc22e10d68e0098
+dbkey from control file:
+kcbtse_print_kod: printing kcbtekod structure 0x600b3bba
+--kcbtekod_ena=2 kcbtekod_flag=0xe kcbtekod_mkloc=0x1
+--kcbtekod_key=57255aa0e5ea95d51196f2f0789570c100000000000000000000000000000000
+--kcbtekod_mkeyid=ce7dbcea93814f25bfc22e10d68e0098
+dbkey not mapped in memory
+kcbtse_verify_keysig: typed master key does not exist in wallet
+mkid: ce7dbcea93814f25bfc22e10d68e0098
+current pdb 1 kcbtsemkloc 1, kcbtsemkid is: ce7dbcea93814f25bfc22e10d68e0098
+mkloc 1
+----- Abridged Call Stack Trace -----
+<Skipped 1 stack frames>
+kcbtse_verify_keysig<-kcvvrf<-kcfbsy<-kcvvia<-ksb_act_run_int<-ksb_act_run<-ksbabs<-ksbrdp<-opirip<-opidrv<-sou2o<-opimai_real<-ssthrdmain<-main<-__libc_start_main 
+----- End of Abridged Call Stack Trace -----
+Partial short call stack signature: 0x803d6dff527f01af
+.

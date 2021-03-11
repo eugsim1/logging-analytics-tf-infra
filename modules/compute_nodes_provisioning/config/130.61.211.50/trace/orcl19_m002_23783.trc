@@ -1,0 +1,94 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_m002_23783.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	bastionlogan
+Release:	5.4.17-2036.103.3.1.el7uek.x86_64
+Version:	#2 SMP Sun Feb 14 12:48:17 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 1
+Oracle process number: 52
+Unix process pid: 23783, image: oracle@bastionlogan (M002)
+
+
+*** 2021-03-05T17:49:09.761702+00:00 (CDB$ROOT(1))
+*** SESSION ID:(17.7832) 2021-03-05T17:49:09.762775+00:00
+*** CLIENT ID:() 2021-03-05T17:49:09.762782+00:00
+*** SERVICE NAME:(SYS$BACKGROUND) 2021-03-05T17:49:09.762786+00:00
+*** MODULE NAME:(MMON_SLAVE) 2021-03-05T17:49:09.762790+00:00
+*** ACTION NAME:(Cleanup KGL Handle Action) 2021-03-05T17:49:09.762795+00:00
+*** CLIENT DRIVER:() 2021-03-05T17:49:09.762799+00:00
+*** CONTAINER ID:(1) 2021-03-05T17:49:09.762803+00:00
+ 
+*********** START A RUN OF [Cleanup KGL Handle Action] *************
+*** MODULE NAME:(MMON_SLAVE) 2021-03-05T17:49:10.167880+00:00
+*** ACTION NAME:(Index usage tracking statistics flush) 2021-03-05T17:49:10.167897+00:00
+*** CONTAINER ID:(1) 2021-03-05T17:49:10.167902+00:00
+ 
+*********** START A RUN OF [Index usage tracking statistics flush] *************
+*** MODULE NAME:(MMON_SLAVE) 2021-03-05T17:49:10.186106+00:00
+*** ACTION NAME:(ADR PDB Purge Auto Task) 2021-03-05T17:49:10.186123+00:00
+*** CONTAINER ID:(1) 2021-03-05T17:49:10.186128+00:00
+ 
+*********** START A RUN OF [ADR PDB Purge Auto Task] *************
+
+*** 2021-03-05T17:50:04.365209+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-05T17:50:04.365254+00:00
+*** ACTION NAME:(KDILM background EXEcution) 2021-03-05T17:50:04.365259+00:00
+*** CONTAINER ID:(1) 2021-03-05T17:50:04.365264+00:00
+ 
+*********** START A RUN OF [KDILM background EXEcution] *************
+*** MODULE NAME:(MMON_SLAVE) 2021-03-05T17:50:04.365650+00:00
+*** ACTION NAME:(Intensive AutoTask Dispatcher) 2021-03-05T17:50:04.365658+00:00
+*** CONTAINER ID:(1) 2021-03-05T17:50:04.365664+00:00
+ 
+*********** START A RUN OF [Intensive AutoTask Dispatcher] *************
+*** MODULE NAME:(MMON_SLAVE) 2021-03-05T17:50:04.365732+00:00
+*** ACTION NAME:(Automatic Report Flush) 2021-03-05T17:50:04.365741+00:00
+*** CONTAINER ID:(1) 2021-03-05T17:50:04.365746+00:00
+ 
+*********** START A RUN OF [Automatic Report Flush] *************
+
+*** 2021-03-05T17:51:04.588590+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-05T17:51:04.588620+00:00
+*** ACTION NAME:(KDILM background CLeaNup) 2021-03-05T17:51:04.588625+00:00
+*** CONTAINER ID:(1) 2021-03-05T17:51:04.588630+00:00
+ 
+*********** START A RUN OF [KDILM background CLeaNup] *************
+*** MODULE NAME:(MMON_SLAVE) 2021-03-05T17:51:04.588774+00:00
+*** ACTION NAME:(Intensive AutoTask Dispatcher) 2021-03-05T17:51:04.588785+00:00
+*** CONTAINER ID:(1) 2021-03-05T17:51:04.588790+00:00
+ 
+*********** START A RUN OF [Intensive AutoTask Dispatcher] *************
+
+*** 2021-03-05T17:52:04.748778+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-05T17:52:04.748857+00:00
+*** ACTION NAME:(KDILM background CLeaNup) 2021-03-05T17:52:04.748866+00:00
+*** CONTAINER ID:(1) 2021-03-05T17:52:04.748873+00:00
+ 
+*********** START A RUN OF [KDILM background CLeaNup] *************
+*** MODULE NAME:(MMON_SLAVE) 2021-03-05T17:52:04.749030+00:00
+*** ACTION NAME:(Intensive AutoTask Dispatcher) 2021-03-05T17:52:04.749037+00:00
+*** CONTAINER ID:(1) 2021-03-05T17:52:04.749042+00:00
+ 
+*********** START A RUN OF [Intensive AutoTask Dispatcher] *************
+*** MODULE NAME:(MMON_SLAVE) 2021-03-05T17:52:04.749095+00:00
+*** ACTION NAME:(Automatic Report Flush) 2021-03-05T17:52:04.749102+00:00
+*** CONTAINER ID:(1) 2021-03-05T17:52:04.749107+00:00
+ 
+*********** START A RUN OF [Automatic Report Flush] *************
+
+*** 2021-03-05T17:53:04.981387+00:00 (CDB$ROOT(1))
+*** CONTAINER ID:(1) 2021-03-05T17:53:04.981416+00:00
+ 
+*********** START A RUN OF [Automatic Report Flush] *************
+
+*** 2021-03-05T17:54:05.233584+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-05T17:54:05.233615+00:00
+*** ACTION NAME:(ADR Container Space Management Statistics Flush) 2021-03-05T17:54:05.233621+00:00
+*** CONTAINER ID:(1) 2021-03-05T17:54:05.233626+00:00
+ 
+*********** START A RUN OF [ADR Container Space Management Statistics Flush] *************

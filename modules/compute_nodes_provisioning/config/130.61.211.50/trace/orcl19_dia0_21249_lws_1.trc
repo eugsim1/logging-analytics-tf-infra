@@ -1,0 +1,79 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_dia0_21249_lws_1.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	bastionlogan
+Release:	5.4.17-2036.103.3.1.el7uek.x86_64
+Version:	#2 SMP Sun Feb 14 12:48:17 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 1
+Oracle process number: 18
+Unix process pid: 21249, image: oracle@bastionlogan (DIA0)
+
+*** SESSION ID:(9.11981) 2021-03-05T14:39:51.654215+00:00
+*** CLIENT ID:() 2021-03-05T14:39:51.654220+00:00
+*** SERVICE NAME:(SYS$BACKGROUND) 2021-03-05T14:39:51.654223+00:00
+*** MODULE NAME:() 2021-03-05T14:39:51.654227+00:00
+*** ACTION NAME:() 2021-03-05T14:39:51.654229+00:00
+*** CLIENT DRIVER:() 2021-03-05T14:39:51.654232+00:00
+*** CONTAINER ID:(1) 2021-03-05T14:39:51.654235+00:00
+ 
+
+*** 2021-03-05T14:39:51.654008+00:00 (CDB$ROOT(1))
+HM: Early Warning - Session ID 38 serial# 53139 OS PID 21653 (MZ04)
+     is waiting on 'enq: TS - contention' for 32 seconds, wait id 1066
+     p1: 'name|mode'=0x54530006, p2: 'tablespace ID'=0x20003, p3: 'dba'=0x1
+    Final Blocker is Session ID 248 serial# 35211 on instance 1
+     which is waiting on 'smon timer' for 36 seconds
+     p1: 'sleep time'=0x12c, p2: 'failed'=0x0, p3: ''=0x0
+ 
+                                                     IO           
+ Total  Self-         Total  Total  Outlr  Outlr  Outlr           
+  Hung  Rslvd  Rslvd   Wait WaitTm   Wait WaitTm   Wait           
+  Sess  Hangs  Hangs  Count   Secs  Count   Secs  Count Wait Event
+------ ------ ------ ------ ------ ------ ------ ------ -----------
+     0      0      0      0      0      0      0      0 enq: TS - contention
+ 
+ 
+HM: Dumping Short Stack of pid[60.21653] (sid:38, ser#:53139)
+Short stack dump: 
+ksedsts()+426<-ksdxfstk()+58<-ksdxcb()+872<-sspuser()+200<-__sighandler()<-semtimedop()+10<-skgpwwait()+187<-ksliwat()+2218<-kslwaitctx()+188<-ksqcmi()+21656<-ksqgtlctx()+6620<-ktstnr_newseg()+1072<-ktrsexec()+424<-ktstbuildseg()+653<-ktstcrtseg()+554<-ktstcrtobj()+524<-ktacrss()+438<-ktatcreate()+984<-kxttGetPh()+441<-kxttCreateMain()+1573<-kctphTTCreate()+120<-insSetExecTmpTabInfo()+172<-insExecStmtExecIniEngine()+812<-qerltcStart()+293<-insexe()+657<-opiexe()+6578<-opipls()+2086<-opiodr()+1202<-rpidrus()+198<-skgmstack()+65<-rpidru()+132<-rpiswu2()+541<-rpidrv()+1248<-psddr0()+467<-psdnal()+624<-pevm_EXIM()+276<-pfrinstr_EXIM()+43<-pfrrun_no_tool()+52<-pfrrun()+902<-plsql_run()+752<-peicnt()+282<-kkxexe()+720<-opiexe()+24817<-opiall0()+1363<-opikpr()+595<-opiodr()+1202<-rpidrus()+198<-skgmstack()+65<-rpidru()+132<-rpiswu2()+541<-kprball()+1046<-keasqlExecute()+99<-qosadvSetupObjFilter()+129<-qosadvApplyRule()+148<-qosadvCheckAutoJob()+158<-qosdAdvSlave()+399<-kebmscw_slave_cb_wrapper()+21<-kebmiasc_invoke_action_switch_cb()+154<-kpdbSwitch()+3575<-kebmpsp_pdb_switch_private()+331<-kebm_slave_main()+800<-ksvrdp_int()+1941<-opirip()+583<-opidrv()+581<-sou2o()+165<-opimai_real()+173<-ssthrdmain()+417<-main()+256<-__libc_start_main()+245
+ 
+HM: Current SQL: 
+          insert into stats_advisor_filter_obj$ 
+          (rule_id, obj#, flags, type) 
+          select :rule_id, obj#, :flag_include, :type_expanded 
+          from stats_advisor_filter_obj$ 
+          where type = :type_priv 
+          and (bitand(flags, :flag_orcl_owned) =  0 or :get_orcl_objects = 'T')
+         
+ 
+
+*** 2021-03-05T14:40:47.014671+00:00 (CDB$ROOT(1))
+HM: Early Warning - Session ID 36 serial# 42822 OS PID 22050 (FG)
+     is waiting on 'enq: SS - contention' for 32 seconds, wait id 1429
+     p1: 'name|mode'=0x53530006, p2: 'tablespace #'=0x3, p3: 'dba'=0x1
+    Blocked by Session ID 38 serial# 53139 on instance 1
+     which is waiting on 'enq: TS - contention' for 85 seconds
+     p1: 'name|mode'=0x54530006, p2: 'tablespace ID'=0x20003, p3: 'dba'=0x1
+    Final Blocker is Session ID 248 serial# 35211 on instance 1
+     which is waiting on 'smon timer' for 92 seconds
+     p1: 'sleep time'=0x12c, p2: 'failed'=0x0, p3: ''=0x0
+ 
+                                                     IO           
+ Total  Self-         Total  Total  Outlr  Outlr  Outlr           
+  Hung  Rslvd  Rslvd   Wait WaitTm   Wait WaitTm   Wait           
+  Sess  Hangs  Hangs  Count   Secs  Count   Secs  Count Wait Event
+------ ------ ------ ------ ------ ------ ------ ------ -----------
+     0      0      0      0      0      0      0      0 enq: SS - contention
+ 
+ 
+HM: Dumping Short Stack of pid[44.22050] (sid:36, ser#:42822)
+Short stack dump: 
+ksedsts()+426<-ksdxfstk()+58<-ksdxcb()+872<-sspuser()+200<-__sighandler()<-semtimedop()+10<-skgpwwait()+187<-ksliwat()+2218<-kslwaitctx()+188<-ksqcmi()+21656<-ksqgtlctx()+6620<-ktstgetmsglock()+366<-ktstcrtseg()+334<-ktstcrtobj()+524<-ktacrss()+438<-ktatcreate()+984<-kdlt_add_dso_link()+772<-kdlt_createtemp()+282<-kokltcr()+645<-kpolob()+4131<-opiodr()+1202<-ttcpip()+1222<-opitsk()+1895<-opiino()+936<-opiodr()+1202<-opidrv()+1094<-sou2o()+165<-opimai_real()+422<-ssthrdmain()+417<-main()+256<-__libc_start_main()+245
+ 
+HM: Current SQL: none
+ 

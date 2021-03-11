@@ -1,0 +1,32 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_lreg_25491.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	bastionlogan
+Release:	5.4.17-2036.103.3.1.el7uek.x86_64
+Version:	#2 SMP Sun Feb 14 12:48:17 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 0 <none>
+Oracle process number: 28
+Unix process pid: 25491, image: oracle@bastionlogan (LREG)
+
+
+*** 2021-03-05T17:54:56.224680+00:00 (CDB$ROOT(1))
+*** SESSION ID:(14.20000) 2021-03-05T17:54:56.224703+00:00
+*** CLIENT ID:() 2021-03-05T17:54:56.224708+00:00
+*** SERVICE NAME:() 2021-03-05T17:54:56.224727+00:00
+*** MODULE NAME:() 2021-03-05T17:54:56.224743+00:00
+*** ACTION NAME:() 2021-03-05T17:54:56.224748+00:00
+*** CLIENT DRIVER:() 2021-03-05T17:54:56.224751+00:00
+*** CONTAINER ID:(1) 2021-03-05T17:54:56.224756+00:00
+ 
+lreg dbgt trace flag 0
+mem tracing no mem level 0
+disk tracing no disk level 0
+LREG load balancing parameters set to [ldlmt 10, ldslmt 0, ldmax 10240]
+
+*** 2021-03-05T17:54:59.309764+00:00 (CDB$ROOT(1))
+ksacl_Update: caught error 604

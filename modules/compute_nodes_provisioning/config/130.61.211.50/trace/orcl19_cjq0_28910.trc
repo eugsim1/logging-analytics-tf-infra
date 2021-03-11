@@ -1,0 +1,32 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_cjq0_28910.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	bastionlogan
+Release:	5.4.17-2036.103.3.1.el7uek.x86_64
+Version:	#2 SMP Sun Feb 14 12:48:17 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 1
+Oracle process number: 47
+Unix process pid: 28910, image: oracle@bastionlogan (CJQ0)
+
+
+*** 2021-03-11T06:19:32.902950+00:00 (PDB19(3))
+*** SESSION ID:(263.42055) 2021-03-11T06:19:32.903100+00:00
+*** CLIENT ID:() 2021-03-11T06:19:32.903106+00:00
+*** SERVICE NAME:(SYS$BACKGROUND) 2021-03-11T06:19:32.903111+00:00
+*** MODULE NAME:() 2021-03-11T06:19:32.903115+00:00
+*** ACTION NAME:() 2021-03-11T06:19:32.903119+00:00
+*** CLIENT DRIVER:() 2021-03-11T06:19:32.903123+00:00
+*** CONTAINER ID:(3) 2021-03-11T06:19:32.903127+00:00
+ 
+Setting Resource Manager plan SCHEDULER[0x4D51]:DEFAULT_MAINTENANCE_PLAN via scheduler window
+Setting Resource Manager plan DEFAULT_MAINTENANCE_PLAN via parameter
+Closing scheduler window
+
+*** 2021-03-11T10:00:00.223248+00:00 (PDB19(3))
+Closing Resource Manager plan via scheduler window
+Clearing Resource Manager plan via parameter

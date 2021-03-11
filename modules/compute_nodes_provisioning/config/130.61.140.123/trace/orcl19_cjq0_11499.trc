@@ -1,0 +1,41 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_cjq0_11499.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	cust-db19
+Release:	5.4.17-2036.102.0.2.el7uek.x86_64
+Version:	#2 SMP Tue Jan 5 12:41:34 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 1
+Oracle process number: 49
+Unix process pid: 11499, image: oracle@cust-db19 (CJQ0)
+
+
+*** 2021-03-08T22:00:00.086444+00:00 (CDB$ROOT(1))
+*** SESSION ID:(263.65046) 2021-03-08T22:00:00.086468+00:00
+*** CLIENT ID:() 2021-03-08T22:00:00.086471+00:00
+*** SERVICE NAME:(SYS$BACKGROUND) 2021-03-08T22:00:00.086475+00:00
+*** MODULE NAME:() 2021-03-08T22:00:00.086478+00:00
+*** ACTION NAME:() 2021-03-08T22:00:00.086481+00:00
+*** CLIENT DRIVER:() 2021-03-08T22:00:00.086483+00:00
+*** CONTAINER ID:(1) 2021-03-08T22:00:00.086486+00:00
+ 
+Setting Resource Manager plan SCHEDULER[0x4D52]:DEFAULT_MAINTENANCE_PLAN via scheduler window
+Setting Resource Manager CDB plan DEFAULT_MAINTENANCE_PLAN via parameter
+Closing scheduler window
+
+*** 2021-03-09T02:00:00.110656+00:00 (CDB$ROOT(1))
+Closing Resource Manager plan via scheduler window
+Clearing Resource Manager CDB plan via parameter
+Setting Resource Manager plan SCHEDULER[0x4D4F]:DEFAULT_MAINTENANCE_PLAN via scheduler window
+
+*** 2021-03-09T06:00:00.046499+00:00 (PDB19(3))
+Setting Resource Manager plan DEFAULT_MAINTENANCE_PLAN via parameter
+Closing scheduler window
+
+*** 2021-03-09T10:00:00.179252+00:00 (PDB19(3))
+Closing Resource Manager plan via scheduler window
+Clearing Resource Manager plan via parameter

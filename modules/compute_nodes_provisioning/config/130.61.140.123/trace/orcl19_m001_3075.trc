@@ -1,0 +1,80 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_m001_3075.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	cust-db19
+Release:	5.4.17-2036.102.0.2.el7uek.x86_64
+Version:	#2 SMP Tue Jan 5 12:41:34 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 1
+Oracle process number: 50
+Unix process pid: 3075, image: oracle@cust-db19 (M001)
+
+
+*** 2021-03-07T19:01:25.557914+00:00 (CDB$ROOT(1))
+*** SESSION ID:(28.3531) 2021-03-07T19:01:25.557940+00:00
+*** CLIENT ID:() 2021-03-07T19:01:25.557945+00:00
+*** SERVICE NAME:(SYS$BACKGROUND) 2021-03-07T19:01:25.557948+00:00
+*** MODULE NAME:(MMON_SLAVE) 2021-03-07T19:01:25.557953+00:00
+*** ACTION NAME:(CLI Partition execution) 2021-03-07T19:01:25.557957+00:00
+*** CLIENT DRIVER:() 2021-03-07T19:01:25.557961+00:00
+*** CONTAINER ID:(1) 2021-03-07T19:01:25.557965+00:00
+ 
+*********** START A RUN OF [CLI Partition execution] *************
+*** MODULE NAME:(MMON_SLAVE) 2021-03-07T19:01:25.558030+00:00
+*** ACTION NAME:(Monitor Tablespace Thresholds) 2021-03-07T19:01:25.558037+00:00
+*** CONTAINER ID:(1) 2021-03-07T19:01:25.558041+00:00
+ 
+*********** START A RUN OF [Monitor Tablespace Thresholds] *************
+*** MODULE NAME:(MMON_SLAVE) 2021-03-07T19:01:25.602852+00:00
+*** ACTION NAME:(KDILM background CLeaNup) 2021-03-07T19:01:25.602869+00:00
+*** CONTAINER ID:(1) 2021-03-07T19:01:25.602874+00:00
+ 
+*********** START A RUN OF [KDILM background CLeaNup] *************
+*** MODULE NAME:(MMON_SLAVE) 2021-03-07T19:01:25.618055+00:00
+*** ACTION NAME:(Cleanup KGL Handle Action) 2021-03-07T19:01:25.618106+00:00
+*** CONTAINER ID:(1) 2021-03-07T19:01:25.618113+00:00
+ 
+*********** START A RUN OF [Cleanup KGL Handle Action] *************
+*** MODULE NAME:(MMON_SLAVE) 2021-03-07T19:01:26.381140+00:00
+*** ACTION NAME:(Index usage tracking statistics flush) 2021-03-07T19:01:26.381157+00:00
+*** CONTAINER ID:(1) 2021-03-07T19:01:26.381161+00:00
+ 
+*********** START A RUN OF [Index usage tracking statistics flush] *************
+*** MODULE NAME:(MMON_SLAVE) 2021-03-07T19:01:26.381320+00:00
+*** ACTION NAME:(ADR Container Space Management Statistics Flush) 2021-03-07T19:01:26.381329+00:00
+*** CONTAINER ID:(1) 2021-03-07T19:01:26.381334+00:00
+ 
+*********** START A RUN OF [ADR Container Space Management Statistics Flush] *************
+*** MODULE NAME:(MMON_SLAVE) 2021-03-07T19:01:26.381384+00:00
+*** ACTION NAME:(ADR PDB Purge Auto Task) 2021-03-07T19:01:26.381390+00:00
+*** CONTAINER ID:(1) 2021-03-07T19:01:26.381394+00:00
+ 
+*********** START A RUN OF [ADR PDB Purge Auto Task] *************
+
+*** 2021-03-07T19:01:59.535957+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-07T19:01:59.535998+00:00
+*** ACTION NAME:(KDILM background CLeaNup) 2021-03-07T19:01:59.536004+00:00
+*** CONTAINER ID:(1) 2021-03-07T19:01:59.536010+00:00
+ 
+*********** START A RUN OF [KDILM background CLeaNup] *************
+*** MODULE NAME:(MMON_SLAVE) 2021-03-07T19:01:59.536171+00:00
+*** ACTION NAME:(Automatic Report Flush) 2021-03-07T19:01:59.536182+00:00
+*** CONTAINER ID:(1) 2021-03-07T19:01:59.536189+00:00
+ 
+*********** START A RUN OF [Automatic Report Flush] *************
+
+*** 2021-03-07T19:06:00.175932+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-07T19:06:00.175973+00:00
+*** ACTION NAME:(KDILM background CLeaNup) 2021-03-07T19:06:00.175979+00:00
+*** CONTAINER ID:(1) 2021-03-07T19:06:00.175983+00:00
+ 
+*********** START A RUN OF [KDILM background CLeaNup] *************
+*** MODULE NAME:(MMON_SLAVE) 2021-03-07T19:06:00.176178+00:00
+*** ACTION NAME:(Intensive AutoTask Dispatcher) 2021-03-07T19:06:00.176190+00:00
+*** CONTAINER ID:(1) 2021-03-07T19:06:00.176195+00:00
+ 
+*********** START A RUN OF [Intensive AutoTask Dispatcher] *************

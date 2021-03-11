@@ -1,0 +1,51 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_arc0_25642.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	bastionlogan
+Release:	5.4.17-2036.103.3.1.el7uek.x86_64
+Version:	#2 SMP Sun Feb 14 12:48:17 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 1
+Oracle process number: 41
+Unix process pid: 25642, image: oracle@bastionlogan (ARC0)
+
+
+*** 2021-03-05T17:55:00.916658+00:00 (CDB$ROOT(1))
+*** SESSION ID:(257.11424) 2021-03-05T17:55:00.916681+00:00
+*** CLIENT ID:() 2021-03-05T17:55:00.916686+00:00
+*** SERVICE NAME:() 2021-03-05T17:55:00.916690+00:00
+*** MODULE NAME:() 2021-03-05T17:55:00.916694+00:00
+*** ACTION NAME:() 2021-03-05T17:55:00.916698+00:00
+*** CLIENT DRIVER:() 2021-03-05T17:55:00.916701+00:00
+*** CONTAINER ID:(1) 2021-03-05T17:55:00.916706+00:00
+ 
+krsv_proc_add: Request to add process to V$MANAGED_STANDBY [krss.c:2851]
+Control file resized from 1142 to 1144 blocks
+
+*** 2021-03-10T14:12:01.579514+00:00 (CDB$ROOT(1))
+kccrsd_append: rectype = 11, lbn = 571, recs = 28
+Control file resized from 1144 to 1148 blocks
+
+*** 2021-03-10T14:40:01.623888+00:00 (CDB$ROOT(1))
+kccrsd_append: rectype = 11, lbn = 572, recs = 56
+Control file resized from 1148 to 1156 blocks
+
+*** 2021-03-10T15:36:01.908195+00:00 (CDB$ROOT(1))
+kccrsd_append: rectype = 11, lbn = 574, recs = 112
+Control file resized from 1156 to 1172 blocks
+
+*** 2021-03-10T17:28:04.050990+00:00 (CDB$ROOT(1))
+kccrsd_append: rectype = 11, lbn = 578, recs = 224
+Control file resized from 1174 to 1206 blocks
+
+*** 2021-03-10T21:12:04.252077+00:00 (CDB$ROOT(1))
+kccrsd_append: rectype = 11, lbn = 587, recs = 448
+Control file resized from 1210 to 1274 blocks
+
+*** 2021-03-11T04:40:01.990148+00:00 (CDB$ROOT(1))
+kccrsd_append: rectype = 11, lbn = 605, recs = 896
+krsv_proc_rem: Request to remove process from V$MANAGED_STANDBY [krsv.c:1037]

@@ -1,0 +1,91 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_m004_9979.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	cust-db19
+Release:	5.4.17-2036.102.0.2.el7uek.x86_64
+Version:	#2 SMP Tue Jan 5 12:41:34 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 1
+Oracle process number: 60
+Unix process pid: 9979, image: oracle@cust-db19 (M004)
+
+
+*** 2021-03-07T23:27:57.048604+00:00 (CDB$ROOT(1))
+*** SESSION ID:(55.5071) 2021-03-07T23:27:57.048639+00:00
+*** CLIENT ID:() 2021-03-07T23:27:57.048646+00:00
+*** SERVICE NAME:(SYS$BACKGROUND) 2021-03-07T23:27:57.048653+00:00
+*** MODULE NAME:(MMON_SLAVE) 2021-03-07T23:27:57.048659+00:00
+*** ACTION NAME:(Intensive AutoTask Dispatcher) 2021-03-07T23:27:57.048666+00:00
+*** CLIENT DRIVER:() 2021-03-07T23:27:57.048673+00:00
+*** CONTAINER ID:(1) 2021-03-07T23:27:57.048680+00:00
+ 
+*********** START A RUN OF [Intensive AutoTask Dispatcher] *************
+
+*** 2021-03-07T23:31:54.865026+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-07T23:31:54.865102+00:00
+*** ACTION NAME:(CLI Partition execution) 2021-03-07T23:31:54.865111+00:00
+*** CONTAINER ID:(1) 2021-03-07T23:31:54.865115+00:00
+ 
+*********** START A RUN OF [CLI Partition execution] *************
+*** MODULE NAME:(MMON_SLAVE) 2021-03-07T23:31:54.865180+00:00
+*** ACTION NAME:(Monitor Tablespace Thresholds) 2021-03-07T23:31:54.865186+00:00
+*** CONTAINER ID:(1) 2021-03-07T23:31:54.865191+00:00
+ 
+*********** START A RUN OF [Monitor Tablespace Thresholds] *************
+
+*** 2021-03-07T23:32:58.039523+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-07T23:32:58.039558+00:00
+*** ACTION NAME:(Intensive AutoTask Dispatcher) 2021-03-07T23:32:58.039594+00:00
+*** CONTAINER ID:(1) 2021-03-07T23:32:58.039601+00:00
+ 
+*********** START A RUN OF [Intensive AutoTask Dispatcher] *************
+
+*** 2021-03-07T23:33:58.263371+00:00 (CDB$ROOT(1))
+*** CONTAINER ID:(1) 2021-03-07T23:33:58.263402+00:00
+ 
+*********** START A RUN OF [Intensive AutoTask Dispatcher] *************
+
+*** 2021-03-07T23:34:58.486726+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-07T23:34:58.486773+00:00
+*** ACTION NAME:(KDILM background EXEcution) 2021-03-07T23:34:58.486781+00:00
+*** CONTAINER ID:(1) 2021-03-07T23:34:58.486797+00:00
+ 
+*********** START A RUN OF [KDILM background EXEcution] *************
+*** MODULE NAME:(MMON_SLAVE) 2021-03-07T23:34:58.487112+00:00
+*** ACTION NAME:(Intensive AutoTask Dispatcher) 2021-03-07T23:34:58.487123+00:00
+*** CONTAINER ID:(1) 2021-03-07T23:34:58.487128+00:00
+ 
+*********** START A RUN OF [Intensive AutoTask Dispatcher] *************
+*** MODULE NAME:(MMON_SLAVE) 2021-03-07T23:34:58.487214+00:00
+*** ACTION NAME:(Automatic Report Flush) 2021-03-07T23:34:58.487236+00:00
+*** CONTAINER ID:(1) 2021-03-07T23:34:58.487241+00:00
+ 
+*********** START A RUN OF [Automatic Report Flush] *************
+
+*** 2021-03-07T23:35:58.647699+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-07T23:35:58.647741+00:00
+*** ACTION NAME:(KDILM background CLeaNup) 2021-03-07T23:35:58.647748+00:00
+*** CONTAINER ID:(1) 2021-03-07T23:35:58.647752+00:00
+ 
+*********** START A RUN OF [KDILM background CLeaNup] *************
+*** MODULE NAME:(MMON_SLAVE) 2021-03-07T23:35:58.647880+00:00
+*** ACTION NAME:(Intensive AutoTask Dispatcher) 2021-03-07T23:35:58.647888+00:00
+*** CONTAINER ID:(1) 2021-03-07T23:35:58.647893+00:00
+ 
+*********** START A RUN OF [Intensive AutoTask Dispatcher] *************
+*** MODULE NAME:(MMON_SLAVE) 2021-03-07T23:35:58.647937+00:00
+*** ACTION NAME:(Automatic Report Flush) 2021-03-07T23:35:58.647942+00:00
+*** CONTAINER ID:(1) 2021-03-07T23:35:58.647947+00:00
+ 
+*********** START A RUN OF [Automatic Report Flush] *************
+
+*** 2021-03-07T23:36:55.793060+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-07T23:36:55.793136+00:00
+*** ACTION NAME:(ADR Container Space Management Statistics Flush) 2021-03-07T23:36:55.793143+00:00
+*** CONTAINER ID:(1) 2021-03-07T23:36:55.793157+00:00
+ 
+*********** START A RUN OF [ADR Container Space Management Statistics Flush] *************

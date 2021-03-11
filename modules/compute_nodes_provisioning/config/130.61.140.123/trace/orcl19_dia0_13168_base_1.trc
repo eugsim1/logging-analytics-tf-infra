@@ -1,0 +1,79 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_dia0_13168_base_1.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	cust-db19
+Release:	5.4.17-2036.102.0.2.el7uek.x86_64
+Version:	#2 SMP Tue Jan 5 12:41:34 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 0 <none>
+Oracle process number: 18
+Unix process pid: 13168, image: oracle@cust-db19 (DIA0)
+
+*** SESSION ID:(9.2445) 2021-03-07T18:08:12.452899+00:00
+*** CLIENT ID:() 2021-03-07T18:08:12.452905+00:00
+*** SERVICE NAME:() 2021-03-07T18:08:12.452909+00:00
+*** MODULE NAME:() 2021-03-07T18:08:12.452914+00:00
+*** ACTION NAME:() 2021-03-07T18:08:12.452918+00:00
+*** CLIENT DRIVER:() 2021-03-07T18:08:12.452923+00:00
+*** CONTAINER ID:(1) 2021-03-07T18:08:12.452928+00:00
+ 
+
+*** 2021-03-07T18:08:12.452749+00:00 (CDB$ROOT(1))
+HM: Tracing moved from default trace file: orcl19_dia0_13168.trc
+HM: This is a single non-RAC instance.  Hang detection is enabled.
+HM: Hang resolution scope is OFF.
+HM: Cross Boundary hang detection is enabled.
+HM: Cross Cluster hang detection is enabled.
+HM: Deadlock resolution is enabled.
+HM: Application related hang resolution is disabled.
+HM: Session/Hang fast-tracking is disabled.
+HM: Singleton hang detection is enabled
+HM: Singleton hang resolution is disabled
+HM: CPU load is not being monitored.
+HM: IO load is NOT abnormally high - 0% outliers.
+
+*** 2021-03-07T18:08:12.452989+00:00 (CDB$ROOT(1))
+HM: Early Warning and/or Long Waiting Session (LWS) is enabled.
+    The output can be found in trace files of the form:
+    orcl19_dia0_13168_lws_n.trc where n is a number between 1 and 5.
+
+*** 2021-03-07T18:08:18.623801+00:00 (CDB$ROOT(1))
+HM: Detected incompatible setting 'INSTANCE' for Hang Resolution Scope
+    - disabling hang resolution.
+
+*** 2021-03-07T18:11:20.319799+00:00 (CDB$ROOT(1))
+HM: Hang Statistics - only statistics with non-zero values are listed
+ 
+      current number of local active sessions 1
+  instance health (in terms of hung sessions) 100.00%
+ 
+Dumping Wait Events with non-zero hung session counts
+                       or non-zero outliers wait counts
+(NOTE: IO outliers have wait times greater than 32 ms.
+       non-IO outliers have wait times greater than 64 s.
+       IDLE wait events are not output.)
+ 
+                                                     IO           
+ Total  Self-         Total  Total  Outlr  Outlr  Outlr           
+  Hung  Rslvd  Rslvd   Wait WaitTm   Wait WaitTm   Wait           
+  Sess  Hangs  Hangs  Count   Secs  Count   Secs  Count Wait Event
+------ ------ ------ ------ ------ ------ ------ ------ -----------
+     0      0      0    163      2      0      0      4 Data file init write
+     0      0      0   2976      2      0      0      3 control file sequential read
+     0      0      0  27257     16      0      0      2 db file sequential read
+     0      0      0   1393      1      0      0      3 db file scattered read
+     0      0      0    507      1      0      0      6 db file async I/O submit
+     0      0      0   1793      2      0      0      4 direct path read
+     0      0      0    443      0      0      0      1 direct path write
+     0      0      0     19      6      0      0      3 external table read
+ 
+
+*** 2021-03-07T18:11:20.320005+00:00 (CDB$ROOT(1))
+TotalCPUTm:70 ms TotalRunTm:187870 ms %CPU: 0.04%
+
+*** 2021-03-07T18:11:20.320021+00:00 (CDB$ROOT(1))
+HM: Tracing will revert to file orcl19_dia0_13168.trc

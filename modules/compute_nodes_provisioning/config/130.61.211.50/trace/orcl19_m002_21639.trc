@@ -1,0 +1,88 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_m002_21639.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	bastionlogan
+Release:	5.4.17-2036.103.3.1.el7uek.x86_64
+Version:	#2 SMP Sun Feb 14 12:48:17 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 1
+Oracle process number: 55
+Unix process pid: 21639, image: oracle@bastionlogan (M002)
+
+
+*** 2021-03-05T14:39:09.303651+00:00 (CDB$ROOT(1))
+*** SESSION ID:(269.62962) 2021-03-05T14:39:09.303683+00:00
+*** CLIENT ID:() 2021-03-05T14:39:09.303707+00:00
+*** SERVICE NAME:(SYS$BACKGROUND) 2021-03-05T14:39:09.303711+00:00
+*** MODULE NAME:(MMON_SLAVE) 2021-03-05T14:39:09.303716+00:00
+*** ACTION NAME:(Intensive AutoTask Dispatcher) 2021-03-05T14:39:09.303720+00:00
+*** CLIENT DRIVER:() 2021-03-05T14:39:09.303725+00:00
+*** CONTAINER ID:(1) 2021-03-05T14:39:09.303730+00:00
+ 
+*********** START A RUN OF [Intensive AutoTask Dispatcher] *************
+*** MODULE NAME:(MMON_SLAVE) 2021-03-05T14:39:09.321196+00:00
+*** ACTION NAME:(Index usage tracking statistics flush) 2021-03-05T14:39:09.321212+00:00
+*** CONTAINER ID:(1) 2021-03-05T14:39:09.321218+00:00
+ 
+*********** START A RUN OF [Index usage tracking statistics flush] *************
+*** MODULE NAME:(MMON_SLAVE) 2021-03-05T14:39:09.321290+00:00
+*** ACTION NAME:(ADR Container Space Management Statistics Flush) 2021-03-05T14:39:09.321297+00:00
+*** CONTAINER ID:(1) 2021-03-05T14:39:09.321301+00:00
+ 
+*********** START A RUN OF [ADR Container Space Management Statistics Flush] *************
+*** MODULE NAME:(MMON_SLAVE) 2021-03-05T14:39:09.359720+00:00
+*** ACTION NAME:(ADR PDB Purge Auto Task) 2021-03-05T14:39:09.359747+00:00
+*** CONTAINER ID:(1) 2021-03-05T14:39:09.359752+00:00
+ 
+*********** START A RUN OF [ADR PDB Purge Auto Task] *************
+
+*** 2021-03-05T14:39:45.575586+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-05T14:39:45.575633+00:00
+*** ACTION NAME:(KDILM background EXEcution) 2021-03-05T14:39:45.575640+00:00
+*** CONTAINER ID:(1) 2021-03-05T14:39:45.575647+00:00
+ 
+*********** START A RUN OF [KDILM background EXEcution] *************
+
+*** 2021-03-05T14:40:45.903991+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-05T14:40:45.904052+00:00
+*** ACTION NAME:(Intensive AutoTask Dispatcher) 2021-03-05T14:40:45.904060+00:00
+*** CONTAINER ID:(1) 2021-03-05T14:40:45.904065+00:00
+ 
+*********** START A RUN OF [Intensive AutoTask Dispatcher] *************
+
+*** 2021-03-05T14:41:46.483450+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-05T14:41:46.483494+00:00
+*** ACTION NAME:(KDILM background EXEcution) 2021-03-05T14:41:46.483501+00:00
+*** CONTAINER ID:(1) 2021-03-05T14:41:46.483518+00:00
+ 
+*********** START A RUN OF [KDILM background EXEcution] *************
+
+*** 2021-03-05T14:42:47.774060+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-05T14:42:47.774089+00:00
+*** ACTION NAME:(KDILM background CLeaNup) 2021-03-05T14:42:47.774094+00:00
+*** CONTAINER ID:(1) 2021-03-05T14:42:47.774100+00:00
+ 
+*********** START A RUN OF [KDILM background CLeaNup] *************
+
+*** 2021-03-05T14:43:49.040302+00:00 (CDB$ROOT(1))
+*** CONTAINER ID:(1) 2021-03-05T14:43:49.040348+00:00
+ 
+*********** START A RUN OF [KDILM background CLeaNup] *************
+
+*** 2021-03-05T14:44:49.519840+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-05T14:44:49.522074+00:00
+*** ACTION NAME:(Intensive AutoTask Dispatcher) 2021-03-05T14:44:49.523526+00:00
+*** CONTAINER ID:(1) 2021-03-05T14:44:49.523535+00:00
+ 
+*********** START A RUN OF [Intensive AutoTask Dispatcher] *************
+
+*** 2021-03-05T14:45:50.121765+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-05T14:45:50.121815+00:00
+*** ACTION NAME:(KDILM background EXEcution) 2021-03-05T14:45:50.121822+00:00
+*** CONTAINER ID:(1) 2021-03-05T14:45:50.121827+00:00
+ 
+*********** START A RUN OF [KDILM background EXEcution] *************

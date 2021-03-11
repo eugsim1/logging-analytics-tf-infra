@@ -1,0 +1,36 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_ora_20476.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	bastionlogan
+Release:	5.4.17-2036.103.3.1.el7uek.x86_64
+Version:	#2 SMP Sun Feb 14 12:48:17 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 1
+Oracle process number: 8
+Unix process pid: 20476, image: oracle@bastionlogan (TNS V1-V3)
+
+
+*** 2021-03-05T14:36:24.907668+00:00 (CDB$ROOT(1))
+*** SESSION ID:(4.14699) 2021-03-05T14:36:24.907701+00:00
+*** CLIENT ID:() 2021-03-05T14:36:24.907706+00:00
+*** SERVICE NAME:(SYS$USERS) 2021-03-05T14:36:24.907710+00:00
+*** MODULE NAME:(sqlplus@bastionlogan (TNS V1-V3)) 2021-03-05T14:36:24.907715+00:00
+*** ACTION NAME:() 2021-03-05T14:36:24.907719+00:00
+*** CLIENT DRIVER:(SQL*PLUS) 2021-03-05T14:36:24.907722+00:00
+*** CONTAINER ID:(1) 2021-03-05T14:36:24.907726+00:00
+ 
+kcffo_online_chk1: fixing checkpoint count for fno 8.
+kcffo_online_chk1: fixing checkpoint count for fno 6.
+
+*** 2021-03-05T14:36:25.153174+00:00 (PDB$SEED(2))
+JIT: pid 20476 requesting stop
+
+*** 2021-03-05T14:36:29.425096+00:00 (PDB$SEED(2))
+86B64B6701F5012EE053F706E80A06B7
+
+*** 2021-03-05T14:38:10.907911+00:00 (PDB$SEED(2))
+joxcsys_required_dirobj_exists: directory object exists with required path /u01/app/oracle/product/19c/dbhome_1/javavm/admin/, pid 20476 cid 2

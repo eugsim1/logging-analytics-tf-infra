@@ -1,0 +1,29 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_pmon_18892.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	bastionlogan
+Release:	5.4.17-2036.103.3.1.el7uek.x86_64
+Version:	#2 SMP Sun Feb 14 12:48:17 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 1
+Oracle process number: 2
+Unix process pid: 18892, image: oracle@bastionlogan (PMON)
+
+
+*** 2021-03-05T14:38:19.750208+00:00 (CDB$ROOT(1))
+*** SESSION ID:(1.53265) 2021-03-05T14:38:19.750242+00:00
+*** CLIENT ID:() 2021-03-05T14:38:19.750246+00:00
+*** SERVICE NAME:(SYS$BACKGROUND) 2021-03-05T14:38:19.750249+00:00
+*** MODULE NAME:() 2021-03-05T14:38:19.750252+00:00
+*** ACTION NAME:() 2021-03-05T14:38:19.750255+00:00
+*** CLIENT DRIVER:() 2021-03-05T14:38:19.750257+00:00
+*** CONTAINER ID:(1) 2021-03-05T14:38:19.750260+00:00
+ 
+Marked process 0x7050b868 pid=13 serial=1 ospid=18914_18914 newly dead
+
+*** 2021-03-05T14:38:20.075773+00:00 (CDB$ROOT(1))
+Marked process 0x70527948 pid=34 serial=1 ospid=18960 newly dead

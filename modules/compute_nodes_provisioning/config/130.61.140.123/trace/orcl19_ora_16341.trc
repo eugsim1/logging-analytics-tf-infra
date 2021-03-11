@@ -1,0 +1,29 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_ora_16341.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	cust-db19
+Release:	5.4.17-2036.102.0.2.el7uek.x86_64
+Version:	#2 SMP Tue Jan 5 12:41:34 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 0 <none>
+Oracle process number: 36
+Unix process pid: 16341, image: oracle@cust-db19 (TNS V1-V3)
+
+
+*** 2021-03-07T18:14:27.739417+00:00 (CDB$ROOT(1))
+*** SESSION ID:(17.998) 2021-03-07T18:14:27.739441+00:00
+*** CLIENT ID:() 2021-03-07T18:14:27.739445+00:00
+*** SERVICE NAME:() 2021-03-07T18:14:27.739449+00:00
+*** MODULE NAME:(sqlplus@cust-db19 (TNS V1-V3)) 2021-03-07T18:14:27.739452+00:00
+*** ACTION NAME:() 2021-03-07T18:14:27.739456+00:00
+*** CLIENT DRIVER:(SQL*PLUS) 2021-03-07T18:14:27.739459+00:00
+*** CONTAINER ID:(1) 2021-03-07T18:14:27.739463+00:00
+ 
+*** 2021-03-07 18:14:27.739239 [krsh.c:6348]
+Redo network throttle feature is disabled at mount time
+krsd_cb_role_change: role 1
+krsd_dest32_eval: Using STANDBY_ARCHIVE_DEST parameter default value as USE_DB_RECOVERY_FILE_DEST [krsd.c:18157]

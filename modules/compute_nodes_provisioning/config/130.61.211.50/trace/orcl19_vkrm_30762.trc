@@ -1,0 +1,30 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_vkrm_30762.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	bastionlogan
+Release:	5.4.17-2036.103.3.1.el7uek.x86_64
+Version:	#2 SMP Sun Feb 14 12:48:17 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 0 <none>
+Oracle process number: 15
+Unix process pid: 30762, image: oracle@bastionlogan (VKRM)
+
+
+*** 2021-03-05T16:36:25.736897+00:00 (CDB$ROOT(1))
+*** SESSION ID:(244.22945) 2021-03-05T16:36:25.736921+00:00
+*** CLIENT ID:() 2021-03-05T16:36:25.736926+00:00
+*** SERVICE NAME:() 2021-03-05T16:36:25.736930+00:00
+*** MODULE NAME:() 2021-03-05T16:36:25.736933+00:00
+*** ACTION NAME:() 2021-03-05T16:36:25.736937+00:00
+*** CLIENT DRIVER:() 2021-03-05T16:36:25.736941+00:00
+*** CONTAINER ID:(1) 2021-03-05T16:36:25.736945+00:00
+ 
+VKRM scheduling interval:(10)ms
+VKRM uses low resolution time: last active time=(0), current time=(5237372417)
+maxcap history reset period=(12700)ms
+maxcap period=(1270)ms
+VKRM ends at (9452066751)

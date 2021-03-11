@@ -1,0 +1,26 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_ora_10050.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	bastionlogan
+Release:	5.4.17-2036.103.3.1.el7uek.x86_64
+Version:	#2 SMP Sun Feb 14 12:48:17 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 1
+Oracle process number: 64
+Unix process pid: 10050, image: oracle@bastionlogan
+
+
+*** 2021-03-11T07:06:28.840805+00:00 (CDB$ROOT(1))
+*** SESSION ID:(43.6198) 2021-03-11T07:06:28.840826+00:00
+*** CLIENT ID:() 2021-03-11T07:06:28.840830+00:00
+*** SERVICE NAME:(orcl19) 2021-03-11T07:06:28.840833+00:00
+*** MODULE NAME:(SQL Developer) 2021-03-11T07:06:28.840836+00:00
+*** ACTION NAME:() 2021-03-11T07:06:28.840839+00:00
+*** CLIENT DRIVER:(jdbcthin : 19.3.0.0.0) 2021-03-11T07:06:28.840841+00:00
+*** CONTAINER ID:(1) 2021-03-11T07:06:28.840844+00:00
+ 
+qmtmrc_sga_init[INITIALIZING]:qmtmrcsg:0x680000c0:flgs:0

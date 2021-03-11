@@ -1,0 +1,104 @@
+Trace file /u01/app/oracle/diag/rdbms/orcl19/orcl19/trace/orcl19_m003_1142.trc
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+Build label:    RDBMS_19.3.0.0.0DBRU_LINUX.X64_190417
+ORACLE_HOME:    /u01/app/oracle/product/19c/dbhome_1
+System name:	Linux
+Node name:	cust-db19
+Release:	5.4.17-2036.102.0.2.el7uek.x86_64
+Version:	#2 SMP Tue Jan 5 12:41:34 PST 2021
+Machine:	x86_64
+Instance name: orcl19
+Redo thread mounted by this instance: 1
+Oracle process number: 54
+Unix process pid: 1142, image: oracle@cust-db19 (M003)
+
+
+*** 2021-03-11T04:27:34.250304+00:00 (CDB$ROOT(1))
+*** SESSION ID:(38.29815) 2021-03-11T04:27:34.250329+00:00
+*** CLIENT ID:() 2021-03-11T04:27:34.250333+00:00
+*** SERVICE NAME:(SYS$BACKGROUND) 2021-03-11T04:27:34.250337+00:00
+*** MODULE NAME:(MMON_SLAVE) 2021-03-11T04:27:34.250341+00:00
+*** ACTION NAME:(KDILM background EXEcution) 2021-03-11T04:27:34.250344+00:00
+*** CLIENT DRIVER:() 2021-03-11T04:27:34.250348+00:00
+*** CONTAINER ID:(1) 2021-03-11T04:27:34.250352+00:00
+ 
+*********** START A RUN OF [KDILM background EXEcution] *************
+
+*** 2021-03-11T04:28:34.408873+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-11T04:28:34.409007+00:00
+*** ACTION NAME:(Intensive AutoTask Dispatcher) 2021-03-11T04:28:34.409018+00:00
+*** CONTAINER ID:(1) 2021-03-11T04:28:34.409023+00:00
+ 
+*********** START A RUN OF [Intensive AutoTask Dispatcher] *************
+
+*** 2021-03-11T04:29:34.632799+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-11T04:29:34.632829+00:00
+*** ACTION NAME:(Automatic Report Flush) 2021-03-11T04:29:34.632835+00:00
+*** CONTAINER ID:(1) 2021-03-11T04:29:34.632839+00:00
+ 
+*********** START A RUN OF [Automatic Report Flush] *************
+
+*** 2021-03-11T04:30:34.920344+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-11T04:30:34.920373+00:00
+*** ACTION NAME:(Auto-Flush Slave Action) 2021-03-11T04:30:34.920380+00:00
+*** CONTAINER ID:(1) 2021-03-11T04:30:34.920385+00:00
+ 
+*********** START A RUN OF [Auto-Flush Slave Action] *************
+
+*** 2021-03-11T04:31:35.144409+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-11T04:31:35.144436+00:00
+*** ACTION NAME:(Intensive AutoTask Dispatcher) 2021-03-11T04:31:35.144439+00:00
+*** CONTAINER ID:(1) 2021-03-11T04:31:35.144442+00:00
+ 
+*********** START A RUN OF [Intensive AutoTask Dispatcher] *************
+*** MODULE NAME:(MMON_SLAVE) 2021-03-11T04:31:35.144494+00:00
+*** ACTION NAME:(Automatic Report Flush) 2021-03-11T04:31:35.144501+00:00
+*** CONTAINER ID:(1) 2021-03-11T04:31:35.144506+00:00
+ 
+*********** START A RUN OF [Automatic Report Flush] *************
+
+*** 2021-03-11T04:32:35.369121+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-11T04:32:35.369151+00:00
+*** ACTION NAME:(Intensive AutoTask Dispatcher) 2021-03-11T04:32:35.369157+00:00
+*** CONTAINER ID:(1) 2021-03-11T04:32:35.369162+00:00
+ 
+*********** START A RUN OF [Intensive AutoTask Dispatcher] *************
+*** MODULE NAME:(MMON_SLAVE) 2021-03-11T04:32:35.369218+00:00
+*** ACTION NAME:(Automatic Report Flush) 2021-03-11T04:32:35.369283+00:00
+*** CONTAINER ID:(1) 2021-03-11T04:32:35.369290+00:00
+ 
+*********** START A RUN OF [Automatic Report Flush] *************
+
+*** 2021-03-11T04:33:35.593325+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-11T04:33:35.593353+00:00
+*** ACTION NAME:(KDILM background CLeaNup) 2021-03-11T04:33:35.593360+00:00
+*** CONTAINER ID:(1) 2021-03-11T04:33:35.593365+00:00
+ 
+*********** START A RUN OF [KDILM background CLeaNup] *************
+
+*** 2021-03-11T04:35:33.019347+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-11T04:35:33.019413+00:00
+*** ACTION NAME:(Monitor Tablespace Thresholds) 2021-03-11T04:35:33.019419+00:00
+*** CONTAINER ID:(1) 2021-03-11T04:35:33.019425+00:00
+ 
+*********** START A RUN OF [Monitor Tablespace Thresholds] *************
+
+*** 2021-03-11T04:35:36.041407+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-11T04:35:36.041453+00:00
+*** ACTION NAME:(Auto-Flush Slave Action) 2021-03-11T04:35:36.041459+00:00
+*** CONTAINER ID:(1) 2021-03-11T04:35:36.041465+00:00
+ 
+*********** START A RUN OF [Auto-Flush Slave Action] *************
+
+*** 2021-03-11T04:37:36.475179+00:00 (CDB$ROOT(1))
+*** MODULE NAME:(MMON_SLAVE) 2021-03-11T04:37:36.475243+00:00
+*** ACTION NAME:(Sweep incidents slave action) 2021-03-11T04:37:36.475250+00:00
+*** CONTAINER ID:(1) 2021-03-11T04:37:36.475254+00:00
+ 
+*********** START A RUN OF [Sweep incidents slave action] *************
+*** MODULE NAME:(MMON_SLAVE) 2021-03-11T04:37:36.475642+00:00
+*** ACTION NAME:(Monitor FRA Space) 2021-03-11T04:37:36.475650+00:00
+*** CONTAINER ID:(1) 2021-03-11T04:37:36.475654+00:00
+ 
+*********** START A RUN OF [Monitor FRA Space] *************
