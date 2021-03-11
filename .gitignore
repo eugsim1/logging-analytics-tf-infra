@@ -22,4 +22,4 @@ tf-tests/*
 ansible.log
 *.log
 *.tar
-*/config/*
+**/config/*
